@@ -34,7 +34,6 @@ jobs:
 
       - name: Render TRMNL OG, X landscape, and X portrait
         run: |
-          sed -i 's|https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/|http://127.0.0.1:8001/|g' data/trmnl.json
           python3 -m http.server 8001 --bind 127.0.0.1 > /tmp/catalogue.log 2>&1 &
           catalogue_pid=$!
           sed -i 's|^polling_url:.*|polling_url: http://127.0.0.1:8001/data/trmnl.json|' src/settings.yml

@@ -97,6 +97,9 @@ if (!Array.isArray(payload.candidates)) {
       }
     }
 
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(item.verified_on || "") || item.verified_year !== item.verified_on.slice(0, 4)) {
+      errors.push(`${label}.verified_on/year must contain a consistent verification date`);
+    }
     Object.entries(displayLimits).forEach(([key, limit]) => {
       if (typeof item[key] === "string" && item[key].length > limit) {
         errors.push(`${label}.${key} exceeds the ${limit}-character layout limit`);

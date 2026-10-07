@@ -13,9 +13,11 @@
 
 {% assign selected = selected_entry %}
 {% unless selected %}
+  {% unless trmnl_state %}
   {% if pool != empty %}
     {% assign selected = pool | first %}
   {% endif %}
+  {% endunless %}
 {% endunless %}
 
 {% if selected %}
