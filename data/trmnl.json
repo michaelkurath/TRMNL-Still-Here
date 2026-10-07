@@ -84,6 +84,48 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/london-gas-lamps.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-master-2x1.jpg"
+    },
+    {
+      "id": "wollemi-pine",
+      "name": "THE WOLLEMI PINE",
+      "timeline": "Rediscovered in 1994",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Rediscovered",
+      "headline": "A tree from an ancient lineage was hiding in an Australian gorge.",
+      "why_survives": "An isolated wild population persisted; propagation now also keeps the species in botanic gardens.",
+      "where_now": "Wild trees survive in Wollemi National Park, with cultivated trees in gardens worldwide.",
+      "source_name": "Royal Botanic Gardens, Kew",
+      "source_url": "https://www.kew.org/about-us/press-media/wollemi-seed-collection",
+      "note": "Critically endangered. An ancient lineage does not mean an unchanged dinosaur-era species. The gorge is an imagined setting.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "exhibit": "005",
+      "image_alt": "Interpretive monochrome illustration of a Wollemi pine in a sandstone gorge",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/wollemi-pine.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/wollemi-pine-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/wollemi-pine-standard-4x3.jpg"
+    },
+    {
+      "id": "solent-hovercraft",
+      "name": "THE SOLENT HOVERCRAFT",
+      "timeline": "Service began in 1965",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still crossing",
+      "headline": "The future of transport became a daily crossing that never went away.",
+      "why_survives": "Its ability to cross shallow water and land directly on shore suits the tidal beaches at Ryde.",
+      "where_now": "Hovertravel still carries passengers between Southsea and Ryde on the Isle of Wight.",
+      "source_name": "Hovertravel",
+      "source_url": "https://www.hovertravel.co.uk/company/about-hovertravel/",
+      "note": "The passenger service survives, with newer craft. It is not the retired cross-Channel car service. Weather can interrupt crossings.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "exhibit": "006",
+      "image_alt": "Interpretive monochrome illustration of a modern passenger hovercraft crossing coastal water",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/solent-hovercraft.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/solent-hovercraft-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/solent-hovercraft-standard-4x3.jpg"
     }
   ]
 }
