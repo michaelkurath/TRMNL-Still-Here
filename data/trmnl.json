@@ -63,6 +63,27 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/last-blockbuster.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/last-blockbuster-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/last-blockbuster-master-2x1.jpg"
+    },
+    {
+      "id": "london-gas-lamps",
+      "name": "LONDON GAS LAMPS",
+      "timeline": "Still burning in London",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still glowing",
+      "headline": "Electric light took over. Some London streets still glow with gas.",
+      "why_survives": "Heritage protection and specialist maintenance preserve surviving gas-powered street lights.",
+      "where_now": "Working gas lamps remain in London, including protected examples in Covent Garden.",
+      "source_name": "Historic England",
+      "source_url": "https://historicengland.org.uk/whats-new/news/listing-protection-for-westminster-gas-lamps/",
+      "note": "Preservation keeps these lamps alive; gas lighting is no longer the norm. This imagined streetscape is not a photograph of the protected Russell Street lamps.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "exhibit": "004",
+      "image_alt": "Interpretive monochrome illustration of a historic gas lamp in a London lane",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/london-gas-lamps.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-master-2x1.jpg"
     }
   ]
 }

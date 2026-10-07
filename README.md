@@ -13,8 +13,9 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | African coelacanth | NOAA Fisheries: rediscovered in 1938; living populations persist |
 | COBOL | IBM: ongoing financial and administrative applications |
 | The last Blockbuster | Bend store’s own site: physical rentals remain available |
+| London gas lamps | Historic England: working gas lamps protected as heritage |
 
-Thirteen separately rated candidates: London gas lamps (24/25), Solent hovercraft (24/25), pneumatic tubes (24/25), Morse code (24/25), Wollemi pine (24/25), dot-matrix printers (23/25), photographic film (23/25), San Francisco cable cars (23/25), tuatara (23/25), vinyl records (23/25), Atlantic horseshoe crabs (22/25), IRC (20/25), and RSS (20/25). Candidates are excluded from production until text, images, and final review pass. Claims were checked on 7 October 2026; sources and qualifications are stored with each entry.
+Fourteen separately rated candidates: Solent hovercraft (24/25), pneumatic tubes (24/25), Morse code (24/25), Wollemi pine (24/25), takahē (23/25), magnetic data tape (23/25), dot-matrix printers (23/25), photographic film (23/25), San Francisco cable cars (23/25), tuatara (23/25), vinyl records (23/25), Atlantic horseshoe crabs (22/25), IRC (20/25), and RSS (20/25). Candidates are excluded from production until text, images, and final review pass. Claims were checked on 7 October 2026; sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 

@@ -102,39 +102,6 @@
       }
     },
     {
-      "id": "london-gas-lamps",
-      "name": "LONDON GAS LAMPS",
-      "timeline": "Still burning in London",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Still glowing",
-      "headline": "Electric light took over. Some London streets still glow with gas.",
-      "why_survives": "Heritage protection and specialist maintenance preserve surviving gas-powered street lights.",
-      "where_now": "Working gas lamps remain in London, including protected examples in Covent Garden.",
-      "source_name": "Historic England",
-      "source_url": "https://historicengland.org.uk/whats-new/news/listing-protection-for-westminster-gas-lamps/",
-      "note": "Source published in February 2024; UK Parliament confirms further protection in April 2025. No current lamp count is claimed. Listing is not a guarantee that every lamp operates nightly. Supporting source: https://questions-statements.parliament.uk/written-questions/detail/2025-03-24/HL6077",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 24,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "solent-hovercraft",
       "name": "THE SOLENT HOVERCRAFT",
       "timeline": "Service began in 1965",
@@ -422,6 +389,72 @@
       "rating": {
         "recognition": 3,
         "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "takahe",
+      "name": "THE TAKAHĒ",
+      "timeline": "Rediscovered in 1948",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Rediscovered",
+      "headline": "Thought gone for decades. A flightless bird was hiding in the mountains.",
+      "why_survives": "An isolated refuge bought time; breeding, predator control and managed releases now support surviving populations.",
+      "where_now": "Takahē live in New Zealand wild recovery areas and protected sanctuary sites.",
+      "source_name": "New Zealand Department of Conservation",
+      "source_url": "https://www.doc.govt.nz/our-work/takahe-recovery-programme/visit-a-takahe/",
+      "note": "South Island takahē (Porphyrio hochstetteri), not the extinct North Island species. Rediscovery is renewed scientific recognition, not reversal of extinction. Avoid undated counts and implying conservation is complete.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "magnetic-data-tape",
+      "name": "MAGNETIC DATA TAPE",
+      "timeline": "Still archiving today",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still storing",
+      "headline": "The cassette left the living room. Magnetic tape stayed in the data centre.",
+      "why_survives": "High-capacity cartridges suit long-term archives and can be stored offline without continuous power.",
+      "where_now": "Fujifilm offers modern LTO data-tape products for organisational backup and archiving.",
+      "source_name": "Fujifilm Data Storage",
+      "source_url": "https://datastorage-na.fujifilm.com/lto-tape-data-storage/",
+      "note": "Modern digital LTO data tape, not audio cassettes or VHS. Manufacturer evidence establishes an ongoing offering; no universal lifetime, cost saving, capacity or ransomware-immunity claim is made. Offline storage requires appropriate operational controls.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
         "story_strength": 5,
         "survival_evidence": 5,
         "catalogue_fit": 5,
