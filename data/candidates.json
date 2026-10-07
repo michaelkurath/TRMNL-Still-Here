@@ -100,6 +100,171 @@
         "rated_on": "2026-10-07",
         "note": "Editorial score; images and device review required before promotion."
       }
+    },
+    {
+      "id": "london-gas-lamps",
+      "name": "LONDON GAS LAMPS",
+      "timeline": "Still burning in London",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still glowing",
+      "headline": "Electric light took over. Some London streets still glow with gas.",
+      "why_survives": "Heritage protection and specialist maintenance preserve surviving gas-powered street lights.",
+      "where_now": "Working gas lamps remain in London, including protected examples in Covent Garden.",
+      "source_name": "Historic England",
+      "source_url": "https://historicengland.org.uk/whats-new/news/listing-protection-for-westminster-gas-lamps/",
+      "note": "Source published in February 2024; UK Parliament confirms further protection in April 2025. No current lamp count is claimed. Listing is not a guarantee that every lamp operates nightly. Supporting source: https://questions-statements.parliament.uk/written-questions/detail/2025-03-24/HL6077",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "solent-hovercraft",
+      "name": "THE SOLENT HOVERCRAFT",
+      "timeline": "Service began in 1965",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still crossing",
+      "headline": "The future of transport became a daily crossing that never went away.",
+      "why_survives": "Its ability to cross shallow water and land directly on shore suits the tidal beaches at Ryde.",
+      "where_now": "Hovertravel still carries passengers between Southsea and Ryde on the Isle of Wight.",
+      "source_name": "Hovertravel",
+      "source_url": "https://www.hovertravel.co.uk/company/about-hovertravel/",
+      "note": "This is a scheduled passenger service, not the retired cross-Channel car hovercraft. Avoid world-only claims: the operator has used inconsistent wording, and other services exist. Weather can interrupt crossings.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "dot-matrix-printers",
+      "name": "DOT-MATRIX PRINTERS",
+      "timeline": "Still sold today",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still printing",
+      "headline": "The office went quiet. Somewhere, a print head is still rattling.",
+      "why_survives": "Impact printing handles multipart forms; legacy-system compatibility keeps it useful for specialist work.",
+      "where_now": "Epson still lists impact dot-matrix printers for continuous paper and multipart forms.",
+      "source_name": "Epson",
+      "source_url": "https://epson.com/For-Work/Printers/Impact-Dot-Matrix/FX-2190II-N-Network-Impact-Dot-Matrix-Printer/p/C11CF38202",
+      "note": "Manufacturer listing establishes an ongoing product offering and supported functions, not worldwide sales volume. Survival explanation is an editorial inference from the documented multipart-form and legacy integration features.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "irc",
+      "name": "INTERNET RELAY CHAT",
+      "timeline": "Created in 1988",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Still chatting",
+      "headline": "Before the chat apps, there were channels. People are still in them.",
+      "why_survives": "Volunteer-run networks and open-source project communities continue to use the IRC protocol.",
+      "where_now": "Libera Chat operates an IRC network for free software and collaborative projects.",
+      "source_name": "Libera Chat",
+      "source_url": "https://libera.chat/guides/basics",
+      "note": "IRC is a protocol, not one surviving application. Libera Chat is a current example, not a claim that every historic IRC network survives or that usage is growing. Supporting sources: https://libera.chat/ and https://libera.chat/about/",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 3,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 20,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "atlantic-horseshoe-crab",
+      "name": "ATLANTIC HORSESHOE CRABS",
+      "timeline": "An ancient lineage",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Still spawning",
+      "headline": "An ancient body plan still leaves tracks on Atlantic beaches.",
+      "why_survives": "Coastal habitat, spawning beaches and managed harvest help sustain surviving populations.",
+      "where_now": "Atlantic horseshoe crabs still spawn on US shores, including Delaware Bay.",
+      "source_name": "NOAA Ocean Service",
+      "source_url": "https://oceanservice.noaa.gov/facts/horseshoe-crab.html",
+      "note": "Ancient lineage does not mean the modern species is unchanged for hundreds of millions of years. They are not true crabs. Conservation status varies by region; avoid implying that survival means secure populations. Habitat and harvest context: https://www.fisheries.noaa.gov/feature-story/horseshoe-crabs-managing-resource-birds-bait-and-blood",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
     }
   ]
 }
