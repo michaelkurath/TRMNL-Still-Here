@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "review_process_version": 1,
+  "candidates": [
+    {
+      "id": "wollemi-pine",
+      "name": "THE WOLLEMI PINE",
+      "timeline": "Rediscovered in 1994",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Rediscovered",
+      "headline": "A tree from an ancient lineage was hiding in an Australian gorge.",
+      "why_survives": "An isolated wild population persisted; propagation now also keeps the species in botanic gardens.",
+      "where_now": "Wild trees survive in Wollemi National Park, with cultivated trees in gardens worldwide.",
+      "source_name": "Royal Botanic Gardens, Kew",
+      "source_url": "https://www.kew.org/plants/wollemi-pine",
+      "note": "Critically endangered. Avoid treating the modern species as unchanged since the dinosaurs or using an undated population count.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "vinyl-records",
+      "name": "VINYL RECORDS",
+      "timeline": "Still pressed today",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still pressed",
+      "headline": "The record never stopped turning. It found another audience.",
+      "why_survives": "A continuing market for physical records supports new pressings alongside digital listening.",
+      "where_now": "RIAA reports continued US vinyl revenue growth in its 2025 recorded-music report.",
+      "source_name": "Recording Industry Association of America",
+      "source_url": "https://www.riaa.com/wp-content/uploads/2026/03/RIAA-Year-End-Revenue-2025.pdf",
+      "note": "The cited report covers the US market in 2025; revenue growth does not establish worldwide dominance or explain all buying motives.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "rss",
+      "name": "RSS",
+      "timeline": "Still publishing today",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Still updating",
+      "headline": "The feed survived the reader. The open web kept sending updates.",
+      "why_survives": "Feed readers can still collect new articles directly from sites without a social-media timeline.",
+      "where_now": "Thunderbird continues to document built-in support for RSS and Atom subscriptions.",
+      "source_name": "Mozilla Support",
+      "source_url": "https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs",
+      "note": "RSS is a family of feed formats, not a single discontinued product. The support article establishes ongoing functionality, not usage share.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 3,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 20,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    }
+  ]
+}
