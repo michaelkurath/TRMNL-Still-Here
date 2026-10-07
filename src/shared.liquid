@@ -1,0 +1,46 @@
+{% assign settings = trmnl.plugin_settings.custom_fields_values %}
+{% assign category_filter = settings.category | default: "all" | strip | downcase %}
+{% assign items = data.items | default: items %}
+{% assign pool = items %}
+{% if category_filter != "all" %}
+  {% assign pool = items | where: "category_key", category_filter %}
+{% endif %}
+{% assign filter_fallback = false %}
+{% if pool == empty %}
+  {% assign pool = items %}
+  {% assign filter_fallback = true %}
+{% endif %}
+
+{% assign selected = selected_entry %}
+{% unless selected %}
+  {% if pool != empty %}
+    {% assign selected = pool | first %}
+  {% endif %}
+{% endunless %}
+
+{% if selected %}
+  {% assign name_length = selected.name | size %}
+  {% assign headline_length = selected.headline | size %}
+
+  {% assign compact_name_size = "title--large lg:title--xxlarge" %}
+  {% assign full_name_size = "title--xlarge lg:title--xxlarge" %}
+  {% if name_length > 20 %}
+    {% assign compact_name_size = "title--base lg:title--xlarge" %}
+    {% assign full_name_size = "title--large lg:title--xlarge" %}
+  {% endif %}
+  {% assign compact_headline_size = "description--large lg:description--xlarge" %}
+  {% if headline_length > 80 %}
+    {% assign compact_headline_size = "description--base lg:description--large" %}
+  {% endif %}
+  {% assign quadrant_name_size = "title--large lg:title--xlarge" %}
+  {% if name_length > 18 %}
+    {% assign quadrant_name_size = "title--base lg:title--large" %}
+  {% endif %}
+  {% if name_length > 28 %}
+    {% assign quadrant_name_size = "title--small lg:title--base" %}
+  {% endif %}
+{% endif %}
+
+{% capture still_here_mark %}
+<svg class="w--[20px] h--[20px] shrink-0" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M6 6h52v52H6V6zm8 8v36h36V14H14zM30 45V31c-10 0-14-5-14-13 10 0 16 5 16 12 0-9 6-14 15-14 0 9-5 15-13 16v13h-4z"/></svg>
+{% endcapture %}

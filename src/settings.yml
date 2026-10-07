@@ -2,15 +2,14 @@
 strategy: polling
 no_screen_padding: 'no'
 dark_mode: 'no'
-static_data: ''
+static_data: "{}"
 polling_verb: get
-framework_version: 3.4.0
-serverless_language: ''
-refresh_interval_floor: ''
-polling_url: ''
+framework_version: 3.3.1
+serverless_language: node
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/data/trmnl.json
+id: 498915
 polling_headers: ''
 polling_body: ''
-id: 498915
 oauth_enabled: 'false'
 oauth_pkce_enabled: 'no'
 oauth_authorize_url: ''
@@ -31,6 +30,26 @@ oauth_token_field_name: ''
 oauth_expiry_field_name: ''
 oauth_expiry_strategy: ''
 oauth_fixed_expiry_ms: ''
-name: Still Here
-description: ''
+custom_fields:
+- keyname: author_bio
+  field_type: author_bio
+  name: About STILL HERE
+  category: custom,education
+  description: A museum of species, technologies, and places that unexpectedly survive.
+  github_url: https://github.com/michaelkurath/TRMNL-Still-Here
+- keyname: category
+  name: Category
+  field_type: select
+  options:
+  - All categories: all
+  - Technology: technology
+  - Internet: internet
+  - Transport: transport
+  - Nature: nature
+  - Everyday life: everyday
+  default: all
+  description: Choose from all entries or one category. Every entry is shown once before the rotation repeats.
+  optional: true
+name: STILL HERE
+description: Unexpected survivors, every refresh.
 refresh_interval: 15

@@ -1,0 +1,82 @@
+name: TRMNL
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "4.0"
+
+      - uses: browser-actions/setup-firefox@v1
+
+      - name: Install render dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes imagemagick
+          gem install trmnl_preview --version 0.14.2
+
+      - name: Validate data and rotation
+        run: |
+          node scripts/validate-data.js
+          node scripts/validate-candidates.js
+          node scripts/test-transform.js
+
+      - name: Lint plugin
+        run: trmnlp lint
+
+      - name: Render TRMNL OG, X landscape, and X portrait
+        run: |
+          sed -i 's|https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/|http://127.0.0.1:8001/|g' data/trmnl.json
+          python3 -m http.server 8001 --bind 127.0.0.1 > /tmp/catalogue.log 2>&1 &
+          catalogue_pid=$!
+          sed -i 's|^polling_url:.*|polling_url: http://127.0.0.1:8001/data/trmnl.json|' src/settings.yml
+          trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp.log 2>&1 &
+          trmnlp_pid=$!
+          trap 'kill "$trmnlp_pid" "$catalogue_pid" 2>/dev/null || true' EXIT
+
+          for attempt in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:4567/full > /dev/null; then
+              break
+            fi
+            if ! kill -0 "$trmnlp_pid" 2>/dev/null; then
+              cat /tmp/trmnlp.log
+              exit 1
+            fi
+            sleep 1
+          done
+
+          mkdir -p _build-og _build-x _build-x-portrait
+          for view in full half_horizontal half_vertical quadrant; do
+            curl --get --fail --silent --show-error --retry 2 --retry-all-errors \
+              --data-urlencode "screen_classes=screen screen--1bit screen--og_png screen--md screen--density-1x screen--1x" \
+              --data "width=800" --data "height=480" --data "color_depth=1" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build-og/${view}.png"
+            curl --get --fail --silent --show-error --retry 2 --retry-all-errors \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--density-2x screen--1x" \
+              --data "width=1040" --data "height=780" --data "color_depth=4" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build-x/${view}.png"
+            curl --get --fail --silent --show-error --retry 2 --retry-all-errors \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--portrait screen--density-2x screen--1x" \
+              --data "width=780" --data "height=1040" --data "color_depth=4" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build-x-portrait/${view}.png"
+          done
+
+      - name: Upload render previews
+        uses: actions/upload-artifact@v6
+        with:
+          name: still-here-render-previews
+          path: |
+            _build-og/*.png
+            _build-x/*.png
+            _build-x-portrait/*.png

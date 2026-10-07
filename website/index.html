@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20211d">
+  <meta name="description" content="A quiet museum of species, technologies, and places that unexpectedly survive.">
+  <title>STILL HERE — A quiet museum of survivors</title>
+  <link rel="icon" type="image/svg+xml" href="assets/still-here-icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#exhibit">Skip to exhibit</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Still Here home">
+        <img src="assets/still-here-icon.svg" alt="" width="44" height="44">
+        <span>STILL HERE</span>
+      </a>
+      <div class="header-rule" aria-hidden="true"></div>
+      <p class="collection-mark"><span id="collection-count">3</span> survivors<br>Made for TRMNL</p>
+    </header>
+
+    <nav class="primary-actions" id="top" aria-label="Choose an exhibit">
+      <button class="button button--dark" id="today-button" type="button">Today’s exhibit</button>
+      <button class="button" id="random-button" type="button">Random exhibit</button>
+      <a class="button button--quiet" href="#collection">Explore all</a>
+    </nav>
+
+    <main>
+      <article class="feature" id="exhibit" aria-live="polite">
+        <div class="feature-image-wrap">
+          <img class="feature-image" id="feature-image" src="" alt="">
+          <span class="image-index" id="image-index">EXHIBIT 001</span>
+        </div>
+
+        <div class="feature-copy">
+          <div class="feature-meta">
+            <span class="status-stamp" id="feature-status">STILL HERE</span>
+            <span id="feature-category">TECHNOLOGY</span>
+          </div>
+          <p class="lifespan" id="feature-lifespan">Verified October 2026</p>
+          <h1 id="feature-name">Loading collection…</h1>
+          <p class="epitaph" id="feature-epitaph">Things we thought were gone still have a story.</p>
+
+          <div class="record-grid">
+            <section>
+              <h2>Why it survives</h2>
+              <p id="feature-why"></p>
+            </section>
+            <section>
+              <h2>Where today</h2>
+              <p id="feature-afterlife"></p>
+            </section>
+          </div>
+
+          <div class="feature-foot">
+            <p id="feature-note"></p>
+            <a id="feature-source" href="#" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <section class="collection" id="collection" aria-labelledby="collection-title">
+        <div class="collection-heading">
+          <div>
+            <p class="eyebrow">The collection</p>
+            <h2 id="collection-title">Things that outlasted expectations.</h2>
+          </div>
+          <p class="collection-intro">Overlooked, outlasted, rediscovered—and still here.</p>
+        </div>
+
+        <div class="filters" id="filters" aria-label="Filter the collection"></div>
+        <p class="results-status" id="results-status" aria-live="polite"></p>
+        <div class="card-grid" id="card-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>STILL HERE</span>
+      <p>Unexpected survivors, every refresh.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+
+  <template id="card-template">
+    <button class="archive-card" type="button">
+      <span class="archive-image-wrap"><img class="archive-image" src="" alt="" loading="lazy"></span>
+      <span class="archive-body">
+        <span class="archive-topline"><span class="archive-number"></span><span class="archive-category"></span></span>
+        <span class="archive-year"></span>
+        <span class="archive-name"></span>
+        <span class="archive-epitaph"></span>
+      </span>
+    </button>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

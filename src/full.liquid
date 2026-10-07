@@ -1,0 +1,66 @@
+{% if selected %}
+<div class="layout layout--col layout--top layout--stretch-x gap--small lg:gap--medium">
+  <div class="border--h-black flex flex--row flex--between flex--center-y gap--small w--full pb--small lg:pb--medium shrink-0">
+    <div class="flex flex--row flex--center-y gap--small">
+      <span class="label lg:label--base">MUSEUM OF SURVIVORS</span>
+      <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
+    </div>
+    <span class="label label--small lg:label--base text--gray-30 1bit:text--black text--right">{{ selected.timeline }} · EXHIBIT {{ selected.exhibit }}</span>
+  </div>
+
+  <div class="outline rounded h--[66cqh] lg:h--[64cqh] lg:portrait:h--[52cqh] w--full shrink-0">
+    <picture class="w--full h--full">
+      <img class="image image--cover image-dither rounded w--full h--full" src="{{ selected.image_url_wide | default: selected.image_url }}" alt="{{ selected.image_alt }}">
+    </picture>
+  </div>
+
+  <div class="flex flex--row lg:portrait:flex--col gap--medium lg:gap--large lg:portrait:gap--medium w--full">
+    <div class="flex flex--col gap--small w--full">
+      <div class="flex flex--row flex--center-y gap--small">
+        <span class="label lg:label--base">STILL HERE</span>
+        <span class="title {{ full_name_size }} lg:portrait:title--xlarge" data-clamp="2">{{ selected.name }}</span>
+      </div>
+      <span class="description description--base lg:description--large font--bold" data-clamp="2">{{ selected.headline }}</span>
+    </div>
+
+    <div class="hidden lg:flex flex--col gap--small w--full">
+      <div class="flex flex--col gap--xsmall">
+        <span class="label label--base text--gray-30">WHY IT SURVIVES</span>
+        <span class="description description--large lg:portrait:description--xlarge" data-clamp="2" data-clamp-lg-portrait="3">{{ selected.why_survives }}</span>
+      </div>
+
+      <div class="divider"></div>
+      <div class="flex flex--row gap--small">
+        <span class="label label--inverted label--base">WHERE TODAY</span>
+        <span class="description description--large lg:portrait:description--xlarge" data-clamp="2" data-clamp-lg-portrait="3">{{ selected.where_now }}</span>
+      </div>
+
+      <div class="hidden lg:portrait:flex flex--col gap--xsmall">
+        <span class="label label--small text--gray-30">SURVIVAL NOTE</span>
+        <span class="description description--base lg:portrait:description--large" data-clamp-lg-portrait="4">{{ selected.note }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="layout layout--col layout--center">
+  <div class="outline rounded p--4 flex flex--col flex--center gap--small w--full h--full text--center">
+    <span class="label lg:label--base">STILL HERE</span>
+    <span class="title title--xxlarge">Collection unavailable</span>
+    <span class="description description--large lg:description--xlarge">No survivor entries were received. Check the polling source.</span>
+  </div>
+</div>
+{% endif %}
+
+<div class="title_bar">
+  <span class="title flex flex--row flex--center-y gap--xsmall">{{ still_here_mark }} STILL HERE</span>
+  <span class="instance 1bit:text--black">
+    {% if selected %}
+      {{ selected.status }} · {{ selected.category }} · VERIFIED {{ selected.verified_year }}
+    {% elsif filter_fallback %}
+      Filter unavailable
+    {% else %}
+      Data unavailable
+    {% endif %}
+  </span>
+</div>
