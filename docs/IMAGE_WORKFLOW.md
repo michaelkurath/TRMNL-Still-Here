@@ -20,3 +20,9 @@ Coelacanth: one anatomically plausible West Indian Ocean coelacanth swimming sid
 COBOL: a complete historical operator terminal with CRT and keyboard in front of mainframe cabinets; abstract short code lines without readable words; black-and-white technical engraving, realistic proportions, high contrast; landscape 2:1 with central hardware safe for a 4:3 crop; quiet server-room background; no people, logos, borders or watermark. It illustrates continuity of business computing, not a requirement to use historical hardware.
 
 The new masters were converted to 8-bit grayscale JPEG and exported at quality 88. Generated source PNGs are not runtime dependencies.
+
+## London gas lamps — exhibit 004
+
+Built-in image generator prompt: Use case: illustration-story. Asset: TRMNL STILL HERE museum exhibit. One working historic London gas street lamp, a plausible cast-iron column and Rochester-style lantern with visible inverted glowing gas mantles, in a quiet Covent Garden cobbled lane at dusk. Detailed monochrome engraving, high contrast black and white, restrained atmosphere, recognizable lamp entire lantern and most column centrally framed. Landscape 2:1 composition, main subject safely inside central 4:3 crop. No people, readable text, logos, borders or watermark. Interpretive illustration, not an archival photo.
+
+Assets: `assets/exhibits/london-gas-lamps.jpg`, `responsive-v2/london-gas-lamps-master-2x1.jpg` (1600×800) and `responsive-v2/london-gas-lamps-standard-4x3.jpg` (1067×800). This is a generic interpretive streetscape, not a representation of the exact protected Russell Street lamps. Central lantern and column remain visible in both crops. Source and text review passed on 7 October 2026; promotion is gated on OG/X render review before merge. Candidate editorial rating: 24/25.
