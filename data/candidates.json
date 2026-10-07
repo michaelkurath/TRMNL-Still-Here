@@ -265,6 +265,171 @@
         "rated_on": "2026-10-07",
         "note": "Editorial score; images and device review required before promotion."
       }
+    },
+    {
+      "id": "hospital-pneumatic-tubes",
+      "name": "PNEUMATIC TUBES",
+      "timeline": "Still moving hospital cargo",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still delivering",
+      "headline": "The capsule in the tube found a new job inside the hospital.",
+      "why_survives": "Pneumatic systems move physical samples and medicines between wards and labs without manual courier trips.",
+      "where_now": "Swisslog Healthcare offers pneumatic tube systems for hospital specimen transport.",
+      "source_name": "Swisslog Healthcare",
+      "source_url": "https://www.swisslog-healthcare.com/en-gb/medication-management/transport-automation/lab-specimen-transport",
+      "note": "Modern hospital systems are not surviving city-wide postal networks. Manufacturer evidence establishes an ongoing application, not adoption rates or universal clinical suitability. Packaging and route validation matter; no blanket safety claim is made.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "morse-code",
+      "name": "MORSE CODE",
+      "timeline": "Still on the air",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still tapping",
+      "headline": "The telegram faded away. The dots and dashes stayed on the air.",
+      "why_survives": "Amateur-radio practice, training and on-air communities keep radiotelegraphy in use.",
+      "where_now": "ARRL's W1AW station provides Morse-code practice transmissions and bulletins.",
+      "source_name": "American Radio Relay League",
+      "source_url": "https://www.arrl.org/w1aw",
+      "note": "Scope is international Morse code in amateur radio, not a claim that commercial telegram networks survive. Transmission schedules can change. Supporting explanation: https://www.arrl.org/cw-mode",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "photographic-film",
+      "name": "PHOTOGRAPHIC FILM",
+      "timeline": "Still exposed today",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still developing",
+      "headline": "The camera went digital. The darkroom did not disappear.",
+      "why_survives": "An active analogue-photography market still has film, processing materials and learning resources.",
+      "where_now": "ILFORD lists HP5 PLUS black-and-white film in 35mm, roll and sheet formats.",
+      "source_name": "ILFORD PHOTO / Harman Technology",
+      "source_url": "https://www.ilfordphoto.com/hp5-plus-35mm?___from_store=ilford_uk&___store=ilford_brochure",
+      "note": "The checked product supports continued availability of black-and-white film, not every discontinued film stock. The market explanation is an editorial inference from the current product and processing ecosystem; no worldwide sales trend is asserted.",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "san-francisco-cable-cars",
+      "name": "SAN FRANCISCO CABLE CARS",
+      "timeline": "First service in 1873",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still climbing",
+      "headline": "A moving cable under the street still pulls passengers up the hills.",
+      "why_survives": "A public preservation campaign and City Charter protections helped keep the system operating.",
+      "where_now": "SFMTA operates cable-car lines on California Street and the Powell Street routes.",
+      "source_name": "San Francisco Municipal Transportation Agency",
+      "source_url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+      "note": "Street-running cable cars are different from aerial gondolas and electrically powered historic streetcars. Service can pause for maintenance; survival is of the system, not every original vehicle. Current fare evidence: https://www.sfmta.com/fares/cable-car-single-ride",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 3,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "tuatara",
+      "name": "THE TUATARA",
+      "timeline": "An ancient reptile lineage",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Still surviving",
+      "headline": "It looks like a lizard. It is the last survivor of another reptile order.",
+      "why_survives": "Rodent-free island refuges and active conservation management protect surviving populations.",
+      "where_now": "Tuatara persist on New Zealand offshore islands and in managed sanctuaries.",
+      "source_name": "New Zealand Department of Conservation",
+      "source_url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/",
+      "note": "Tuatara are not lizards or dinosaurs. An ancient order does not mean the modern species is unchanged for 200 million years. At Risk-Relict; avoid current population counts or implying recovery is complete. Sanctuary evidence: https://www.doc.govt.nz/news/media-releases/2025-media-releases/doc-ranger-snaps-rare-footage-of-tuatara-and-takahe-having-a-scrap/",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
     }
   ]
 }
