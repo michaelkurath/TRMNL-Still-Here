@@ -51,5 +51,5 @@ custom_fields:
   description: Choose from all entries or one category. Every entry is shown once before the rotation repeats.
   optional: true
 name: STILL HERE
-description: Unexpected survivors, every refresh.
+description: Unexpected survivors, still here.
 refresh_interval: 15
