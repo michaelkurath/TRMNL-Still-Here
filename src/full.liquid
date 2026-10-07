@@ -31,7 +31,7 @@
 
       <div class="divider"></div>
       <div class="flex flex--row gap--small">
-        <span class="label label--inverted label--base">WHERE TODAY</span>
+        <span class="label label--inverted label--base">TODAY</span>
         <span class="description description--large lg:portrait:description--xlarge" data-clamp="2" data-clamp-lg-portrait="3">{{ selected.where_now }}</span>
       </div>
 
@@ -57,8 +57,6 @@
   <span class="instance 1bit:text--black">
     {% if selected %}
       {{ selected.status }} · {{ selected.category }} · VERIFIED {{ selected.verified_year }}
-    {% elsif filter_fallback %}
-      Filter unavailable
     {% else %}
       Data unavailable
     {% endif %}

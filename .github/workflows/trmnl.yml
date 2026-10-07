@@ -72,6 +72,30 @@ jobs:
               --output "_build-x-portrait/${view}.png"
           done
 
+          for category in nature technology everyday; do
+            kill "$trmnlp_pid"
+            wait "$trmnlp_pid" || true
+            sed -i "s/^  category:.*/  category: ${category}/" .trmnlp.yml
+            trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp-${category}.log 2>&1 &
+            trmnlp_pid=$!
+            for attempt in {1..30}; do
+              if curl --silent --fail http://127.0.0.1:4567/full > /dev/null; then break; fi
+              sleep 1
+            done
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--1bit screen--og_png screen--md screen--density-1x screen--1x" \
+              --data "width=800" --data "height=480" --data "color_depth=1" \
+              http://127.0.0.1:4567/render/full.png --output _build-og/full-${category}.png
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--density-2x screen--1x" \
+              --data "width=1040" --data "height=780" --data "color_depth=4" \
+              http://127.0.0.1:4567/render/full.png --output _build-x/full-${category}.png
+            curl --get --fail --silent --show-error \
+              --data-urlencode "screen_classes=screen screen--4bit screen--v2 screen--lg screen--portrait screen--density-2x screen--1x" \
+              --data "width=780" --data "height=1040" --data "color_depth=4" \
+              http://127.0.0.1:4567/render/full.png --output _build-x-portrait/full-${category}.png
+          done
+
           kill "$trmnlp_pid"
           wait "$trmnlp_pid" || true
           node -e 'const fs=require("fs"); const p=JSON.parse(fs.readFileSync("data/trmnl.json")); p.items=[]; fs.writeFileSync("data/trmnl.json",JSON.stringify(p));'

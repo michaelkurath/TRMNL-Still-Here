@@ -20,6 +20,10 @@
   {% endunless %}
 {% endunless %}
 
+{% unless selected.name %}
+  {% assign selected = nil %}
+{% endunless %}
+
 {% if selected %}
   {% assign name_length = selected.name | size %}
   {% assign headline_length = selected.headline | size %}
