@@ -3,9 +3,9 @@ name: Website
 on:
   push:
     branches: [main]
-    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', '.github/workflows/website.yml']
+    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', 'scripts/check-website.js', '.github/workflows/website.yml']
   pull_request:
-    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', '.github/workflows/website.yml']
+    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', 'scripts/check-website.js', '.github/workflows/website.yml']
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,8 @@ jobs:
       - run: node scripts/validate-data.js
       - run: node --check website/app.js
       - run: node scripts/build-website.js
-      - uses: browser-actions/setup-firefox@v1
+      - run: npm install --no-save --package-lock=false playwright@1.64.0
+      - run: npx playwright install --with-deps chromium
       - name: Render desktop and mobile previews
         run: |
           python3 -m http.server 8000 --bind 127.0.0.1 --directory _site > /tmp/website.log 2>&1 &
@@ -36,9 +37,7 @@ jobs:
             if curl --silent --fail http://127.0.0.1:8000/catalogue.json > /dev/null; then break; fi
             sleep 1
           done
-          mkdir -p website-previews
-          firefox --headless --screenshot "$PWD/website-previews/desktop.png" --window-size 1440,1100 'http://127.0.0.1:8000/#wollemi-pine'
-          firefox --headless --screenshot "$PWD/website-previews/mobile.png" --window-size 390,1800 'http://127.0.0.1:8000/#solent-hovercraft'
+          node scripts/check-website.js
       - uses: actions/upload-artifact@v6
         with:
           name: website-previews
