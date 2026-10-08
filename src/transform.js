@@ -32,6 +32,8 @@ function refreshSeed(now = Date.now()) {
 
 function selectEntry(input, randomValue = refreshSeed()) {
   const seen = new Set();
+  // Contract: polling JSON object with top-level items array (see settings.yml).
+  // Alternate shapes fail closed to the unavailable screen.
   const raw = Array.isArray(input?.items) ? input.items : [];
   const items = raw.filter((item) => {
     if (!item || typeof item !== "object" || typeof item.id !== "string" || !item.id.trim() ||

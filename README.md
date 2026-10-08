@@ -37,6 +37,8 @@ A public recipe URL will be added after the recipe is published. This repository
 
 GOODBYE’s per-installation, per-category no-repeat Saved State rotation is retained. A deterministic 15-minute UTC slot seed selects from unseen entries; history prevents repeats within each category cycle. Different installation histories may show different exhibits. Category cycles are independent. One-entry pools necessarily repeat. Removed IDs, duplicate history and invalid settings are normalized. Clear Saved State in TRMNL to restart the rotation.
 
+The polling response must be a JSON object with a top-level `items` array, as in `data/trmnl.json`. Bare arrays, `results` wrappers and nested `data.items` are unsupported and show the unavailable screen.
+
 Without the transform, Liquid falls back to the first entry. Empty data shows an explicit unavailable screen. The companion website selects its daily exhibit by UTC date.
 
 ## Data and review
