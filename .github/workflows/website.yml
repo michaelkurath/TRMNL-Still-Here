@@ -1,0 +1,63 @@
+name: Website
+
+on:
+  push:
+    branches: [main]
+    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', 'scripts/check-website.js', '.github/workflows/website.yml']
+  pull_request:
+    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', 'scripts/check-website.js', '.github/workflows/website.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: node scripts/validate-data.js
+      - run: node --check website/app.js
+      - run: node scripts/build-website.js
+      - run: npm install --no-save --package-lock=false playwright@1.64.0
+      - run: npx playwright install --with-deps chromium
+      - name: Render desktop and mobile previews
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 --directory _site > /tmp/website.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:8000/catalogue.json > /dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/check-website.js
+      - uses: actions/upload-artifact@v6
+        with:
+          name: website-previews
+          path: website-previews/*.png
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

@@ -65,7 +65,9 @@ Original interpretive monochrome illustrations, not documentary photographs. Coe
 
 The vector icon extends GOODBYE’s frame into a complete frame with a living sprout: `assets/icon/still-here-icon.svg` and `assets/icon/still-here-icon.png`.
 
-`website/` retains the companion catalogue. Build locally with `node scripts/build-website.js`, then serve `_site/`. Website hosting is not configured in this starter.
+The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) presents today’s exhibit, a random exhibit, category filters, the full live collection and source links. It uses the same production catalogue as the plugin.
+
+`website/` contains the source. Build locally with `node scripts/build-website.js`, then serve `_site/`. The Website workflow builds and previews desktop/mobile views on pull requests, and publishes `_site/` to GitHub Pages on changes to the live catalogue, artwork or website on `main`. In repository Settings → Pages, select GitHub Actions as the publishing source.
 
 ## License
 
