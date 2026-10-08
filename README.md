@@ -17,7 +17,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Wollemi pine | Kew: rediscovery in 1994 and continuing conservation collections |
 | Solent hovercraft | Hovertravel: passenger crossings between Southsea and Ryde |
 
-**6 live exhibits and 14 candidates.** Separately rated candidates: pneumatic tubes (24/25), morse code (24/25), the brienz rothorn bahn (24/25), vinyl records (23/25), dot-matrix printers (23/25), photographic film (23/25), san francisco cable cars (23/25), the tuatara (23/25), the takahē (23/25), magnetic data tape (23/25), fax (23/25), atlantic horseshoe crabs (22/25), rss (20/25), internet relay chat (20/25). Candidates are excluded from production until text, images, and final review pass. Claims were checked on 7 October 2026; sources and qualifications are stored with each entry.
+**7 live exhibits and 14 candidates.** Morse code is exhibit 007; Queen Mary 2 crossings is the latest candidate (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -69,3 +69,5 @@ The vector icon extends GOODBYE’s frame into a complete frame with a living sp
 ## License
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
+
+Latest collection update: **7 live exhibits and 14 candidates**. See [8 October review](docs/PROMOTION_2026-10-08.md).

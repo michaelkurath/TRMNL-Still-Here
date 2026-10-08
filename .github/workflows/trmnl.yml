@@ -3,7 +3,7 @@ name: TRMNL
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, "collection/**"]
 
 jobs:
   validate-and-render:
@@ -19,8 +19,11 @@ jobs:
 
       - name: Install render dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install --yes imagemagick
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            echo "http://archive.ubuntu.com/ubuntu/" | sudo tee /etc/apt/apt-mirrors.txt > /dev/null
+          fi
+          sudo apt-get update -o Acquire::Retries=2 -o Acquire::http::Timeout=30
+          sudo apt-get install --yes --no-install-recommends -o Acquire::Retries=2 -o Acquire::http::Timeout=30 imagemagick
           gem install trmnl_preview --version 0.14.2
 
       - name: Validate data and rotation
@@ -32,16 +35,16 @@ jobs:
       - name: Lint plugin
         run: trmnlp lint
 
+      - name: Pin newest exhibit and local artwork
+        run: node scripts/prepare-render-fixture.js 0
+
       - name: Render TRMNL OG, X landscape, and X portrait
         run: |
-          sed -i 's|https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/|http://127.0.0.1:8001/|g' data/trmnl.json
-          python3 -m http.server 8001 --bind 127.0.0.1 > /tmp/catalogue.log 2>&1 &
-          catalogue_pid=$!
-          sed -i 's|^polling_url:.*|polling_url: http://127.0.0.1:8001/data/trmnl.json|' src/settings.yml
+          python3 -m http.server 4568 --bind 127.0.0.1 > /tmp/assets.log 2>&1 &
+          assets_pid=$!
           trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp.log 2>&1 &
           trmnlp_pid=$!
-          trap 'kill "$trmnlp_pid" "$catalogue_pid" 2>/dev/null || true' EXIT
-
+          trap 'kill "$trmnlp_pid" "$assets_pid" 2>/dev/null || true' EXIT
           for attempt in {1..30}; do
             if curl --silent --fail http://127.0.0.1:4567/full > /dev/null; then
               break
