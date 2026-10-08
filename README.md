@@ -16,6 +16,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | London gas lamps | Historic England: working gas lamps protected as heritage |
 | Wollemi pine | Kew: rediscovery in 1994 and continuing conservation collections |
 | Solent hovercraft | Hovertravel: passenger crossings between Southsea and Ryde |
+| Morse code | ARRL W1AW: on-air code practice and bulletins |
 
 **7 live exhibits and 14 candidates.** Morse code is exhibit 007; Queen Mary 2 crossings is the latest candidate (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 

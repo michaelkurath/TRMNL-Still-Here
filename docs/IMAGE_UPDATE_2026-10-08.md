@@ -15,3 +15,5 @@ The approved composition retains the complete identifying subject in the centere
 
 The TRMNL workflow now runs on collection branches before PR creation and pins the newest exhibit to local artwork. Review full, half horizontal, half vertical and quadrant on OG, X landscape and X portrait. Keep fixture mutations disposable; production catalogue must remain intact.
 
+
+Device review approved on 8 October 2026: all twelve OG/X landscape/X portrait layouts inspected; grayscale exports and centered crops passed. Workflow evidence is linked in the promotion record.
