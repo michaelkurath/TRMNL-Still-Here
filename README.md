@@ -14,8 +14,10 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | COBOL | IBM: ongoing financial and administrative applications |
 | The last Blockbuster | Bend store’s own site: physical rentals remain available |
 | London gas lamps | Historic England: working gas lamps protected as heritage |
+| Wollemi pine | Kew: rediscovery in 1994 and continuing conservation collections |
+| Solent hovercraft | Hovertravel: passenger crossings between Southsea and Ryde |
 
-Fourteen separately rated candidates: Solent hovercraft (24/25), pneumatic tubes (24/25), Morse code (24/25), Wollemi pine (24/25), takahē (23/25), magnetic data tape (23/25), dot-matrix printers (23/25), photographic film (23/25), San Francisco cable cars (23/25), tuatara (23/25), vinyl records (23/25), Atlantic horseshoe crabs (22/25), IRC (20/25), and RSS (20/25). Candidates are excluded from production until text, images, and final review pass. Claims were checked on 7 October 2026; sources and qualifications are stored with each entry.
+**6 live exhibits and 14 candidates.** Separately rated candidates: pneumatic tubes (24/25), morse code (24/25), the brienz rothorn bahn (24/25), vinyl records (23/25), dot-matrix printers (23/25), photographic film (23/25), san francisco cable cars (23/25), the tuatara (23/25), the takahē (23/25), magnetic data tape (23/25), fax (23/25), atlantic horseshoe crabs (22/25), rss (20/25), internet relay chat (20/25). Candidates are excluded from production until text, images, and final review pass. Claims were checked on 7 October 2026; sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -34,6 +36,8 @@ A public recipe URL will be added after the recipe is published. This repository
 ## Selection
 
 GOODBYE’s per-installation, per-category no-repeat Saved State rotation is retained. A deterministic 15-minute UTC slot seed selects from unseen entries; history prevents repeats within each category cycle. Different installation histories may show different exhibits. Category cycles are independent. One-entry pools necessarily repeat. Removed IDs, duplicate history and invalid settings are normalized. Clear Saved State in TRMNL to restart the rotation.
+
+The polling response must be a JSON object with a top-level `items` array, as in `data/trmnl.json`. Bare arrays, `results` wrappers and nested `data.items` are unsupported and show the unavailable screen.
 
 Without the transform, Liquid falls back to the first entry. Empty data shows an explicit unavailable screen. The companion website selects its daily exhibit by UTC date.
 

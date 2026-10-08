@@ -3,39 +3,6 @@
   "review_process_version": 1,
   "candidates": [
     {
-      "id": "wollemi-pine",
-      "name": "THE WOLLEMI PINE",
-      "timeline": "Rediscovered in 1994",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Rediscovered",
-      "headline": "A tree from an ancient lineage was hiding in an Australian gorge.",
-      "why_survives": "An isolated wild population persisted; propagation now also keeps the species in botanic gardens.",
-      "where_now": "Wild trees survive in Wollemi National Park, with cultivated trees in gardens worldwide.",
-      "source_name": "Royal Botanic Gardens, Kew",
-      "source_url": "https://www.kew.org/plants/wollemi-pine",
-      "note": "Critically endangered. Avoid treating the modern species as unchanged since the dinosaurs or using an undated population count.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 24,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "vinyl-records",
       "name": "VINYL RECORDS",
       "timeline": "Still pressed today",
@@ -96,39 +63,6 @@
         "survival_evidence": 5,
         "catalogue_fit": 4,
         "total": 20,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
-      "id": "solent-hovercraft",
-      "name": "THE SOLENT HOVERCRAFT",
-      "timeline": "Service began in 1965",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still crossing",
-      "headline": "The future of transport became a daily crossing that never went away.",
-      "why_survives": "Its ability to cross shallow water and land directly on shore suits the tidal beaches at Ryde.",
-      "where_now": "Hovertravel still carries passengers between Southsea and Ryde on the Isle of Wight.",
-      "source_name": "Hovertravel",
-      "source_url": "https://www.hovertravel.co.uk/company/about-hovertravel/",
-      "note": "This is a scheduled passenger service, not the retired cross-Channel car hovercraft. Avoid world-only claims: the operator has used inconsistent wording, and other services exist. Weather can interrupt crossings.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 24,
         "status": "provisional",
         "rated_on": "2026-10-07",
         "note": "Editorial score; images and device review required before promotion."
@@ -459,6 +393,72 @@
         "survival_evidence": 5,
         "catalogue_fit": 5,
         "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "fax",
+      "name": "FAX",
+      "timeline": "Still sending documents",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still faxing",
+      "headline": "Email took over. The fax number kept receiving documents.",
+      "why_survives": "Online fax services connect digital workflows to fax numbers, keeping the communication format usable.",
+      "where_now": "eFax offers sending and receiving through email, browsers and mobile devices.",
+      "source_name": "eFax",
+      "source_url": "https://www.efax.com/how-it-works",
+      "note": "Scope includes online fax, not only standalone machines. A current service establishes functionality, not market size. Survival explanation is an editorial inference from interoperability. No security or legal necessity claim. Supporting hardware listing: https://www.brother-usa.com/p/fax-machines/FAX2840 (out of stock when checked).",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-07",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "brienz-rothorn-bahn",
+      "name": "THE BRIENZ ROTHORN BAHN",
+      "timeline": "Opened in 1892",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still steaming",
+      "headline": "A decision to replace the steam railway was reversed. The mountain still hears its whistle.",
+      "why_survives": "Local opposition saved the line; supporters and specialist maintenance help sustain seasonal steam operation.",
+      "where_now": "Steam trains still climb from Brienz toward Rothorn Kulm in the Swiss Bernese Oberland.",
+      "source_name": "Brienz Rothorn Bahn",
+      "source_url": "https://brienz-rothorn-bahn.ch/fahrplan-preise/",
+      "note": "Seasonal operation, with diesel substitution possible. Opened in 1892, suspended in 1914 and reopened in 1931; not uninterrupted service. The 1958 replacement decision was reversed. History: https://brienz-rothorn-bahn.ch/bahngeschichte/ Maintenance: https://brienz-rothorn-bahn.ch/lokomotiven/",
+      "verified_on": "2026-10-07",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
         "status": "provisional",
         "rated_on": "2026-10-07",
         "note": "Editorial score; images and device review required before promotion."

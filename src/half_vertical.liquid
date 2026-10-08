@@ -5,14 +5,14 @@
       <span class="label lg:label--base">STILL HERE</span>
       <span class="label label--outline lg:label--base">{{ selected.status | upcase }}</span>
     </div>
-    <div class="aspect--4/3 lg:aspect--16/9 w--full lg:portrait:h--[30cqh] shrink-0 rounded">
+    <div class="aspect--16/9 w--full lg:portrait:h--[30cqh] shrink-0 rounded">
       <img class="image image--contain image-dither rounded w--full h--full" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
     </div>
     <span class="title {{ compact_name_size }}" data-clamp="2">{{ selected.name }}</span>
-    <span class="description description--base lg:description--large lg:portrait:description--xlarge font--bold" data-clamp="4" data-clamp-lg-portrait="6">{{ selected.headline }}</span>
-    <div class="hidden lg:flex flex--col gap--xsmall">
+    <span class="description description--base lg:description--large lg:portrait:description--xlarge font--bold" data-clamp="2" data-clamp-lg-portrait="6">{{ selected.headline }}</span>
+    <div class="flex flex--col gap--xsmall">
       <span class="label label--small text--gray-30">WHY IT SURVIVES</span>
-      <span class="description description--base lg:description--large lg:portrait:description--xlarge" data-clamp="3" data-clamp-lg-portrait="6">{{ selected.why_survives }}</span>
+      <span class="description description--base lg:description--large lg:portrait:description--xlarge" data-clamp="2" data-clamp-lg-portrait="6">{{ selected.why_survives }}</span>
     </div>
   </div>
 </div>
@@ -24,5 +24,5 @@
 
 <div class="title_bar">
   <span class="title flex flex--row flex--center-y gap--xsmall">{{ still_here_mark }} STILL HERE</span>
-  <span class="instance 1bit:text--black">{% if selected %}{{ selected.timeline }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
+  <span class="instance">{% if selected %}{{ selected.timeline }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
 </div>

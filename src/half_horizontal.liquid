@@ -14,7 +14,7 @@
       <span class="title {{ compact_name_size }}" data-clamp="2">{{ selected.name }}</span>
       <div class="divider"></div>
       <span class="description {{ compact_headline_size }} font--bold" data-clamp="3">{{ selected.headline }}</span>
-      <div class="hidden lg:flex flex--col gap--xsmall">
+      <div class="flex flex--col gap--xsmall">
         <span class="label label--small text--gray-30">WHY IT SURVIVES</span>
         <span class="description description--base" data-clamp="2">{{ selected.why_survives }}</span>
       </div>
@@ -29,5 +29,5 @@
 
 <div class="title_bar">
   <span class="title flex flex--row flex--center-y gap--xsmall">{{ still_here_mark }} STILL HERE</span>
-  <span class="instance 1bit:text--black">{% if selected %}{{ selected.timeline }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
+  <span class="instance">{% if selected %}{{ selected.timeline }} · {{ selected.category }}{% else %}Data unavailable{% endif %}</span>
 </div>

@@ -64,3 +64,11 @@ assert.equal(selectEntry(input("__proto__"), 0).category, "all");
 const { refreshSeed } = require("../src/transform");
 assert.equal(refreshSeed(1000000), refreshSeed(1000001));
 console.log("Malformed data, one-entry, duplicate and normalized-setting checks passed.");
+
+// Unsupported polling shapes fail closed; Liquid must not choose an unrelated item.
+for (const payload of [items, { results: items }, { data: { items } }, { items: {} }]) {
+  const result = run(payload);
+  assert.equal(result.selected_entry, null);
+  assert.deepEqual(result.trmnl_state.histories, {});
+}
+console.log("Polling response contract checks passed.");
