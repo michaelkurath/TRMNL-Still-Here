@@ -36,12 +36,8 @@ function todayItem() {
 
 function showItem(item, moveFocus = false) {
   state.currentId = item.id;
-  els.image.classList.add('is-changing');
-  window.setTimeout(() => {
-    els.image.src = imagePath(item);
-    els.image.alt = item.image_alt;
-    els.image.classList.remove('is-changing');
-  }, 110);
+  els.image.src = imagePath(item);
+  els.image.alt = item.image_alt;
   els.index.textContent = `EXHIBIT ${item.exhibit}`;
   els.status.textContent = item.status;
   els.category.textContent = item.category;
@@ -105,9 +101,10 @@ function renderCards() {
     card.querySelector('.archive-image').alt = item.image_alt;
     card.querySelector('.archive-number').textContent = `No. ${item.exhibit}`;
     card.querySelector('.archive-category').textContent = item.category;
-    card.querySelector('.archive-year').textContent = item.verified_year;
+    card.querySelector('.archive-year').textContent = `Verified ${item.verified_on}`;
     card.querySelector('.archive-name').textContent = item.name;
     card.querySelector('.archive-epitaph').textContent = item.headline;
+    card.toggleAttribute('data-current', item.id === state.currentId);
     card.addEventListener('click', () => showItem(item, true));
     els.grid.appendChild(card);
   });
@@ -141,6 +138,8 @@ async function init() {
     document.querySelector('#random-button').addEventListener('click', () => showItem(randomItem(), true));
   } catch (error) {
     document.querySelector('#exhibit').innerHTML = '<p class="load-error">The museum is temporarily closed. Please try again.</p>';
+    document.querySelector('#today-button').disabled = true;
+    document.querySelector('#random-button').disabled = true;
     console.error(error);
   }
 }

@@ -1,0 +1,64 @@
+name: Website
+
+on:
+  push:
+    branches: [main]
+    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', '.github/workflows/website.yml']
+  pull_request:
+    paths: ['website/**', 'data/trmnl.json', 'assets/**', 'scripts/build-website.js', '.github/workflows/website.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: node scripts/validate-data.js
+      - run: node --check website/app.js
+      - run: node scripts/build-website.js
+      - uses: browser-actions/setup-firefox@v1
+      - name: Render desktop and mobile previews
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 --directory _site > /tmp/website.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:8000/catalogue.json > /dev/null; then break; fi
+            sleep 1
+          done
+          mkdir -p website-previews
+          firefox --headless --screenshot "$PWD/website-previews/desktop.png" --window-size 1440,1100 'http://127.0.0.1:8000/#wollemi-pine'
+          firefox --headless --screenshot "$PWD/website-previews/mobile.png" --window-size 390,1800 'http://127.0.0.1:8000/#solent-hovercraft'
+      - uses: actions/upload-artifact@v6
+        with:
+          name: website-previews
+          path: website-previews/*.png
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment
