@@ -126,6 +126,27 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/solent-hovercraft.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/solent-hovercraft-master-2x1.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/solent-hovercraft-standard-4x3.jpg"
+    },
+    {
+      "id": "morse-code",
+      "name": "MORSE CODE",
+      "timeline": "Still on the air",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still tapping",
+      "headline": "The telegram faded away. The dots and dashes stayed on the air.",
+      "why_survives": "Amateur-radio practice, training and on-air communities keep radiotelegraphy in use.",
+      "where_now": "ARRL's W1AW station provides Morse-code practice transmissions and bulletins.",
+      "source_name": "American Radio Relay League",
+      "source_url": "https://www.arrl.org/w1aw",
+      "note": "Scope is international Morse code in amateur radio, not a claim that commercial telegram networks survive. Transmission schedules can change. Supporting explanation: https://www.arrl.org/cw-mode",
+      "verified_on": "2026-10-08",
+      "verified_year": "2026",
+      "exhibit": "007",
+      "image_alt": "Monochrome straight Morse key connected to an amateur-radio transceiver beside headphones.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/morse-code-standard-4x3.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/morse-code-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/morse-code-master-2x1.jpg"
     }
   ]
 }

@@ -201,39 +201,6 @@
       }
     },
     {
-      "id": "morse-code",
-      "name": "MORSE CODE",
-      "timeline": "Still on the air",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still tapping",
-      "headline": "The telegram faded away. The dots and dashes stayed on the air.",
-      "why_survives": "Amateur-radio practice, training and on-air communities keep radiotelegraphy in use.",
-      "where_now": "ARRL's W1AW station provides Morse-code practice transmissions and bulletins.",
-      "source_name": "American Radio Relay League",
-      "source_url": "https://www.arrl.org/w1aw",
-      "note": "Scope is international Morse code in amateur radio, not a claim that commercial telegram networks survive. Transmission schedules can change. Supporting explanation: https://www.arrl.org/cw-mode",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 24,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "photographic-film",
       "name": "PHOTOGRAPHIC FILM",
       "timeline": "Still exposed today",
@@ -462,6 +429,39 @@
         "status": "provisional",
         "rated_on": "2026-10-07",
         "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "queen-mary-2-crossings",
+      "name": "QUEEN MARY 2 CROSSINGS",
+      "timeline": "Still crossing the Atlantic",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still sailing",
+      "headline": "The jet won the race. An ocean liner still offers the crossing.",
+      "why_survives": "Cunard sells the crossing as a journey and holiday experience rather than the fastest route across the Atlantic.",
+      "where_now": "Queen Mary 2 continues Cunard transatlantic crossings between Southampton and New York.",
+      "source_name": "Cunard",
+      "source_url": "https://www.cunard.com/en-us/cruise-destinations/transatlantic-cruises",
+      "note": "Checked 8 October 2026: the operator advertises Queen Mary 2 transatlantic voyages, including 2026–2028. This is a surviving service, not the original Queen Mary or QE2 in active service. The explanation is editorial inference from Cunard’s experience-led offering; no passenger or profitability trend is asserted.",
+      "verified_on": "2026-10-08",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "pending",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-10-08",
+        "note": "Editorial rating after checking the linked primary source. Image and device review remain pending."
       }
     }
   ]
