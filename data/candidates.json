@@ -168,39 +168,6 @@
       }
     },
     {
-      "id": "hospital-pneumatic-tubes",
-      "name": "PNEUMATIC TUBES",
-      "timeline": "Still moving hospital cargo",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still delivering",
-      "headline": "The capsule in the tube found a new job inside the hospital.",
-      "why_survives": "Pneumatic systems move physical samples and medicines between wards and labs without manual courier trips.",
-      "where_now": "Swisslog Healthcare offers pneumatic tube systems for hospital specimen transport.",
-      "source_name": "Swisslog Healthcare",
-      "source_url": "https://www.swisslog-healthcare.com/en-gb/medication-management/transport-automation/lab-specimen-transport",
-      "note": "Modern hospital systems are not surviving city-wide postal networks. Manufacturer evidence establishes an ongoing application, not adoption rates or universal clinical suitability. Packaging and route validation matter; no blanket safety claim is made.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 24,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "photographic-film",
       "name": "PHOTOGRAPHIC FILM",
       "timeline": "Still exposed today",
@@ -399,39 +366,6 @@
       }
     },
     {
-      "id": "brienz-rothorn-bahn",
-      "name": "THE BRIENZ ROTHORN BAHN",
-      "timeline": "Opened in 1892",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still steaming",
-      "headline": "A decision to replace the steam railway was reversed. The mountain still hears its whistle.",
-      "why_survives": "Local opposition saved the line; supporters and specialist maintenance help sustain seasonal steam operation.",
-      "where_now": "Steam trains still climb from Brienz toward Rothorn Kulm in the Swiss Bernese Oberland.",
-      "source_name": "Brienz Rothorn Bahn",
-      "source_url": "https://brienz-rothorn-bahn.ch/fahrplan-preise/",
-      "note": "Seasonal operation, with diesel substitution possible. Opened in 1892, suspended in 1914 and reopened in 1931; not uninterrupted service. The 1958 replacement decision was reversed. History: https://brienz-rothorn-bahn.ch/bahngeschichte/ Maintenance: https://brienz-rothorn-bahn.ch/lokomotiven/",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 24,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "queen-mary-2-crossings",
       "name": "QUEEN MARY 2 CROSSINGS",
       "timeline": "Still crossing the Atlantic",
@@ -462,6 +396,72 @@
         "status": "provisional",
         "rated_on": "2026-10-08",
         "note": "Editorial rating after checking the linked primary source. Image and device review remain pending."
+      }
+    },
+    {
+      "id": "fountain-pens",
+      "name": "FOUNTAIN PENS",
+      "timeline": "Still writing today",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still writing",
+      "headline": "The keyboard took the desk. The nib kept its place.",
+      "why_survives": "Refillable ink systems, replaceable nibs and repair services keep fountain pens useful for handwriting.",
+      "where_now": "Pelikan still offers fountain pens, bottled inks and repair services in its current collection.",
+      "source_name": "Pelikan",
+      "source_url": "https://www.pelikan-passion.com/int/",
+      "note": "A current manufacturer catalogue establishes an ongoing product and support offering, not sales growth or worldwide usage. The survival explanation is an editorial inference from refillability and repair support.",
+      "verified_on": "2026-10-09",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 3,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-10-09",
+        "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "gopher",
+      "name": "GOPHER",
+      "timeline": "Still browsed today",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Still browsed",
+      "headline": "Before the web had pages, it had menus. Some of those menus are still here.",
+      "why_survives": "Community hosts and compatible text clients preserve access to the simple menu-based network.",
+      "where_now": "SDF documents Gopher browsing from its shell, including its own Gopher root menu.",
+      "source_name": "SDF Public Access UNIX System",
+      "source_url": "https://wiki.sdf.org/doku.php?id=accessing_web_spaces",
+      "note": "The operator documentation establishes continued client support and a documented SDF endpoint. Direct Gopher availability was not independently tested. No claims about server counts, audience growth or universal proxy availability are made.",
+      "verified_on": "2026-10-09",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 3,
+        "story_strength": 5,
+        "survival_evidence": 4,
+        "catalogue_fit": 5,
+        "total": 20,
+        "status": "provisional",
+        "rated_on": "2026-10-09",
+        "note": "Editorial score; images and device review required before promotion."
       }
     }
   ]

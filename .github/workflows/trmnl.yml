@@ -102,11 +102,12 @@ jobs:
           kill "$trmnlp_pid"
           wait "$trmnlp_pid" || true
           cp data/trmnl.json /tmp/full-catalogue.json
-          for exhibit in coelacanth cobol last-blockbuster london-gas-lamps wollemi-pine solent-hovercraft; do
+          count=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("/tmp/full-catalogue.json")).items.length)')
+          for ((offset=0; offset<count; offset++)); do
           cp /tmp/full-catalogue.json data/trmnl.json
-          node -e 'const fs=require("fs"); const p=JSON.parse(fs.readFileSync("data/trmnl.json")); p.items=p.items.filter(x=>x.id===process.argv[1]); fs.writeFileSync("data/trmnl.json",JSON.stringify(p));' "$exhibit"
-          sed -i 's/^  category:.*/  category: all/' .trmnlp.yml
-          trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp-gas.log 2>&1 &
+          node scripts/prepare-render-fixture.js "$offset"
+          exhibit=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("data/trmnl.json")).items.at(-1-Number(process.argv[1])).id)' "$offset")
+          trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp-exhibit.log 2>&1 &
           trmnlp_pid=$!
           for attempt in {1..30}; do
             if curl --silent --fail http://127.0.0.1:4567/full > /dev/null; then break; fi
@@ -132,6 +133,7 @@ jobs:
           kill "$trmnlp_pid"
           wait "$trmnlp_pid" || true
           done
+          node scripts/prepare-render-fixture.js empty
           node -e 'const fs=require("fs"); const p=JSON.parse(fs.readFileSync("data/trmnl.json")); p.items=[]; fs.writeFileSync("data/trmnl.json",JSON.stringify(p));'
           trmnlp serve --bind 127.0.0.1 > /tmp/trmnlp-empty.log 2>&1 &
           trmnlp_pid=$!
