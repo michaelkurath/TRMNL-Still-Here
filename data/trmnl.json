@@ -147,6 +147,48 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/morse-code-standard-4x3.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/morse-code-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/morse-code-master-2x1.jpg"
+    },
+    {
+      "id": "hospital-pneumatic-tubes",
+      "name": "PNEUMATIC TUBES",
+      "timeline": "Still moving hospital cargo",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still delivering",
+      "headline": "The capsule in the tube found a new job inside the hospital.",
+      "why_survives": "Pneumatic systems move physical samples and medicines between wards and labs without manual courier trips.",
+      "where_now": "Swisslog Healthcare offers pneumatic tube systems for hospital specimen transport.",
+      "source_name": "Swisslog Healthcare",
+      "source_url": "https://www.swisslog-healthcare.com/en-gb/medication-management/transport-automation/lab-specimen-transport",
+      "note": "Modern hospital systems are not surviving city-wide postal networks. Manufacturer evidence establishes an ongoing application, not adoption rates or universal clinical suitability. Packaging and route validation matter; no blanket safety claim is made.",
+      "verified_on": "2026-10-09",
+      "verified_year": "2026",
+      "exhibit": "008",
+      "image_alt": "Interpretive monochrome illustration of a pneumatic transport capsule and receiving station",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/hospital-pneumatic-tubes.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/hospital-pneumatic-tubes-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/hospital-pneumatic-tubes-master-2x1.jpg"
+    },
+    {
+      "id": "brienz-rothorn-bahn",
+      "name": "THE BRIENZ ROTHORN BAHN",
+      "timeline": "Opened in 1892",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still steaming",
+      "headline": "A decision to replace the steam railway was reversed. The mountain still hears its whistle.",
+      "why_survives": "Local opposition saved the line; supporters and specialist maintenance help sustain seasonal steam operation.",
+      "where_now": "Steam trains still climb from Brienz toward Rothorn Kulm in the Swiss Bernese Oberland.",
+      "source_name": "Brienz Rothorn Bahn",
+      "source_url": "https://brienz-rothorn-bahn.ch/fahrplan-preise/",
+      "note": "Seasonal operation, with diesel substitution possible. Opened in 1892, suspended in 1914 and reopened in 1931; not uninterrupted service. The 1958 replacement decision was reversed. History: https://brienz-rothorn-bahn.ch/bahngeschichte/ Maintenance: https://brienz-rothorn-bahn.ch/lokomotiven/",
+      "verified_on": "2026-10-09",
+      "verified_year": "2026",
+      "exhibit": "009",
+      "image_alt": "Interpretive monochrome illustration of a Swiss steam rack railway in an alpine landscape",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/brienz-rothorn-bahn.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/brienz-rothorn-bahn-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/brienz-rothorn-bahn-master-2x1.jpg"
     }
   ]
 }

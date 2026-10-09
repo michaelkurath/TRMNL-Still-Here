@@ -41,3 +41,5 @@ Assets: `assets/exhibits/solent-hovercraft.jpg`, `assets/exhibits/responsive-v2/
 ## 8 October 2026 additions
 
 Complete prompts, crop corrections and export details: [image update](IMAGE_UPDATE_2026-10-08.md).
+
+[9 October artwork and prompts](IMAGE_UPDATE_2026-10-09.md).
