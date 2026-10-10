@@ -43,3 +43,5 @@ Assets: `assets/exhibits/solent-hovercraft.jpg`, `assets/exhibits/responsive-v2/
 Complete prompts, crop corrections and export details: [image update](IMAGE_UPDATE_2026-10-08.md).
 
 [9 October artwork and prompts](IMAGE_UPDATE_2026-10-09.md).
+
+[10 October vinyl-record artwork and prompt](IMAGE_UPDATE_2026-10-10.md).

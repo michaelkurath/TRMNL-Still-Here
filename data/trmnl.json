@@ -189,6 +189,27 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/brienz-rothorn-bahn.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/brienz-rothorn-bahn-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/brienz-rothorn-bahn-master-2x1.jpg"
+    },
+    {
+      "id": "vinyl-records",
+      "name": "VINYL RECORDS",
+      "timeline": "Still pressed today",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still pressed",
+      "headline": "The record never stopped turning. It found another audience.",
+      "why_survives": "A continuing market for physical records supports new pressings alongside digital listening.",
+      "where_now": "RIAA reports continued US vinyl revenue growth in its 2025 recorded-music report.",
+      "source_name": "Recording Industry Association of America",
+      "source_url": "https://www.riaa.com/wp-content/uploads/2026/03/RIAA-Year-End-Revenue-2025.pdf",
+      "note": "The cited report covers the US market in 2025; revenue growth does not establish worldwide dominance or explain all buying motives.",
+      "verified_on": "2026-10-10",
+      "verified_year": "2026",
+      "exhibit": "010",
+      "image_alt": "Interpretive monochrome illustration of a vinyl record being pressed in a modern record plant.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/vinyl-records.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-master-2x1.jpg"
     }
   ]
 }

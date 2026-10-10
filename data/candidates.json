@@ -3,39 +3,6 @@
   "review_process_version": 1,
   "candidates": [
     {
-      "id": "vinyl-records",
-      "name": "VINYL RECORDS",
-      "timeline": "Still pressed today",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Still pressed",
-      "headline": "The record never stopped turning. It found another audience.",
-      "why_survives": "A continuing market for physical records supports new pressings alongside digital listening.",
-      "where_now": "RIAA reports continued US vinyl revenue growth in its 2025 recorded-music report.",
-      "source_name": "Recording Industry Association of America",
-      "source_url": "https://www.riaa.com/wp-content/uploads/2026/03/RIAA-Year-End-Revenue-2025.pdf",
-      "note": "The cited report covers the US market in 2025; revenue growth does not establish worldwide dominance or explain all buying motives.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "rss",
       "name": "RSS",
       "timeline": "Still publishing today",
@@ -462,6 +429,39 @@
         "status": "provisional",
         "rated_on": "2026-10-09",
         "note": "Editorial score; images and device review required before promotion."
+      }
+    },
+    {
+      "id": "zeppelin-nt-passenger-flights",
+      "name": "ZEPPELIN NT FLIGHTS",
+      "timeline": "Still carrying passengers",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still flying",
+      "headline": "The passenger airship returned—not as a liner, but as a view from the sky.",
+      "why_survives": "A certified modern airship serves a niche market for seasonal sightseeing and special missions.",
+      "where_now": "Deutsche Zeppelin-Reederei advertises 2026 Zeppelin NT flights from German bases.",
+      "source_name": "Deutsche Zeppelin-Reederei",
+      "source_url": "https://zeppelinflug.de/en/zeppelin-flights/booking",
+      "note": "Verified 10 October 2026 against the operator's current booking page and 2026 routes. This is the modern semi-rigid Zeppelin NT, not continued operation of the historic rigid passenger liners. Seasonal and weather-dependent; no claim of scheduled intercity transport.",
+      "verified_on": "2026-10-10",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-10",
+        "note": "Current operator schedule is direct survival evidence; catalogue fit is reduced by overlap with historic-airship imagery."
       }
     }
   ]

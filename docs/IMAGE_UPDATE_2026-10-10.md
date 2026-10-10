@@ -1,0 +1,7 @@
+# Image update — 10 October 2026
+
+Built-in image generator prompt:
+
+> Use case: illustration-story. Asset type: STILL HERE e-paper museum exhibit master, responsive 2:1 with a centered 4:3 safe area. Create an original monochrome technical-engraving illustration of vinyl records still being manufactured today. Show a modern record-pressing station in a clean factory: one complete circular vinyl pressing machine open around a freshly pressed black disc, with a worker-free conveyor holding several finished records in plain sleeves and a small stack of vinyl pucks nearby. Emphasize the recognizable 12-inch disc, center label shape without text, press platens and mechanical controls. High-contrast black, white and restrained grayscale, broad e-paper-friendly tones, crisp museum engraving detail, no pre-dithering. Wide landscape composition; keep the entire press, fresh record and finished-record stack fully inside the central two thirds so a centered 4:3 crop preserves them. No logos, brands, readable text, album art, people, watermark, border, gramophone nostalgia scene, obsolete hand-crank equipment, or documentary-photo claim. Interpretive contemporary illustration.
+
+Exports: `assets/exhibits/vinyl-records.jpg`, `responsive-v2/vinyl-records-master-2x1.jpg` (1600×800), and `responsive-v2/vinyl-records-standard-4x3.jpg` (1067×800). Grayscale JPEG quality 88; centered crop. The press and fresh record remain legible in both crops. Interpretive artwork, not documentary evidence.
