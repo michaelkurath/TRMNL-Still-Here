@@ -19,8 +19,9 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Morse code | ARRL W1AW: on-air code practice and bulletins |
 | Hospital pneumatic tubes | Swisslog Healthcare: current specimen transport systems |
 | Brienz Rothorn Bahn | Operator: seasonal steam railway and 2026 tickets |
+| Vinyl records | RIAA: records remain a current physical-music market |
 
-**9 live exhibits and 14 candidates.** Pneumatic tubes and the Brienz Rothorn Bahn are exhibits 008 and 009. New candidates: fountain pens (22/25) and Gopher (20/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**10 live exhibits and 14 candidates.** Vinyl records are exhibit 010. New candidate: Zeppelin NT passenger flights (24/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -75,4 +76,4 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **9 live exhibits and 14 candidates**. See [9 October review](docs/PROMOTION_2026-10-09.md).
+Latest collection update: **10 live exhibits and 14 candidates**. See [10 October review](docs/PROMOTION_2026-10-10.md).
