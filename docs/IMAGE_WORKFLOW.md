@@ -45,3 +45,5 @@ Complete prompts, crop corrections and export details: [image update](IMAGE_UPDA
 [9 October artwork and prompts](IMAGE_UPDATE_2026-10-09.md).
 
 [10 October vinyl-record artwork and prompt](IMAGE_UPDATE_2026-10-10.md).
+
+[11 October Zeppelin NT artwork and prompt](IMAGE_UPDATE_2026-10-11.md).
