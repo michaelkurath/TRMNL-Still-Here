@@ -20,8 +20,9 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Hospital pneumatic tubes | Swisslog Healthcare: current specimen transport systems |
 | Brienz Rothorn Bahn | Operator: seasonal steam railway and 2026 tickets |
 | Vinyl records | RIAA: records remain a current physical-music market |
+| Zeppelin NT flights | Operator: active 2026 passenger-flight booking |
 
-**10 live exhibits and 14 candidates.** Vinyl records are exhibit 010. New candidate: Zeppelin NT passenger flights (24/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**11 live exhibits and 14 candidates.** Zeppelin NT flights are exhibit 011. New candidate: San Francisco trolleybuses (23/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -76,4 +77,4 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **10 live exhibits and 14 candidates**. See [10 October review](docs/PROMOTION_2026-10-10.md).
+Latest collection update: **11 live exhibits and 14 candidates**. See [11 October review](docs/PROMOTION_2026-10-11.md).

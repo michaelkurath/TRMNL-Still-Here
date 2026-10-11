@@ -432,20 +432,20 @@
       }
     },
     {
-      "id": "zeppelin-nt-passenger-flights",
-      "name": "ZEPPELIN NT FLIGHTS",
-      "timeline": "Still carrying passengers",
+      "id": "san-francisco-trolleybuses",
+      "name": "SAN FRANCISCO TROLLEYBUSES",
+      "timeline": "Still under the wires",
       "verified_year": "2026",
       "category": "Transport",
       "category_key": "transport",
-      "status": "Still flying",
-      "headline": "The passenger airship returned—not as a liner, but as a view from the sky.",
-      "why_survives": "A certified modern airship serves a niche market for seasonal sightseeing and special missions.",
-      "where_now": "Deutsche Zeppelin-Reederei advertises 2026 Zeppelin NT flights from German bases.",
-      "source_name": "Deutsche Zeppelin-Reederei",
-      "source_url": "https://zeppelinflug.de/en/zeppelin-flights/booking",
-      "note": "Verified 10 October 2026 against the operator's current booking page and 2026 routes. This is the modern semi-rigid Zeppelin NT, not continued operation of the historic rigid passenger liners. Seasonal and weather-dependent; no claim of scheduled intercity transport.",
-      "verified_on": "2026-10-10",
+      "status": "Still operating",
+      "headline": "The poles still trace the wires. The batteries now bridge the gaps.",
+      "why_survives": "Electric trolleybuses suit frequent hilly routes and combine quiet operation with long vehicle life.",
+      "where_now": "San Francisco Muni operates North America’s largest trolleybus fleet with New Flyer vehicles.",
+      "source_name": "San Francisco Municipal Transportation Agency",
+      "source_url": "https://www.sfmta.com/getting-around/muni/munis-electric-trolley-buses",
+      "note": "Verified 11 October 2026 against SFMTA’s current fleet page. The claim is continued operation in San Francisco, not that trolleybuses remain common everywhere; modern vehicles can travel short distances off-wire using batteries.",
+      "verified_on": "2026-10-11",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -455,13 +455,13 @@
       "rating": {
         "recognition": 5,
         "visual_strength": 5,
-        "story_strength": 5,
+        "story_strength": 4,
         "survival_evidence": 5,
         "catalogue_fit": 4,
-        "total": 24,
+        "total": 23,
         "status": "provisional",
-        "rated_on": "2026-10-10",
-        "note": "Current operator schedule is direct survival evidence; catalogue fit is reduced by overlap with historic-airship imagery."
+        "rated_on": "2026-10-11",
+        "note": "Direct current-agency evidence and a highly legible visual; geographically specific rather than a universal survival claim."
       }
     }
   ]

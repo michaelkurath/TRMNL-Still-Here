@@ -210,6 +210,27 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/vinyl-records.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-master-2x1.jpg"
+    },
+    {
+      "id": "zeppelin-nt-passenger-flights",
+      "name": "ZEPPELIN NT FLIGHTS",
+      "timeline": "Still carrying passengers",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still flying",
+      "headline": "The passenger airship returned—not as a liner, but as a view from the sky.",
+      "why_survives": "A certified modern airship serves a niche market for seasonal sightseeing and special missions.",
+      "where_now": "Deutsche Zeppelin-Reederei is selling 2026 sightseeing flights over Lake Constance and other German regions.",
+      "source_name": "Deutsche Zeppelin-Reederei",
+      "source_url": "https://zeppelinflug.de/en/zeppelin-flights/booking",
+      "note": "Verified 11 October 2026 against the operator’s active flight and booking pages. This is the modern semi-rigid Zeppelin NT, not uninterrupted survival of the historic rigid passenger liners. Flights are seasonal and weather-dependent.",
+      "verified_on": "2026-10-11",
+      "verified_year": "2026",
+      "exhibit": "011",
+      "image_alt": "Interpretive monochrome illustration of a modern Zeppelin NT passenger airship over Lake Constance.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/zeppelin-nt-passenger-flights.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/zeppelin-nt-passenger-flights-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/zeppelin-nt-passenger-flights-master-2x1.jpg"
     }
   ]
 }
