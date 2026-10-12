@@ -1,0 +1,11 @@
+# Dot-matrix printer artwork — 12 October 2026
+
+Built-in image generator prompt:
+
+> Use case: contemporary-survival scene. Asset type: STILL HERE museum exhibit master for monochrome e-ink, responsive 2:1 with a centered 4:3 safe area. Create an original contemporary monochrome technical-engraving illustration of a dot-matrix impact printer still working today. Show a rugged wide-carriage 9-pin printer on a clean logistics counter, its tractor-feed sprockets pulling continuous fanfold multipart paper with visible perforations and blank form lines. Include a small stack of carbonless copies and a modern barcode scanner nearby to show coexistence with current systems, but no people. The printer should look functional and industrial rather than nostalgic: compact rectangular body, hinged transparent paper guide, simple buttons without labels, rear paper feed. High-contrast black, white and restrained grayscale, crisp museum engraving, broad e-paper-friendly tones, no pre-dithering. Wide landscape composition; keep the entire printer, continuous paper path and copy stack within the central two thirds so a centered 4:3 crop preserves them. No Epson logo, brand marks, readable text, invoices, personal data, watermarks, borders, color, typewriter, inkjet printer, or photoreal documentary claim.
+
+Crop-correction edit:
+
+> Edit this image while preserving the monochrome technical-engraving style, warehouse counter, functional dot-matrix printer, tractor-feed fanfold paper, blank form lines, copy stack and barcode scanner. Make the complete printer, full visible paper path, copy stack and scanner approximately 25 percent smaller and recenter the working group so all of it fits inside the central 60 percent of the existing wide 2:1 canvas. Extend the clean counter and shelving naturally on both sides. The centered 4:3 crop must preserve the entire printer, paper path, stack and scanner with margin. No brand marks, readable text, personal data, people, watermark, border, color, typewriter or inkjet printer.
+
+Exports: `assets/exhibits/dot-matrix-printers.jpg` and `assets/exhibits/responsive-v2/dot-matrix-printers-standard-4x3.jpg` (1067×800), plus `dot-matrix-printers-master-2x1.jpg` (1600×800). Grayscale JPEG quality 88; centered crop. Both responsive exports retain the printer, continuous paper path, copy stack and scanner.

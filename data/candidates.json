@@ -36,39 +36,6 @@
       }
     },
     {
-      "id": "dot-matrix-printers",
-      "name": "DOT-MATRIX PRINTERS",
-      "timeline": "Still sold today",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still printing",
-      "headline": "The office went quiet. Somewhere, a print head is still rattling.",
-      "why_survives": "Impact printing handles multipart forms; legacy-system compatibility keeps it useful for specialist work.",
-      "where_now": "Epson still lists impact dot-matrix printers for continuous paper and multipart forms.",
-      "source_name": "Epson",
-      "source_url": "https://epson.com/For-Work/Printers/Impact-Dot-Matrix/FX-2190II-N-Network-Impact-Dot-Matrix-Printer/p/C11CF38202",
-      "note": "Manufacturer listing establishes an ongoing product offering and supported functions, not worldwide sales volume. Survival explanation is an editorial inference from the documented multipart-form and legacy integration features.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "irc",
       "name": "INTERNET RELAY CHAT",
       "timeline": "Created in 1988",
@@ -462,6 +429,39 @@
         "status": "provisional",
         "rated_on": "2026-10-11",
         "note": "Direct current-agency evidence and a highly legible visual; geographically specific rather than a universal survival claim."
+      }
+    },
+    {
+      "id": "nist-radio-wwv",
+      "name": "RADIO STATION WWV",
+      "timeline": "Broadcasting since 1920",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "On air",
+      "headline": "The clock still speaks through static, one second at a time.",
+      "why_survives": "Radio distributes standard time, frequencies and propagation information without requiring internet access.",
+      "where_now": "NIST station WWV broadcasts continuously on multiple high-frequency channels from Colorado.",
+      "source_name": "National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv",
+      "note": "Verified 12 October 2026 against NIST’s active station page and current broadcast specifications. The page states 24/7 service on five standard frequencies plus an experimental 25 MHz signal; reception varies by propagation.",
+      "verified_on": "2026-10-12",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-10-12",
+        "note": "Direct operator evidence and a century-scale survival story; broad public recognition is the limiting score."
       }
     }
   ]
