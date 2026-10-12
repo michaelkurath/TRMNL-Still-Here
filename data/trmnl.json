@@ -231,6 +231,27 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/zeppelin-nt-passenger-flights.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/zeppelin-nt-passenger-flights-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/zeppelin-nt-passenger-flights-master-2x1.jpg"
+    },
+    {
+      "id": "dot-matrix-printers",
+      "name": "DOT-MATRIX PRINTERS",
+      "timeline": "Still sold today",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still printing",
+      "headline": "The office went quiet. Somewhere, a print head is still rattling.",
+      "why_survives": "Impact printing handles multipart forms; legacy-system compatibility keeps it useful for specialist work.",
+      "where_now": "Epson currently sells wide-carriage impact printers for continuous and multipart forms.",
+      "source_name": "Epson",
+      "source_url": "https://epson.com/For-Work/Printers/Impact-Dot-Matrix/FX-2190II-N-Network-Impact-Dot-Matrix-Printer/p/C11CF38202",
+      "note": "Verified 12 October 2026 against Epson’s current US product listing, price and purchase controls. The survival explanation is an editorial inference from documented multipart-form, harsh-environment and legacy-system features; no worldwide sales-volume claim.",
+      "verified_on": "2026-10-12",
+      "verified_year": "2026",
+      "exhibit": "012",
+      "image_alt": "Interpretive monochrome illustration of a modern dot-matrix printer feeding continuous multipart forms in a logistics workspace.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/dot-matrix-printers.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/dot-matrix-printers-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/dot-matrix-printers-master-2x1.jpg"
     }
   ]
 }
