@@ -22,8 +22,9 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Vinyl records | RIAA: records remain a current physical-music market |
 | Zeppelin NT flights | Operator: active 2026 passenger-flight booking |
 | Dot-matrix printers | Epson: current impact-printer product and purchase listing |
+| Photographic film | ILFORD: current 35mm, roll and sheet-film product listing |
 
-**12 live exhibits and 14 candidates.** Dot-matrix printers are exhibit 012. New candidate: NIST Radio Station WWV (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**13 live exhibits and 14 candidates.** Photographic film is exhibit 013. New candidate: PS Waverley (24/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -78,4 +79,4 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **12 live exhibits and 14 candidates**. See [12 October review](docs/PROMOTION_2026-10-12.md).
+Latest collection update: **13 live exhibits and 14 candidates**. See [13 October review](docs/PROMOTION_2026-10-13.md).

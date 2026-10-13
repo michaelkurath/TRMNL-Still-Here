@@ -252,6 +252,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/dot-matrix-printers.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/dot-matrix-printers-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/dot-matrix-printers-master-2x1.jpg"
+    },
+    {
+      "id": "photographic-film",
+      "name": "PHOTOGRAPHIC FILM",
+      "timeline": "Still exposed today",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still developing",
+      "headline": "The camera went digital. The darkroom did not disappear.",
+      "why_survives": "An active analogue-photography market still has film, processing materials and learning resources.",
+      "where_now": "ILFORD lists HP5 PLUS black-and-white film in 35mm, roll and sheet formats.",
+      "source_name": "ILFORD PHOTO / Harman Technology",
+      "source_url": "https://www.ilfordphoto.com/hp5-plus-35mm?___from_store=ilford_uk&___store=ilford_brochure",
+      "note": "The checked product supports continued availability of black-and-white film, not every discontinued film stock. The market explanation is an editorial inference from the current product and processing ecosystem; no worldwide sales trend is asserted.",
+      "verified_on": "2026-10-13",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-13",
+        "note": "Current manufacturer documentation supports ongoing 35mm, roll and sheet-film availability; original unbranded darkroom artwork passed all device layouts."
+      },
+      "exhibit": "013",
+      "image_alt": "Interpretive monochrome illustration of 35mm and medium-format film with developing equipment in a modern darkroom.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/photographic-film.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/photographic-film-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/photographic-film-master-2x1.jpg"
     }
   ]
 }
