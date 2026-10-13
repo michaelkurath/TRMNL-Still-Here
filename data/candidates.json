@@ -102,39 +102,6 @@
       }
     },
     {
-      "id": "photographic-film",
-      "name": "PHOTOGRAPHIC FILM",
-      "timeline": "Still exposed today",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Still developing",
-      "headline": "The camera went digital. The darkroom did not disappear.",
-      "why_survives": "An active analogue-photography market still has film, processing materials and learning resources.",
-      "where_now": "ILFORD lists HP5 PLUS black-and-white film in 35mm, roll and sheet formats.",
-      "source_name": "ILFORD PHOTO / Harman Technology",
-      "source_url": "https://www.ilfordphoto.com/hp5-plus-35mm?___from_store=ilford_uk&___store=ilford_brochure",
-      "note": "The checked product supports continued availability of black-and-white film, not every discontinued film stock. The market explanation is an editorial inference from the current product and processing ecosystem; no worldwide sales trend is asserted.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "san-francisco-cable-cars",
       "name": "SAN FRANCISCO CABLE CARS",
       "timeline": "First service in 1873",
@@ -462,6 +429,39 @@
         "status": "provisional",
         "rated_on": "2026-10-12",
         "note": "Direct operator evidence and a century-scale survival story; broad public recognition is the limiting score."
+      }
+    },
+    {
+      "id": "ps-waverley",
+      "name": "PS WAVERLEY",
+      "timeline": "Sailing since 1947",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still steaming",
+      "headline": "The paddle wheels still turn beyond the museum quay.",
+      "why_survives": "Preservation, volunteers and excursion demand keep the last seagoing paddle steamer in service.",
+      "where_now": "Waverley’s operator lists a 2026 British-coast sailing programme with bookings open.",
+      "source_name": "Waverley Excursions",
+      "source_url": "https://waverleyexcursions.co.uk/plan-your-cruise/timetables/",
+      "note": "Verified 13 October 2026 against the operator’s current 2026 timetable and booking pages. Service is seasonal and weather-dependent; the last-seagoing-paddle-steamer wording is the operator’s claim.",
+      "verified_on": "2026-10-13",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-13",
+        "note": "Direct operator evidence, an active dated timetable and exceptional visual and survival story; recognition is strongest in Britain."
       }
     }
   ]

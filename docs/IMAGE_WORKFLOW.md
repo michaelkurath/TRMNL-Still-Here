@@ -49,3 +49,5 @@ Complete prompts, crop corrections and export details: [image update](IMAGE_UPDA
 [11 October Zeppelin NT artwork and prompt](IMAGE_UPDATE_2026-10-11.md).
 
 [12 October dot-matrix-printer artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-12.md).
+
+[13 October photographic-film artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-13.md).
