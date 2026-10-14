@@ -290,6 +290,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/photographic-film.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/photographic-film-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/photographic-film-master-2x1.jpg"
+    },
+    {
+      "id": "ps-waverley",
+      "name": "PS WAVERLEY",
+      "timeline": "Sailing since 1947",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still steaming",
+      "headline": "The paddle wheels still turn beyond the museum quay.",
+      "why_survives": "Preservation, volunteers and excursion demand keep the last seagoing paddle steamer in service.",
+      "where_now": "Waverley’s operator lists final 2026 sailings for 17 and 18 October with tickets available.",
+      "source_name": "Waverley Excursions",
+      "source_url": "https://waverleyexcursions.co.uk/plan-your-cruise/timetables/",
+      "note": "Verified 14 October 2026 against the operator’s current sailing updates, timetable and booking pages. Service is seasonal and weather-dependent; the last-seagoing-paddle-steamer wording is the operator’s claim.",
+      "verified_on": "2026-10-14",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "reviewed",
+        "rated_on": "2026-10-14",
+        "note": "Direct operator evidence includes dated October 2026 sailings and live booking instructions; original vessel artwork passed crop review."
+      },
+      "exhibit": "014",
+      "image_alt": "Interpretive monochrome illustration of a classic seagoing paddle steamer underway on a Scottish coastal firth.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/ps-waverley.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/ps-waverley-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/ps-waverley-master-2x1.jpg"
     }
   ]
 }
