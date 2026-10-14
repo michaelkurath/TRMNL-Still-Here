@@ -432,20 +432,20 @@
       }
     },
     {
-      "id": "ps-waverley",
-      "name": "PS WAVERLEY",
-      "timeline": "Sailing since 1947",
+      "id": "typewriters",
+      "name": "TYPEWRITERS",
+      "timeline": "Still sold today",
       "verified_year": "2026",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still steaming",
-      "headline": "The paddle wheels still turn beyond the museum quay.",
-      "why_survives": "Preservation, volunteers and excursion demand keep the last seagoing paddle steamer in service.",
-      "where_now": "Waverley’s operator lists a 2026 British-coast sailing programme with bookings open.",
-      "source_name": "Waverley Excursions",
-      "source_url": "https://waverleyexcursions.co.uk/plan-your-cruise/timetables/",
-      "note": "Verified 13 October 2026 against the operator’s current 2026 timetable and booking pages. Service is seasonal and weather-dependent; the last-seagoing-paddle-steamer wording is the operator’s claim.",
-      "verified_on": "2026-10-13",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still typing",
+      "headline": "The keys still strike paper without opening an app.",
+      "why_survives": "Specialist offices, secure institutions, collectors and distraction-free writers sustain a small typewriter market.",
+      "where_now": "Swintec currently lists manual and electronic typewriters, ribbons and service supplies.",
+      "source_name": "Swintec",
+      "source_url": "https://www.swintec.com/3_Swintec?n=50&orderby=quantity&orderway=asc",
+      "note": "Verified 14 October 2026 against current Swintec product listings showing manual and electronic typewriters with prices and availability. This supports a specialist continuing market, not mass-market popularity or continuous production of every listed model.",
+      "verified_on": "2026-10-14",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -453,15 +453,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 4,
+        "recognition": 5,
         "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
+        "story_strength": 4,
+        "survival_evidence": 4,
         "catalogue_fit": 5,
-        "total": 24,
+        "total": 23,
         "status": "provisional",
-        "rated_on": "2026-10-13",
-        "note": "Direct operator evidence, an active dated timetable and exceptional visual and survival story; recognition is strongest in Britain."
+        "rated_on": "2026-10-14",
+        "note": "Current specialist product listings and a universally recognisable silhouette make a strong exhibit; evidence supports availability rather than a broad manufacturing-volume claim."
       }
     }
   ]
