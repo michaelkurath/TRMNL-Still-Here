@@ -43,32 +43,77 @@ const stale = selectEntry(input("all", { all: ["removed", "tech-one", "tech-one"
 assert.equal(stale.selectedEntry.id, "tech-two");
 assert.deepEqual(stale.histories.all, ["tech-one", "tech-two"]);
 
-const empty = run({ items: [] });
-assert.equal(empty.selected_entry, null);
-assert.deepEqual(empty.trmnl_state, { histories: {} });
 
-const output = run(input("nature"));
-assert.equal(output.selected_entry.id, "nature-one");
-assert.deepEqual(output.trmnl_state.histories.nature, ["nature-one"]);
+async function main() {
+  const empty = await run({ items: [] });
+  assert.equal(empty.selected_entry, null);
+  assert.deepEqual(empty.trmnl_state, { histories: {} });
 
-console.log("Saved State transform tests passed.");
+  const output = await run(input("nature"));
+  assert.equal(output.selected_entry.id, "nature-one");
+  assert.deepEqual(output.trmnl_state.histories.nature, ["nature-one"]);
+  assert.equal(output.items, undefined);
 
-assert.equal(selectEntry(input(" TECHNOLOGY "), 0).category, "technology");
-assert.equal(run(null).selected_entry, null);
-assert.equal(run({ items: [null, {}, { id: "bad" }] }).selected_entry, null);
-assert.equal(run({ items: [{ id: "only", name: "One" }] }).selected_entry.id, "only");
-assert.equal(selectEntry(input(), NaN).selectedEntry.id, "tech-one");
-const duplicate = selectEntry({ items: [items[0], items[0], items[1]] }, 0.99);
-assert.equal(duplicate.selectedEntry.id, "tech-two");
-assert.equal(selectEntry(input("__proto__"), 0).category, "all");
-const { refreshSeed } = require("../src/transform");
-assert.equal(refreshSeed(1000000), refreshSeed(1000001));
-console.log("Malformed data, one-entry, duplicate and normalized-setting checks passed.");
+  const originalFetch = global.fetch;
+  try {
+    // A catalogue too large for polling must be fetched inside Serverless.
+    const bigItems = Array.from({ length: 300 }, (_, i) => ({
+      id: "tech-" + i,
+      name: "Technology " + i,
+      category_key: "technology",
+      caption: "x".repeat(1024),
+      headline: "x".repeat(1024),
+      source_url: "https://example.com/source",
+    }));
+    assert.ok(Buffer.byteLength(JSON.stringify({ items: bigItems })) > 100000);
+    let calls = 0;
+    global.fetch = async (url) => {
+      calls += 1;
+      assert.match(url, /\/data\/trmnl\.json$/);
+      return { ok: true, json: async () => ({ items: bigItems }) };
+    };
 
-// Unsupported polling shapes fail closed; Liquid must not choose an unrelated item.
-for (const payload of [items, { results: items }, { data: { items } }, { items: {} }]) {
-  const result = run(payload);
-  assert.equal(result.selected_entry, null);
-  assert.deepEqual(result.trmnl_state.histories, {});
+    const manifest = {
+      catalogue_version: 1,
+      trmnl: {
+        plugin_settings: { custom_fields_values: { category: "technology" } },
+        state: { histories: { "technology": ["tech-0"] } },
+      },
+    };
+    const picked = await run(manifest);
+    assert.equal(calls, 1);
+    assert.ok(picked.selected_entry);
+    assert.notEqual(picked.selected_entry.id, "tech-0");
+    assert.equal(picked.items, undefined);
+    assert.equal(picked.selected_entry.source_url, undefined);
+    assert.ok(Buffer.byteLength(JSON.stringify(picked)) < 5000);
+
+    // A failed or malformed fetch must not advance/erase Saved State.
+    global.fetch = async () => ({ ok: false, status: 503 });
+    await assert.rejects(run(manifest), /HTTP 503/);
+    global.fetch = async () => ({ ok: true, json: async () => ({ results: bigItems }) });
+    await assert.rejects(run(manifest), /no exhibits/);
+  } finally {
+    global.fetch = originalFetch;
+  }
+
+  assert.equal(selectEntry(input(" TECHNOLOGY "), 0).category, "technology");
+  assert.equal(selectEntry(input(), NaN).selectedEntry.id, "tech-one");
+  const duplicate = selectEntry({ items: [items[0], items[0], items[1]] }, 0.99);
+  assert.equal(duplicate.selectedEntry.id, "tech-two");
+  assert.equal(selectEntry(input("__proto__"), 0).category, "all");
+  const { refreshSeed } = require("../src/transform");
+  assert.equal(refreshSeed(1000000), refreshSeed(1000001));
+  assert.equal((await run({ items: [null, {}, { id: "bad" }] })).selected_entry, null);
+  assert.equal((await run({ items: [{ id: "only", name: "One" }] })).selected_entry.id, "only");
+  for (const payload of [{ items: {} }, { items: [] }]) {
+    assert.equal((await run(payload)).selected_entry, null);
+  }
+
+  console.log("Saved State, filtering and compact Serverless payload tests passed.");
 }
-console.log("Polling response contract checks passed.");
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

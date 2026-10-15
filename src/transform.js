@@ -1,4 +1,23 @@
 const ALL_CATEGORIES = "all";
+const CATALOGUE_URL = "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/data/trmnl.json";
+const DISPLAY_FIELDS = [
+  "id",
+  "exhibit",
+  "name",
+  "timeline",
+  "verified_year",
+  "status",
+  "headline",
+  "category",
+  "image_url",
+  "image_url_standard",
+  "image_url_wide",
+  "image_alt",
+  "why_survives",
+  "where_now",
+  "note"
+];
+
 const CATEGORIES = new Set(["all", "technology", "internet", "transport", "nature", "everyday"]);
 
 function normalizeCategory(input) {
@@ -32,7 +51,7 @@ function refreshSeed(now = Date.now()) {
 
 function selectEntry(input, randomValue = refreshSeed()) {
   const seen = new Set();
-  // Contract: polling JSON object with top-level items array (see settings.yml).
+  // Contract: catalogue JSON object with top-level items array.
   // Alternate shapes fail closed to the unavailable screen.
   const raw = Array.isArray(input?.items) ? input.items : [];
   const items = raw.filter((item) => {
@@ -60,10 +79,40 @@ function selectEntry(input, randomValue = refreshSeed()) {
   return { selectedEntry, category, histories };
 }
 
-function run(input) {
-  const safeInput = input && typeof input === "object" ? input : {};
-  const selection = selectEntry(safeInput);
-  return { ...safeInput, selected_entry: selection.selectedEntry, trmnl_state: { histories: selection.histories } };
+async function loadItems(input) {
+  // Explicit items are supported by local test/render fixtures.
+  if (Object.prototype.hasOwnProperty.call(input, "items")) {
+    return Array.isArray(input.items) ? input.items : [];
+  }
+
+  // TRMNL polling retrieves only data/poll.json (small manifest).
+  // Fetch the full catalogue inside Serverless, not through Polling.
+  const response = await fetch(CATALOGUE_URL);
+  if (!response.ok) throw new Error("Catalogue fetch failed: HTTP " + response.status);
+  const payload = await response.json();
+  if (!Array.isArray(payload?.items) || payload.items.length === 0) {
+    throw new Error("Catalogue response contains no exhibits");
+  }
+  return payload.items;
 }
 
-if (typeof module !== "undefined") module.exports = { getPool, normalizeCategory, refreshSeed, run, selectEntry, validHistory };
+function compactEntry(entry) {
+  if (!entry) return null;
+  return Object.fromEntries(
+    DISPLAY_FIELDS.filter((key) => entry[key] !== undefined).map((key) => [key, entry[key]])
+  );
+}
+
+async function run(input) {
+  const safeInput = input && typeof input === "object" && !Array.isArray(input) ? input : {};
+  const items = await loadItems(safeInput);
+  const selection = selectEntry({ ...safeInput, items });
+
+  // No entire catalogue, polling manifest or unnecessary editorial metadata.
+  return {
+    selected_entry: compactEntry(selection.selectedEntry),
+    trmnl_state: { histories: selection.histories },
+  };
+}
+
+if (typeof module !== "undefined") module.exports = { compactEntry, getPool, loadItems, normalizeCategory, refreshSeed, run, selectEntry, validHistory };

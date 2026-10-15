@@ -1,25 +1,5 @@
-{% assign settings = trmnl.plugin_settings.custom_fields_values %}
-{% assign category_filter = settings.category | default: "all" | strip | downcase %}
-{% comment %}Polling payload is { "schema_version": 1, "items": [...] }. The transform emits selected_entry. Only untransformed previews may fall back to the first top-level item.{% endcomment %}
-{% assign pool = items %}
-{% if category_filter != "all" %}
-  {% assign pool = items | where: "category_key", category_filter %}
-{% endif %}
-{% assign filter_fallback = false %}
-{% if pool == empty %}
-  {% assign pool = items %}
-  {% assign filter_fallback = true %}
-{% endif %}
-
 {% assign selected = selected_entry %}
-{% unless selected %}
-  {% unless trmnl_state %}
-  {% if pool != empty %}
-    {% assign selected = pool | first %}
-  {% endif %}
-  {% endunless %}
-{% endunless %}
-
+{% assign filter_fallback = false %}
 {% unless selected.name %}
   {% assign selected = nil %}
 {% endunless %}
