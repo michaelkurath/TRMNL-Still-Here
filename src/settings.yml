@@ -7,7 +7,7 @@ polling_verb: get
 framework_version: 3.3.1
 serverless_language: node
 refresh_interval_floor: ''
-polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/data/trmnl.json
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/data/poll.json
 polling_headers: ''
 polling_body: ''
 id: 498915
