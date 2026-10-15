@@ -31,9 +31,9 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 
 Repository: https://github.com/michaelkurath/TRMNL-Still-Here
 
-The existing Still Here plugin (`498915`) can sync this repository’s `src` folder through GitHub import/sync. Select Polling and the Node serverless transform. The newly created Still Here ID is preserved; GOODBYE’s ID is not used.
+The existing Still Here plugin (`498915`) can sync this repository’s `src` folder through GitHub import/sync. Import the new polling URL, transform and shared markup before testing Force Refresh; GitHub changes do not automatically update TRMNL. Select Polling and the Node serverless transform. The newly created Still Here ID is preserved; GOODBYE’s ID is not used.
 
-- Polling source: `https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/data/trmnl.json`
+- Polling source: `https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/data/poll.json` (small trigger; Serverless fetches the full catalogue)
 - Transform: `src/transform.js`, exposing `run(input)`
 - Markup: shared plus Full, Half Horizontal, Half Vertical, and Quadrant
 - Category: `all`, `technology`, `internet`, `transport`, `nature`, `everyday`
@@ -45,13 +45,18 @@ A public recipe URL will be added after the recipe is published. This repository
 
 GOODBYE’s per-installation, per-category no-repeat Saved State rotation is retained. A deterministic 15-minute UTC slot seed selects from unseen entries; history prevents repeats within each category cycle. Different installation histories may show different exhibits. Category cycles are independent. One-entry pools necessarily repeat. Removed IDs, duplicate history and invalid settings are normalized. Clear Saved State in TRMNL to restart the rotation.
 
-The polling response must be a JSON object with a top-level `items` array, as in `data/trmnl.json`. Bare arrays, `results` wrappers and nested `data.items` are unsupported and show the unavailable screen.
-
-Without the transform, Liquid falls back to the first entry. Empty data shows an explicit unavailable screen. The companion website selects its daily exhibit by UTC date.
+The polling response is a tiny JSON manifest, `data/poll.json`.
+The Node Serverless transform separately fetches `data/trmnl.json`,
+checks the `items` array, then sends only the chosen exhibit and
+compact category-specific Saved State to Liquid. Malformed catalogue
+data or network failures stop the refresh instead of corrupting
+rotation history. There is no Liquid fallback to a full catalogue;
+Serverless must be enabled. The companion website continues to read
+the full catalogue directly and selects its daily exhibit by UTC date.
 
 ## Data and review
 
-`data/trmnl.json` is the production payload. Entries contain `timeline`, `verified_on`, `verified_year`, `headline`, `why_survives`, `where_now`, source, scope note, and monochrome image URLs. `timeline` can be a rediscovery milestone rather than an invented lifespan. `verified_on` is an editorial check date, not an automated availability guarantee.
+`data/trmnl.json` is the full production catalogue, now fetched inside Serverless rather than through TRMNL Polling. Entries contain `timeline`, `verified_on`, `verified_year`, `headline`, `why_survives`, `where_now`, source, scope note, and monochrome image URLs. `timeline` can be a rediscovery milestone rather than an invented lifespan. `verified_on` is an editorial check date, not an automated availability guarantee.
 
 `data/candidates.json` contains provisional editorial scores for recognition, visual strength, story strength, survival evidence, and catalogue fit (each 1–5). See [ROADMAP.md](ROADMAP.md) for the promotion gate.
 
