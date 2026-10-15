@@ -38,6 +38,10 @@ Built-in image generator prompt: Use case: illustration-story. Asset: STILL HERE
 
 Assets: `assets/exhibits/solent-hovercraft.jpg`, `assets/exhibits/responsive-v2/solent-hovercraft-master-2x1.jpg` (1600×800), and `assets/exhibits/responsive-v2/solent-hovercraft-standard-4x3.jpg` (1067×800). Grayscale JPEG, quality 88; centered crop. Interpretive artwork, not an exact wild location or named vessel. Source and text reviewed 7 October 2026. Candidate rating 24/25; merge requires visual review of all four OG/X landscape/X portrait layouts.
 
+## San Francisco cable cars, exhibit 015
+
+Assets: `assets/exhibits/san-francisco-cable-cars.jpg`, `assets/exhibits/responsive-v2/san-francisco-cable-cars-master-2x1.jpg` (1600×800), and `assets/exhibits/responsive-v2/san-francisco-cable-cars-standard-4x3.jpg` (1067×800). The original monochrome illustration is interpretive rather than a record of a particular vehicle or trip. The cable car, street slot and grip remain legible in the centered crop; artwork avoids overhead electric traction. Source, text and crop review completed 15 October 2026. Rating: 23/25.
+
 ## 8 October 2026 additions
 
 Complete prompts, crop corrections and export details: [image update](IMAGE_UPDATE_2026-10-08.md).

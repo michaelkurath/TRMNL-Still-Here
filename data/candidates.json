@@ -102,39 +102,6 @@
       }
     },
     {
-      "id": "san-francisco-cable-cars",
-      "name": "SAN FRANCISCO CABLE CARS",
-      "timeline": "First service in 1873",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still climbing",
-      "headline": "A moving cable under the street still pulls passengers up the hills.",
-      "why_survives": "A public preservation campaign and City Charter protections helped keep the system operating.",
-      "where_now": "SFMTA operates cable-car lines on California Street and the Powell Street routes.",
-      "source_name": "San Francisco Municipal Transportation Agency",
-      "source_url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
-      "note": "Street-running cable cars are different from aerial gondolas and electrically powered historic streetcars. Service can pause for maintenance; survival is of the system, not every original vehicle. Current fare evidence: https://www.sfmta.com/fares/cable-car-single-ride",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 3,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "tuatara",
       "name": "THE TUATARA",
       "timeline": "An ancient reptile lineage",
@@ -462,6 +429,39 @@
         "status": "provisional",
         "rated_on": "2026-10-14",
         "note": "Current specialist product listings and a universally recognisable silhouette make a strong exhibit; evidence supports availability rather than a broad manufacturing-volume claim."
+      }
+    },
+    {
+      "id": "bookmobiles",
+      "name": "BOOKMOBILES",
+      "timeline": "Still making rounds",
+      "verified_year": "2026",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still lending",
+      "headline": "The library still arrives on four wheels.",
+      "why_survives": "Mobile branches bring books, holds, internet access and programmes to communities beyond fixed library buildings.",
+      "where_now": "Mobile Public Library’s 2026 schedule supports borrowing, holds and Wi-Fi aboard its bookmobile.",
+      "source_name": "Mobile Public Library",
+      "source_url": "https://www.mobilepubliclibrary.org/locations-hours/bookmobile-outreach",
+      "note": "Verified 15 October 2026 against the library’s current 2026 schedule and service description. This establishes active service in Mobile County, Alabama, not universal survival of every historic bookmobile programme.",
+      "verified_on": "2026-10-15",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-15",
+        "note": "A current dated operator schedule and active service details provide unusually direct survival evidence; the mobile-library silhouette is visually legible and broadens the everyday-life category."
       }
     }
   ]

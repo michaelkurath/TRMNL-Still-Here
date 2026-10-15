@@ -328,6 +328,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/ps-waverley.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/ps-waverley-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/ps-waverley-master-2x1.jpg"
+    },
+    {
+      "id": "san-francisco-cable-cars",
+      "name": "SAN FRANCISCO CABLE CARS",
+      "timeline": "First service in 1873",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still climbing",
+      "headline": "A moving cable beneath the street still pulls passengers up the hills.",
+      "why_survives": "Public preservation and continuing transit and visitor demand keep the cable-powered system in service.",
+      "where_now": "SFMTA lists the Powell–Mason and Powell–Hyde routes as active, with daily service and live arrival information.",
+      "source_name": "San Francisco Municipal Transportation Agency",
+      "source_url": "https://www.sfmta.com/routes/powell-mason-cable-car",
+      "note": "Verified 15 October 2026 against SFMTA’s active route pages, current daily hours, schedules and live stop data. Street-running cable cars use a moving underground cable and are distinct from aerial gondolas, electric trolleybuses and historic streetcars. Temporary maintenance outages do not negate continued operation of the system.",
+      "verified_on": "2026-10-15",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 3,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-15",
+        "note": "Current operator routes, hours and live stop data establish continuing service; original artwork passed responsive crop review. Catalogue fit is moderated because the system is intentionally preserved and globally famous."
+      },
+      "exhibit": "015",
+      "image_alt": "Interpretive monochrome illustration of a San Francisco street cable car climbing a steep hill above the moving cable slot.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/san-francisco-cable-cars.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-master-2x1.jpg"
     }
   ]
 }
