@@ -69,7 +69,7 @@ async function main() {
     let calls = 0;
     global.fetch = async (url) => {
       calls += 1;
-      assert.match(url, /\\/data\\/trmnl\\.json$/);
+      assert.match(url, /\/data\/trmnl\.json$/);
       return { ok: true, json: async () => ({ items: bigItems }) };
     };
 
