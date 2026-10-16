@@ -366,6 +366,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/san-francisco-cable-cars.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-master-2x1.jpg"
+    },
+    {
+      "id": "bookmobiles",
+      "name": "BOOKMOBILES",
+      "timeline": "Still making rounds",
+      "verified_year": "2026",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still lending",
+      "headline": "The library still arrives on four wheels.",
+      "why_survives": "Mobile branches bring books, holds, internet access and programmes to communities beyond fixed library buildings.",
+      "where_now": "Mobile Public Library’s 2026 schedule supports borrowing, holds and Wi-Fi aboard its bookmobile.",
+      "source_name": "Mobile Public Library",
+      "source_url": "https://www.mobilepubliclibrary.org/locations-hours/bookmobile-outreach",
+      "note": "Verified 16 October 2026 against Mobile Public Library’s current service page and 2026 schedule. The operator documents borrowing, returns, hold pickup, outreach and Wi-Fi. This establishes an active local service in Mobile County, Alabama, not universal survival of every historic bookmobile programme.",
+      "verified_on": "2026-10-16",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-16",
+        "note": "Current operator scheduling and service details establish active operation; the original artwork passed both responsive exports and device-layout review."
+      },
+      "exhibit": "016",
+      "image_alt": "Interpretive monochrome illustration of a contemporary bookmobile serving readers at a community stop.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/bookmobiles.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bookmobiles-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bookmobiles-master-2x1.jpg"
     }
   ]
 }
