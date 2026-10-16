@@ -13,6 +13,8 @@ New coelacanth and COBOL illustrations were generated with the built-in image ge
 
 Inspect all subject edges in both crops. Render OG at 1-bit and X at 4-bit; the wide image is used for Full and the standard image for compact layouts. Never reuse source photographs without checking licensing.
 
+For unusually long subjects that cannot survive a 4:3 center crop, contain-resize the standard export on white rather than cutting off identifying parts. Record that exception in the dated image update.
+
 ## Generation prompts
 
 Coelacanth: one anatomically plausible West Indian Ocean coelacanth swimming side-on in deep water beside a restrained rocky submarine slope; fleshy lobed fins, heavy scales and three-lobed tail; detailed black-and-white natural-history engraving, strong silhouette, high contrast; landscape 2:1 with complete fish centrally framed for a safe 4:3 crop; subdued water and rocks at the sides; no text, logos, borders or watermark.
@@ -57,3 +59,7 @@ Complete prompts, crop corrections and export details: [image update](IMAGE_UPDA
 [13 October photographic-film artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-13.md).
 
 [14 October PS Waverley artwork, crop correction and prompt](IMAGE_UPDATE_2026-10-14.md).
+
+## 16 October 2026 — Bookmobiles
+
+Exports are `bookmobiles-master-2x1.jpg` (1600×800), `bookmobiles-standard-4x3.jpg` (1067×800) and the legacy standard-path copy. White contain padding preserves the complete long vehicle in 4:3. Full prompt and export details: [image update](IMAGE_UPDATE_2026-10-16.md).

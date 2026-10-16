@@ -432,20 +432,20 @@
       }
     },
     {
-      "id": "bookmobiles",
-      "name": "BOOKMOBILES",
-      "timeline": "Still making rounds",
+      "id": "pagers",
+      "name": "PAGERS",
+      "timeline": "Still signalling",
       "verified_year": "2026",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Still lending",
-      "headline": "The library still arrives on four wheels.",
-      "why_survives": "Mobile branches bring books, holds, internet access and programmes to communities beyond fixed library buildings.",
-      "where_now": "Mobile Public Library’s 2026 schedule supports borrowing, holds and Wi-Fi aboard its bookmobile.",
-      "source_name": "Mobile Public Library",
-      "source_url": "https://www.mobilepubliclibrary.org/locations-hours/bookmobile-outreach",
-      "note": "Verified 15 October 2026 against the library’s current 2026 schedule and service description. This establishes active service in Mobile County, Alabama, not universal survival of every historic bookmobile programme.",
-      "verified_on": "2026-10-15",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still paging",
+      "headline": "The little belt-worn receiver still carries urgent messages.",
+      "why_survives": "Dedicated radio paging penetrates hospital structures and remains independent of Wi-Fi, cellular networks and mains power.",
+      "where_now": "Spok currently supplies dedicated, encrypted and waiting-area pagers over its US healthcare paging network.",
+      "source_name": "Spok",
+      "source_url": "https://www.spok.com/solutions/paging-services/",
+      "note": "Verified 16 October 2026 against Spok’s current service page, which offers physical hospital pagers and states that its paging network processes millions of messages per month. This establishes active specialist healthcare use in the United States, not mass-market consumer popularity or use by every hospital.",
+      "verified_on": "2026-10-16",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -453,15 +453,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 4,
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 5,
         "survival_evidence": 5,
-        "catalogue_fit": 5,
+        "catalogue_fit": 4,
         "total": 23,
         "status": "provisional",
-        "rated_on": "2026-10-15",
-        "note": "A current dated operator schedule and active service details provide unusually direct survival evidence; the mobile-library silhouette is visually legible and broadens the everyday-life category."
+        "rated_on": "2026-10-16",
+        "note": "A current nationwide specialist operator provides direct survival evidence; the form is iconic, though the present-day use case is concentrated in healthcare and related critical communications."
       }
     }
   ]
