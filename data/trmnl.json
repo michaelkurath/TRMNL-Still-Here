@@ -404,6 +404,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/bookmobiles.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bookmobiles-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bookmobiles-master-2x1.jpg"
+    },
+    {
+      "id": "pagers",
+      "name": "PAGERS",
+      "timeline": "Still signalling",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still paging",
+      "headline": "The little belt-worn receiver still carries urgent messages.",
+      "why_survives": "Dedicated radio paging penetrates hospital structures and remains independent of Wi-Fi, cellular networks and mains power.",
+      "where_now": "Spok currently supplies dedicated, encrypted and waiting-area pagers over its US healthcare paging network.",
+      "source_name": "Spok",
+      "source_url": "https://www.spok.com/solutions/paging-services/",
+      "note": "Verified 17 October 2026 against Spok’s current healthcare paging pages and active support documentation. The operator offers physical encrypted and conventional pagers, and documents live network and device support. This establishes continuing specialist healthcare use in the United States, not renewed mass-market consumer popularity or use by every hospital.",
+      "verified_on": "2026-10-17",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-17",
+        "note": "Current operator and support pages establish active physical-pager service; the original hospital illustration passed responsive crop and device-layout review."
+      },
+      "exhibit": "017",
+      "image_alt": "Interpretive monochrome close-up of a physical alphanumeric pager clipped to medical scrubs in a modern hospital.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/pagers.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pagers-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pagers-master-2x1.jpg"
     }
   ]
 }

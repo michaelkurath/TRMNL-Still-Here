@@ -432,20 +432,20 @@
       }
     },
     {
-      "id": "pagers",
-      "name": "PAGERS",
-      "timeline": "Still signalling",
+      "id": "swiss-teletext",
+      "name": "SWISS TELETEXT",
+      "timeline": "On screens since 1984",
       "verified_year": "2026",
       "category": "Technology",
       "category_key": "technology",
       "status": "Still paging",
-      "headline": "The little belt-worn receiver still carries urgent messages.",
-      "why_survives": "Dedicated radio paging penetrates hospital structures and remains independent of Wi-Fi, cellular networks and mains power.",
-      "where_now": "Spok currently supplies dedicated, encrypted and waiting-area pagers over its US healthcare paging network.",
-      "source_name": "Spok",
-      "source_url": "https://www.spok.com/solutions/paging-services/",
-      "note": "Verified 16 October 2026 against Spok’s current service page, which offers physical hospital pagers and states that its paging network processes millions of messages per month. This establishes active specialist healthcare use in the United States, not mass-market consumer popularity or use by every hospital.",
-      "verified_on": "2026-10-16",
+      "headline": "The blocky information pages still wait behind the television button.",
+      "why_survives": "A fast, simple broadcast service still supplies news, sport, weather and accessible television subtitles.",
+      "where_now": "SRF still directs viewers to Teletext, teletext.ch and subtitle page 777.",
+      "source_name": "Swiss Radio and Television (SRF)",
+      "source_url": "https://www.srf.ch/dienstleistungen-und-kontakte-teletext",
+      "note": "Verified 17 October 2026 against current SRF service and accessibility pages. SRF directs users to teletext.ch, and its subtitle guidance still identifies Teletext page 777. This establishes the Swiss service’s continued availability; it does not claim that every broadcaster retains Teletext or that the service is unchanged since 1984.",
+      "verified_on": "2026-10-17",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -454,14 +454,14 @@
       },
       "rating": {
         "recognition": 5,
-        "visual_strength": 4,
+        "visual_strength": 5,
         "story_strength": 5,
         "survival_evidence": 5,
         "catalogue_fit": 4,
-        "total": 23,
+        "total": 24,
         "status": "provisional",
-        "rated_on": "2026-10-16",
-        "note": "A current nationwide specialist operator provides direct survival evidence; the form is iconic, though the present-day use case is concentrated in healthcare and related critical communications."
+        "rated_on": "2026-10-17",
+        "note": "Current broadcaster pages provide direct survival evidence and the pixel-grid screen is instantly recognisable; catalogue fit is slightly moderated because Teletext remains a consciously maintained legacy service."
       }
     }
   ]
