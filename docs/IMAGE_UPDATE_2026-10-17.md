@@ -1,0 +1,9 @@
+# Pagers artwork — 17 October 2026
+
+The built-in image generator created an original contemporary monochrome illustration. It is not a photograph of a specific hospital, clinician or pager model.
+
+Prompt:
+
+> Use case: illustration-story. Asset type: STILL HERE e-paper museum exhibit master, responsive 2:1 with a centered 4:3 safe area. Create an original contemporary monochrome editorial engraving showing a physical alphanumeric hospital pager still in active use. Main subject: one compact late-model rectangular pager clipped to the chest pocket of plain medical scrubs, close enough to show its belt clip, small display window, two tactile buttons and alert light, but with no readable message, logo or brand. In the softly receding background, show a recognizable modern hospital corridor with a nurses' station, wall clock without readable numerals, and one anonymous clinician walking away. The pager must be the unmistakable focal point and must not look like a smartphone, walkie-talkie or visitor restaurant buzzer. High-contrast black, white and restrained grayscale, crisp museum-engraving realism, broad e-paper-friendly tonal regions, no pre-dithering. Wide landscape composition; keep the complete pager, pocket, and enough of the scrub torso fully inside the centered two-thirds 4:3 safe zone with 12–15% breathing room; outer wings contain corridor only. No readable text, numbers, patient data, logos, brands, faces, watermark, border or color. Interpretive contemporary artwork, not documentary evidence of a specific hospital.
+
+Exports are `pagers-master-2x1.jpg` (1600×800), `pagers-standard-4x3.jpg` (1067×800), and the legacy standard-path copy. Both exports are centered 8-bit grayscale JPEGs at quality 88. The pager, clip, pocket and medical context remain legible in both formats.

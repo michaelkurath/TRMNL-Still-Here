@@ -63,3 +63,7 @@ Complete prompts, crop corrections and export details: [image update](IMAGE_UPDA
 ## 16 October 2026 — Bookmobiles
 
 Exports are `bookmobiles-master-2x1.jpg` (1600×800), `bookmobiles-standard-4x3.jpg` (1067×800) and the legacy standard-path copy. White contain padding preserves the complete long vehicle in 4:3. Full prompt and export details: [image update](IMAGE_UPDATE_2026-10-16.md).
+
+## 17 October 2026 — Pagers
+
+Exports are `pagers-master-2x1.jpg` (1600×800), `pagers-standard-4x3.jpg` (1067×800), and the legacy standard-path copy. Both centered crops preserve the physical pager, clip, pocket and hospital context without readable patient data. Full prompt and export details: [image update](IMAGE_UPDATE_2026-10-17.md).
