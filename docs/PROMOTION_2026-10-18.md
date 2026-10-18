@@ -9,3 +9,5 @@ DOC's 1 September 2026 release https://dxcprod.doc.govt.nz/news/media-releases/2
 Live/candidate schemas, Saved State filtering and compact Serverless tests, website build, JavaScript syntax and diff checks are mandatory.  GitHub trmnlp lint, hosted renders and visual review of all 12 relevant device layouts are merge gates; no merge is authorised by this document alone.
 
 Complete artwork prompt and crop decisions: [image update](IMAGE_UPDATE_2026-10-18.md).
+
+Initial device review caught compact-footer crowding from “On screens since 1984”. The timeline was shortened to “Since 1984”; a fresh hosted render and complete 12-layout visual review are required before merge.
