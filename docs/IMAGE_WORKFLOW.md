@@ -1,5 +1,9 @@
 # Image workflow
 
+## 18 October 2026 — Swiss Teletext
+
+Original built-in generated artwork: `swiss-teletext-master-2x1.jpg` (1600×800) and `swiss-teletext-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. Full prompt, qualification and crop/export decisions: [image update](IMAGE_UPDATE_2026-10-18.md).
+
 All exhibit artwork is interpretive monochrome illustration. Do not describe it as archival photography or evidence of a location’s present appearance.
 
 New coelacanth and COBOL illustrations were generated with the built-in image generator. The video-store illustration was reused from Michael Kurath’s GOODBYE under its CC BY 4.0 attribution terms. The complete-frame-and-sprout SVG extends the template’s vector frame system.

@@ -432,20 +432,20 @@
       }
     },
     {
-      "id": "swiss-teletext",
-      "name": "SWISS TELETEXT",
-      "timeline": "On screens since 1984",
+      "id": "kakapo",
+      "name": "THE KĀKĀPŌ",
+      "timeline": "Recovery since 1995",
       "verified_year": "2026",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still paging",
-      "headline": "The blocky information pages still wait behind the television button.",
-      "why_survives": "A fast, simple broadcast service still supplies news, sport, weather and accessible television subtitles.",
-      "where_now": "SRF still directs viewers to Teletext, teletext.ch and subtitle page 777.",
-      "source_name": "Swiss Radio and Television (SRF)",
-      "source_url": "https://www.srf.ch/dienstleistungen-und-kontakte-teletext",
-      "note": "Verified 17 October 2026 against current SRF service and accessibility pages. SRF directs users to teletext.ch, and its subtitle guidance still identifies Teletext page 777. This establishes the Swiss service’s continued availability; it does not claim that every broadcaster retains Teletext or that the service is unchanged since 1984.",
-      "verified_on": "2026-10-17",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Still recovering",
+      "headline": "The flightless night parrot survives through intensive conservation.",
+      "why_survives": "Predator-free habitat, monitored breeding and conservation partnerships support a small, vulnerable population.",
+      "where_now": "DOC reported 325 birds on 1 September 2026, with breeding populations on three protected New Zealand islands.",
+      "source_name": "New Zealand Department of Conservation",
+      "source_url": "https://dxcprod.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
+      "note": "Checked 18 October 2026. DOC reports 325 birds on 1 September 2026 after ninety chicks joined the official tally. This is a dated recovery count, not a live census or a claim of safety from extinction. Breeding populations occupy Whenua Hou, Pukenui and Te Kāhaku.",
+      "verified_on": "2026-10-18",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -453,15 +453,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
+        "recognition": 4,
         "visual_strength": 5,
         "story_strength": 5,
         "survival_evidence": 5,
-        "catalogue_fit": 4,
+        "catalogue_fit": 5,
         "total": 24,
         "status": "provisional",
-        "rated_on": "2026-10-17",
-        "note": "Current broadcaster pages provide direct survival evidence and the pixel-grid screen is instantly recognisable; catalogue fit is slightly moderated because Teletext remains a consciously maintained legacy service."
+        "rated_on": "2026-10-18",
+        "note": "Distinctive flightless parrot, strong survival story and recent dated agency evidence; continued vulnerability remains explicit."
       }
     }
   ]

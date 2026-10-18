@@ -442,6 +442,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/pagers.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pagers-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pagers-master-2x1.jpg"
+    },
+    {
+      "id": "swiss-teletext",
+      "name": "SWISS TELETEXT",
+      "timeline": "Since 1984",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still paging",
+      "headline": "The blocky information pages still wait behind the television button.",
+      "why_survives": "A fast, simple broadcast service still supplies news, sport, weather and accessible television subtitles.",
+      "where_now": "SRF still directs viewers to Teletext, teletext.ch and subtitle page 777.",
+      "source_name": "Swiss Radio and Television (SRF)",
+      "source_url": "https://www.srf.ch/dienstleistungen-und-kontakte-teletext",
+      "note": "Verified 18 October 2026 against current SRF service and accessibility pages. The Swiss service remains available on television, web and app, with subtitle page 777. This does not claim every broadcaster retains Teletext or that the service is unchanged since 1984.",
+      "verified_on": "2026-10-18",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 24,
+        "status": "reviewed",
+        "rated_on": "2026-10-18",
+        "note": "Sources and scope rechecked 18 October 2026; original monochrome responsive artwork reviewed. Device-layout review remains a mandatory merge gate."
+      },
+      "exhibit": "018",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/swiss-teletext-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/swiss-teletext-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/swiss-teletext.jpg",
+      "image_alt": "Interpretive monochrome illustration of a television showing a blocky Teletext-style page beside a remote control."
     }
   ]
 }
