@@ -480,6 +480,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/swiss-teletext-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/swiss-teletext.jpg",
       "image_alt": "Interpretive monochrome illustration of a television showing a blocky Teletext-style page beside a remote control."
+    },
+    {
+      "id": "kakapo",
+      "name": "THE KĀKĀPŌ",
+      "timeline": "Since 1995",
+      "verified_year": "2026",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Still recovering",
+      "headline": "The flightless night parrot survives through intensive conservation.",
+      "why_survives": "Predator-free habitat, monitored breeding and conservation partnerships support a small, vulnerable population.",
+      "where_now": "DOC reported 325 birds on 1 September 2026, with breeding populations on three protected New Zealand islands.",
+      "source_name": "New Zealand Department of Conservation",
+      "source_url": "https://dxcprod.doc.govt.nz/kakapo",
+      "note": "Rechecked 19 October 2026 against DOC’s current species page and dated 1 September 2026 release. The latter reports 325 birds after ninety chicks joined the tally; this remains a dated count, not a live census. The species remains critically endangered and depends on managed predator-free habitat. Breeding populations and fenced-sanctuary birds are not evidence of widespread recovery, and DOC states there is no public viewing site.",
+      "verified_on": "2026-10-19",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "reviewed",
+        "rated_on": "2026-10-19",
+        "note": "Authoritative source and scope review completed 19 October 2026; original responsive artwork reviewed. Hosted device-layout review remains a merge gate."
+      },
+      "exhibit": "019",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/kakapo-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/kakapo-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/kakapo.jpg",
+      "sources": [
+        {
+          "name": "DOC — Kākāpō population reaches new milestone, 1 September 2026",
+          "url": "https://dxcprod.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
+          "supports": "Dated population milestone and continuing recovery programme."
+        }
+      ],
+      "image_alt": "Interpretive monochrome natural-history illustration of a complete kākāpō on a protected native forest floor."
     }
   ]
 }

@@ -25,7 +25,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Photographic film | ILFORD: current 35mm, roll and sheet-film product listing |
 | PS Waverley | Operator: dated October 2026 sailings and booking instructions |
 
-**18 live exhibits and 14 candidates.** Swiss Teletext is exhibit 018. New candidate: Kākāpō (24/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**19 live exhibits and 14 candidates.** Kākāpō is exhibit 019. New candidate: Stuttgart Paternosters (24/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -85,4 +85,4 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **18 live exhibits and 14 candidates**. See [18 October review](docs/PROMOTION_2026-10-18.md).
+Latest collection update: **19 live exhibits and 14 candidates**. See [19 October review](docs/PROMOTION_2026-10-19.md).
