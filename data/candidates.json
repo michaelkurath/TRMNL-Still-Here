@@ -432,20 +432,20 @@
       }
     },
     {
-      "id": "kakapo",
-      "name": "THE KĀKĀPŌ",
-      "timeline": "Recovery since 1995",
+      "id": "stuttgart-paternosters",
+      "name": "STUTTGART PATERNOSTERS",
+      "timeline": "Since 1956",
       "verified_year": "2026",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Still recovering",
-      "headline": "The flightless night parrot survives through intensive conservation.",
-      "why_survives": "Predator-free habitat, monitored breeding and conservation partnerships support a small, vulnerable population.",
-      "where_now": "DOC reported 325 birds on 1 September 2026, with breeding populations on three protected New Zealand islands.",
-      "source_name": "New Zealand Department of Conservation",
-      "source_url": "https://dxcprod.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
-      "note": "Checked 18 October 2026. DOC reports 325 birds on 1 September 2026 after ninety chicks joined the official tally. This is a dated recovery count, not a live census or a claim of safety from extinction. Breeding populations occupy Whenua Hou, Pukenui and Te Kāhaku.",
-      "verified_on": "2026-10-18",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still looping",
+      "headline": "The doorless lift cabins still make their endless loop through city hall.",
+      "why_survives": "Stuttgart maintains its heritage lifts, including a modernised 1956 installation used during published weekday hours.",
+      "where_now": "The city hall visitor page lists three paternosters and operating hours, subject to maintenance interruptions.",
+      "source_name": "City of Stuttgart",
+      "source_url": "https://www.stuttgart.de/rathaus/besucher/",
+      "note": "Checked 19 October 2026. The city visitor page, dated 13 May 2026, identifies three paternosters. It dates the Marktplatz-wing lift to 1956, records its 2004 modernisation and publishes weekday operating hours. Occasional maintenance closures are explicit. This verifies maintained operation at this site, not that the original machinery is unchanged or that every paternoster remains open. No advice to ride through the turning sections is implied.",
+      "verified_on": "2026-10-19",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -460,8 +460,8 @@
         "catalogue_fit": 5,
         "total": 24,
         "status": "provisional",
-        "rated_on": "2026-10-18",
-        "note": "Distinctive flightless parrot, strong survival story and recent dated agency evidence; continued vulnerability remains explicit."
+        "rated_on": "2026-10-19",
+        "note": "Distinctive endlessly circulating cabins, strong survival surprise and current municipal operating evidence; recognition is less universal than a conventional lift."
       }
     }
   ]
