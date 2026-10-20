@@ -525,6 +525,51 @@
         }
       ],
       "image_alt": "Interpretive monochrome natural-history illustration of a complete kākāpō on a protected native forest floor."
+    },
+    {
+      "id": "stuttgart-paternosters",
+      "name": "STUTTGART PATERNOSTERS",
+      "timeline": "Since 1956",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still looping",
+      "headline": "The doorless lift cabins still make their endless loop through city hall.",
+      "why_survives": "Stuttgart maintains its heritage lifts, including a modernised 1956 installation used during published weekday hours.",
+      "where_now": "The city hall visitor page lists three paternosters and operating hours, subject to maintenance interruptions.",
+      "source_name": "City of Stuttgart",
+      "source_url": "https://www.stuttgart.de/rathaus/besucher/",
+      "note": "Rechecked 20 October 2026. Stuttgart’s current visitor page, dated 13 May 2026, lists three paternosters, weekday operating hours and possible maintenance closures. The Marktplatz-wing lift dates to 1956 and was modernised in 2004. A September 2026 municipal release also describes public paternoster rides. This confirms maintained operation at this site, not unchanged machinery or continuous availability. The illustration is a generic interpretive foyer, not an exact interior survey; it offers no advice on entering turning sections.",
+      "verified_on": "2026-10-20",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "reviewed",
+        "rated_on": "2026-10-20",
+        "note": "Source, scope and responsive artwork review completed 20 October 2026. Hosted device renders and final visual review remain mandatory merge gates."
+      },
+      "exhibit": "020",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/stuttgart-paternosters-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/stuttgart-paternosters-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/stuttgart-paternosters.jpg",
+      "sources": [
+        {
+          "name": "City of Stuttgart — Open Day announcement, 15 September 2026",
+          "url": "https://www.stuttgart.de/pressemitteilungen/2026/september/tag-der-offenen-tuer-im-rathaus-entdecken-mitmachen-und-hinter-die-kulissen-schauen-7166805",
+          "supports": "Recent municipal confirmation that paternoster rides remain part of city hall visits."
+        }
+      ],
+      "image_alt": "Interpretive monochrome illustration of adjacent open wooden paternoster cabins passing a civic-office landing."
     }
   ]
 }

@@ -432,20 +432,27 @@
       }
     },
     {
-      "id": "stuttgart-paternosters",
-      "name": "STUTTGART PATERNOSTERS",
-      "timeline": "Since 1956",
+      "id": "usenet",
+      "name": "USENET",
+      "timeline": "Before the Web",
       "verified_year": "2026",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still looping",
-      "headline": "The doorless lift cabins still make their endless loop through city hall.",
-      "why_survives": "Stuttgart maintains its heritage lifts, including a modernised 1956 installation used during published weekday hours.",
-      "where_now": "The city hall visitor page lists three paternosters and operating hours, subject to maintenance interruptions.",
-      "source_name": "City of Stuttgart",
-      "source_url": "https://www.stuttgart.de/rathaus/besucher/",
-      "note": "Checked 19 October 2026. The city visitor page, dated 13 May 2026, identifies three paternosters. It dates the Marktplatz-wing lift to 1956, records its 2004 modernisation and publishes weekday operating hours. Occasional maintenance closures are explicit. This verifies maintained operation at this site, not that the original machinery is unchanged or that every paternoster remains open. No advice to ride through the turning sections is implied.",
-      "verified_on": "2026-10-19",
+      "category": "Internet",
+      "category_key": "internet",
+      "status": "Still online",
+      "headline": "The pre-Web discussion network still has working servers.",
+      "why_survives": "Independent providers maintain distributed newsgroup servers and access through dedicated newsreader software.",
+      "where_now": "Eweka currently offers Usenet subscriptions, server settings and newsreader support for active and archived groups.",
+      "source_name": "Eweka Internet Services",
+      "source_url": "https://www.eweka.nl/en/newsgroups",
+      "note": "Checked 20 October 2026. Eweka publishes current subscription and server-configuration instructions for its Usenet backbone. This verifies a maintained access service, not that every listed group has active discussion, that historical content is complete, or that every original server survives. Active access and archived articles are distinguished. Provider marketing about speed, retention and group counts is not repeated as an independently verified fact.",
+      "sources": [
+        {
+          "name": "Eweka support — Start Accessing Usenet Newsgroups",
+          "url": "https://help.eweka.nl/kb/article/1236-start-accessing-usenet-newsgroups-with-eweka/",
+          "supports": "Current account, server and newsreader setup support."
+        }
+      ],
+      "verified_on": "2026-10-20",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -454,14 +461,14 @@
       },
       "rating": {
         "recognition": 4,
-        "visual_strength": 5,
+        "visual_strength": 3,
         "story_strength": 5,
         "survival_evidence": 5,
         "catalogue_fit": 5,
-        "total": 24,
+        "total": 22,
         "status": "provisional",
-        "rated_on": "2026-10-19",
-        "note": "Distinctive endlessly circulating cabins, strong survival surprise and current municipal operating evidence; recognition is less universal than a conventional lift."
+        "rated_on": "2026-10-20",
+        "note": "Strong pre-Web survival story and current operator evidence. Abstract server/newsreader imagery is less immediately distinctive than physical machinery."
       }
     }
   ]
