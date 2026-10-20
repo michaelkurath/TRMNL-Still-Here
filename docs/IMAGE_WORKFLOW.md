@@ -1,5 +1,9 @@
 # Image workflow
 
+## 20 October 2026 — Stuttgart Paternosters
+
+Original built-in generated artwork: `stuttgart-paternosters-master-2x1.jpg` (1600×800) and `stuttgart-paternosters-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. Full prompt, subject qualification and crop/padding decisions: [image update](IMAGE_UPDATE_2026-10-20.md).
+
 ## 19 October 2026 — Kākāpō
 
 Original built-in generated artwork: `kakapo-master-2x1.jpg` (1600×800) and `kakapo-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the complete subject in 4:3. Complete prompts, scope and export decisions: [image update](IMAGE_UPDATE_2026-10-19.md).
