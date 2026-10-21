@@ -570,6 +570,44 @@
         }
       ],
       "image_alt": "Interpretive monochrome illustration of adjacent open wooden paternoster cabins passing a civic-office landing."
+    },
+    {
+      "id": "magnetic-data-tape",
+      "name": "MAGNETIC DATA TAPE",
+      "timeline": "Still archiving today",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still storing",
+      "headline": "The cassette left the living room. Magnetic tape stayed in the data centre.",
+      "why_survives": "High-capacity cartridges suit long-term archives and can be stored offline without continuous power.",
+      "where_now": "Fujifilm currently offers modern LTO data tape for organisational backup and archiving.",
+      "source_name": "Fujifilm Data Storage",
+      "source_url": "https://datastorage-na.fujifilm.com/lto-tape-data-storage/",
+      "note": "Rechecked 21 October 2026. Fujifilm’s current LTO page presents tape for active archiving, backup and offline storage and describes a continuing multi-generation roadmap. This exhibit concerns modern digital LTO tape, not audio cassettes or VHS. Manufacturer evidence establishes an ongoing offering; no universal lifetime, cost-saving, capacity or ransomware-immunity claim is adopted. Offline storage still requires appropriate operational controls. Artwork is a generic interpretive data centre and tape library, not a particular product installation.",
+      "verified_on": "2026-10-21",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-21",
+        "note": "Current manufacturer evidence, scope and responsive artwork reviewed 21 October 2026; hosted device-layout review remains a mandatory merge gate."
+      },
+      "exhibit": "021",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/magnetic-data-tape-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/magnetic-data-tape-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/magnetic-data-tape.jpg",
+      "image_alt": "Interpretive monochrome illustration of an LTO-style data cartridge before an automated tape-library bay."
     }
   ]
 }
