@@ -1,5 +1,9 @@
 # Image workflow
 
+## 21 October 2026 — Magnetic Data Tape
+
+Original built-in generated artwork: `magnetic-data-tape-master-2x1.jpg` (1600×800) and `magnetic-data-tape-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The standard export uses a centered crop that preserves the complete foreground cartridge and robotic library bay. Full prompt, scope and export decisions: [image update](IMAGE_UPDATE_2026-10-21.md).
+
 ## 20 October 2026 — Stuttgart Paternosters
 
 Original built-in generated artwork: `stuttgart-paternosters-master-2x1.jpg` (1600×800) and `stuttgart-paternosters-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. Full prompt, subject qualification and crop/padding decisions: [image update](IMAGE_UPDATE_2026-10-20.md).

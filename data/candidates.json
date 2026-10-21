@@ -168,39 +168,6 @@
       }
     },
     {
-      "id": "magnetic-data-tape",
-      "name": "MAGNETIC DATA TAPE",
-      "timeline": "Still archiving today",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still storing",
-      "headline": "The cassette left the living room. Magnetic tape stayed in the data centre.",
-      "why_survives": "High-capacity cartridges suit long-term archives and can be stored offline without continuous power.",
-      "where_now": "Fujifilm offers modern LTO data-tape products for organisational backup and archiving.",
-      "source_name": "Fujifilm Data Storage",
-      "source_url": "https://datastorage-na.fujifilm.com/lto-tape-data-storage/",
-      "note": "Modern digital LTO data tape, not audio cassettes or VHS. Manufacturer evidence establishes an ongoing offering; no universal lifetime, cost saving, capacity or ransomware-immunity claim is made. Offline storage requires appropriate operational controls.",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "fax",
       "name": "FAX",
       "timeline": "Still sending documents",
@@ -469,6 +436,39 @@
         "status": "provisional",
         "rated_on": "2026-10-20",
         "note": "Strong pre-Web survival story and current operator evidence. Abstract server/newsreader imagery is less immediately distinctive than physical machinery."
+      }
+    },
+    {
+      "id": "vacuum-tubes",
+      "name": "VACUUM TUBES",
+      "timeline": "Invented in 1904",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still glowing",
+      "headline": "The transistor took over. New vacuum tubes still leave the factory.",
+      "why_survives": "Valve amplifiers and specialist electronics sustain demand for newly manufactured preamp, power and rectifier tubes.",
+      "where_now": "JJ Electronic currently lists a broad catalogue of vacuum tubes for guitar and hi-fi equipment.",
+      "source_name": "JJ Electronic",
+      "source_url": "https://www.jj-electronic.com/en/vacuum-tubes",
+      "note": "Checked 21 October 2026. The manufacturer’s live catalogue lists preamplifying, power and rectifying vacuum tubes, including current product pages. This verifies continuing specialist production and sale, not mass-market dominance, uninterrupted production since 1904, or survival of every historical valve type. The 1904 timeline marks Fleming’s thermionic diode, not this manufacturer’s founding.",
+      "verified_on": "2026-10-21",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "provisional",
+        "rated_on": "2026-10-21",
+        "note": "Highly recognisable glowing hardware with direct current-manufacturer evidence; scope is specialist production rather than mainstream electronics."
       }
     }
   ]
