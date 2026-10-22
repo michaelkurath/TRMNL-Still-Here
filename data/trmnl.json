@@ -608,6 +608,44 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/magnetic-data-tape-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/magnetic-data-tape.jpg",
       "image_alt": "Interpretive monochrome illustration of an LTO-style data cartridge before an automated tape-library bay."
+    },
+    {
+      "id": "vacuum-tubes",
+      "name": "VACUUM TUBES",
+      "timeline": "Invented in 1904",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still glowing",
+      "headline": "The transistor took over. New vacuum tubes still leave the factory.",
+      "why_survives": "Valve amplifiers and specialist electronics sustain demand for newly manufactured preamp, power and rectifier tubes.",
+      "where_now": "JJ Electronic currently lists more than thirty vacuum-tube types for specialist audio equipment.",
+      "source_name": "JJ Electronic",
+      "source_url": "https://www.jj-electronic.com/en/vacuum-tubes",
+      "note": "Rechecked 22 October 2026. JJ Electronic’s current site presents an assortment of more than thirty vacuum-tube types, audio capacitors and amplifiers, while its catalogue separates preamplifying, power and rectifying tubes. This verifies continuing specialist manufacture and sale, not mass-market dominance, uninterrupted production since 1904 or survival of every historical valve type. The 1904 timeline marks Fleming’s thermionic diode, not this manufacturer’s founding. Artwork is an original generic workshop interpretation, not a branded product or factory record.",
+      "verified_on": "2026-10-22",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 24,
+        "status": "reviewed",
+        "rated_on": "2026-10-22",
+        "note": "Current manufacturer evidence, narrow specialist scope and original responsive artwork reviewed 22 October 2026; hosted device-layout review remains a mandatory merge gate."
+      },
+      "exhibit": "022",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vacuum-tubes-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vacuum-tubes-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/vacuum-tubes.jpg",
+      "image_alt": "Interpretive monochrome illustration of three glowing vacuum tubes on an audio-amplifier chassis in an electronics workshop."
     }
   ]
 }
