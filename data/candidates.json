@@ -439,20 +439,27 @@
       }
     },
     {
-      "id": "vacuum-tubes",
-      "name": "VACUUM TUBES",
-      "timeline": "Invented in 1904",
+      "id": "amateur-radio",
+      "name": "AMATEUR RADIO",
+      "timeline": "Still on the air",
       "verified_year": "2026",
       "category": "Technology",
       "category_key": "technology",
-      "status": "Still glowing",
-      "headline": "The transistor took over. New vacuum tubes still leave the factory.",
-      "why_survives": "Valve amplifiers and specialist electronics sustain demand for newly manufactured preamp, power and rectifier tubes.",
-      "where_now": "JJ Electronic currently lists a broad catalogue of vacuum tubes for guitar and hi-fi equipment.",
-      "source_name": "JJ Electronic",
-      "source_url": "https://www.jj-electronic.com/en/vacuum-tubes",
-      "note": "Checked 21 October 2026. The manufacturer’s live catalogue lists preamplifying, power and rectifying vacuum tubes, including current product pages. This verifies continuing specialist production and sale, not mass-market dominance, uninterrupted production since 1904, or survival of every historical valve type. The 1904 timeline marks Fleming’s thermionic diode, not this manufacturer’s founding.",
-      "verified_on": "2026-10-21",
+      "status": "Still on air",
+      "headline": "A century-old radio community still builds stations and passes messages.",
+      "why_survives": "Independent equipment, technical experimentation and emergency-service networks keep licensed operators on the air.",
+      "where_now": "ARRL documented active emergency nets, public-service exercises and international amateur-radio coordination in 2026.",
+      "source_name": "ARRL — ARES Letter, 15 July 2026",
+      "source_url": "https://www.arrl.org/ares-el?issue=2026-07-15",
+      "note": "Checked 22 October 2026. ARRL’s dated 2026 ARES reporting documents active amateur-radio emergency nets, exercises, training and public-service communications; the FCC continues to publish its Universal Licensing System for licence records. This supports an operating licensed service and organised community, not universal emergency coverage, guaranteed reliability or uninterrupted activity by every club. The exhibit scope is amateur radio as a living technical practice, not commercial broadcasting.",
+      "sources": [
+        {
+          "name": "FCC — Universal Licensing System open data",
+          "url": "https://opendata.fcc.gov/Wireless/FCC-Universal-Licensing-System-ULS-/x28i-i4z4",
+          "supports": "Current federal search and downloadable licence-data system, including amateur service records."
+        }
+      ],
+      "verified_on": "2026-10-22",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -462,13 +469,13 @@
       "rating": {
         "recognition": 5,
         "visual_strength": 5,
-        "story_strength": 4,
+        "story_strength": 5,
         "survival_evidence": 5,
-        "catalogue_fit": 5,
+        "catalogue_fit": 4,
         "total": 24,
         "status": "provisional",
-        "rated_on": "2026-10-21",
-        "note": "Highly recognisable glowing hardware with direct current-manufacturer evidence; scope is specialist production rather than mainstream electronics."
+        "rated_on": "2026-10-22",
+        "note": "Recognisable equipment and a century-scale survival story with dated operational evidence; broad subject scope slightly limits catalogue fit."
       }
     }
   ]
