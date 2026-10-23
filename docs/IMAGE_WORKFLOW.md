@@ -1,5 +1,9 @@
 # Image workflow
 
+## 23 October 2026 — Amateur Radio
+
+Original built-in generated artwork: `amateur-radio-master-2x1.jpg` (1600×800) and `amateur-radio-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The centered standard crop preserves the complete transceiver, tuning dial and Morse key; the legacy image mirrors the standard crop. Full prompt, current-operating-evidence qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-23.md).
+
 ## 22 October 2026 — Vacuum Tubes
 
 Original built-in generated artwork: `vacuum-tubes-master-2x1.jpg` (1600×800) and `vacuum-tubes-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The centered standard crop preserves all three mounted tubes and their internal structures. Full prompt, specialist-production qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-22.md).
