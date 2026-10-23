@@ -439,27 +439,27 @@
       }
     },
     {
-      "id": "amateur-radio",
-      "name": "AMATEUR RADIO",
-      "timeline": "Still on the air",
+      "id": "mechanical-watches",
+      "name": "MECHANICAL WATCHES",
+      "timeline": "Still ticking",
       "verified_year": "2026",
       "category": "Technology",
       "category_key": "technology",
-      "status": "Still on air",
-      "headline": "A century-old radio community still builds stations and passes messages.",
-      "why_survives": "Independent equipment, technical experimentation and emergency-service networks keep licensed operators on the air.",
-      "where_now": "ARRL documented active emergency nets, public-service exercises and international amateur-radio coordination in 2026.",
-      "source_name": "ARRL — ARES Letter, 15 July 2026",
-      "source_url": "https://www.arrl.org/ares-el?issue=2026-07-15",
-      "note": "Checked 22 October 2026. ARRL’s dated 2026 ARES reporting documents active amateur-radio emergency nets, exercises, training and public-service communications; the FCC continues to publish its Universal Licensing System for licence records. This supports an operating licensed service and organised community, not universal emergency coverage, guaranteed reliability or uninterrupted activity by every club. The exhibit scope is amateur radio as a living technical practice, not commercial broadcasting.",
+      "status": "Still winding",
+      "headline": "Quartz won on convenience. Springs, gears and escapements never stopped.",
+      "why_survives": "Repairability, craft, collecting and the appeal of stored mechanical energy sustain specialist production.",
+      "where_now": "Sellita currently designs, manufactures and assembles mechanical watch movements in Switzerland.",
+      "source_name": "Sellita — Manufacture",
+      "source_url": "https://sellita.ch/index.php/en/manufacture",
+      "note": "Checked 23 October 2026. Sellita’s current manufacture page describes in-house design and manufacture of regulating organs and continuing production equipment, while its catalogue presents mechanical movements. This verifies an active specialist manufacturing ecosystem, not uninterrupted production by every historical maker, superiority over quartz or a claim about total market share. The subject is newly manufactured mechanical wristwatch movements, not battery-powered watches or antique-only restoration.",
       "sources": [
         {
-          "name": "FCC — Universal Licensing System open data",
-          "url": "https://opendata.fcc.gov/Wireless/FCC-Universal-Licensing-System-ULS-/x28i-i4z4",
-          "supports": "Current federal search and downloadable licence-data system, including amateur service records."
+          "name": "Sellita — Mechanical movements catalogue",
+          "url": "https://www.sellita.ch/images/documents/Catalogue2024_ENG.pdf",
+          "supports": "Current range and in-house control of design, production and assembly of mechanical movements."
         }
       ],
-      "verified_on": "2026-10-22",
+      "verified_on": "2026-10-23",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -469,13 +469,13 @@
       "rating": {
         "recognition": 5,
         "visual_strength": 5,
-        "story_strength": 5,
+        "story_strength": 4,
         "survival_evidence": 5,
         "catalogue_fit": 4,
-        "total": 24,
+        "total": 23,
         "status": "provisional",
-        "rated_on": "2026-10-22",
-        "note": "Recognisable equipment and a century-scale survival story with dated operational evidence; broad subject scope slightly limits catalogue fit."
+        "rated_on": "2026-10-23",
+        "note": "Universally recognisable mechanism and strong current manufacturer evidence; the survival story is familiar and the broad category slightly limits novelty."
       }
     }
   ]

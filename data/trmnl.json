@@ -646,6 +646,30 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vacuum-tubes-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/vacuum-tubes.jpg",
       "image_alt": "Interpretive monochrome illustration of three glowing vacuum tubes on an audio-amplifier chassis in an electronics workshop."
+    },
+    {
+      "id": "amateur-radio",
+      "name": "AMATEUR RADIO",
+      "timeline": "Still on the air",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still on air",
+      "headline": "A century-old radio community still builds stations and passes messages.",
+      "why_survives": "Independent equipment, technical experimentation and emergency-service networks keep licensed operators on the air.",
+      "where_now": "ARRL documented active emergency nets, public-service exercises and international amateur-radio coordination in 2026.",
+      "source_name": "ARRL — ARES Letter, 15 July 2026",
+      "source_url": "https://www.arrl.org/aresletterissue?issue=2026-07-15",
+      "note": "Rechecked 23 October 2026. ARRL’s dated 2026 ARES reporting documents active amateur-radio emergency nets, exercises, training and public-service communications. Its October 2026 reporting also documents active clubs, centennial operations and upcoming on-air events. This supports an operating licensed service and organised community, not universal emergency coverage, guaranteed reliability or uninterrupted activity by every club. The exhibit scope is amateur radio as a living technical practice, not commercial broadcasting. Artwork is an original generic station interpretation, not a branded product or documented installation.",
+      "sources": [{"name": "ARRL Letter — 1 October 2026", "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-01", "supports": "Current clubs, on-air activity and scheduled amateur-radio events in October 2026."}],
+      "verified_on": "2026-10-23",
+      "review": {"fact_check": "approved", "text_review": "approved", "image_review": "approved", "final_approval": "approved"},
+      "rating": {"recognition": 5, "visual_strength": 5, "story_strength": 5, "survival_evidence": 5, "catalogue_fit": 4, "total": 24, "status": "reviewed", "rated_on": "2026-10-23", "note": "Current operating evidence, qualified scope and original responsive artwork reviewed 23 October 2026; hosted device-layout review remains a mandatory merge gate."},
+      "exhibit": "023",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/amateur-radio-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/amateur-radio-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/amateur-radio.jpg",
+      "image_alt": "Interpretive monochrome illustration of a generic amateur-radio transceiver, headphones and Morse key beside an antenna-view window."
     }
   ]
 }
