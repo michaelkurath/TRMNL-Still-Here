@@ -439,27 +439,27 @@
       }
     },
     {
-      "id": "mechanical-watches",
-      "name": "MECHANICAL WATCHES",
-      "timeline": "Still ticking",
+      "id": "nixie-tubes",
+      "name": "NIXIE TUBES",
+      "timeline": "Introduced in 1955",
       "verified_year": "2026",
       "category": "Technology",
       "category_key": "technology",
-      "status": "Still winding",
-      "headline": "Quartz won on convenience. Springs, gears and escapements never stopped.",
-      "why_survives": "Repairability, craft, collecting and the appeal of stored mechanical energy sustain specialist production.",
-      "where_now": "Sellita currently designs, manufactures and assembles mechanical watch movements in Switzerland.",
-      "source_name": "Sellita — Manufacture",
-      "source_url": "https://sellita.ch/index.php/en/manufacture",
-      "note": "Checked 23 October 2026. Sellita’s current manufacture page describes in-house design and manufacture of regulating organs and continuing production equipment, while its catalogue presents mechanical movements. This verifies an active specialist manufacturing ecosystem, not uninterrupted production by every historical maker, superiority over quartz or a claim about total market share. The subject is newly manufactured mechanical wristwatch movements, not battery-powered watches or antique-only restoration.",
+      "status": "Still glowing",
+      "headline": "Solid-state displays replaced them. New Nixie tubes still leave a workshop.",
+      "why_survives": "Collectors and designers value layered numerals and a warm neon glow flat displays do not reproduce.",
+      "where_now": "Dalibor Farny’s Czech workshop currently hand-makes R-series Nixie tubes from raw materials.",
+      "source_name": "Dalibor Farny — R Nixie Tube",
+      "source_url": "https://www.daliborfarny.com/project/rz568m-nixie-tube/",
+      "note": "Checked 24 October 2026. Dalibor Farny’s current project page states that its Czech workshop produces about fifty R Nixie tubes each week and keeps replacements in stock; its current about page confirms that these are newly manufactured tubes rather than unused historical stock. This establishes small-scale specialist production, not mass-market manufacture, continuous survival of the original factories or availability of every historic type. The exhibit candidate concerns numeric cold-cathode display tubes, not ordinary vacuum amplifier tubes.",
       "sources": [
         {
-          "name": "Sellita — Mechanical movements catalogue",
-          "url": "https://www.sellita.ch/images/documents/Catalogue2024_ENG.pdf",
-          "supports": "Current range and in-house control of design, production and assembly of mechanical movements."
+          "name": "Dalibor Farny — About the workshop",
+          "url": "https://www.daliborfarny.com/about/",
+          "supports": "Current confirmation that the workshop manufactures its own tubes by hand rather than building clocks around old stock."
         }
       ],
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -467,15 +467,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
+        "recognition": 4,
         "visual_strength": 5,
-        "story_strength": 4,
+        "story_strength": 5,
         "survival_evidence": 5,
         "catalogue_fit": 4,
         "total": 23,
         "status": "provisional",
-        "rated_on": "2026-10-23",
-        "note": "Universally recognisable mechanism and strong current manufacturer evidence; the survival story is familiar and the broad category slightly limits novelty."
+        "rated_on": "2026-10-24",
+        "note": "Exceptional visual and revival story with unusually specific current production evidence; recognition and catalogue fit are moderated by niche familiarity and overlap with vacuum-tube technology."
       }
     }
   ]
