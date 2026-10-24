@@ -1,5 +1,9 @@
 # Image workflow
 
+## 24 October 2026 — Mechanical Watches
+
+Original built-in generated artwork: `mechanical-watches-master-2x1.jpg` (1600×800) and `mechanical-watches-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the open movement, balance assembly and complete unbranded wristwatch; the legacy image mirrors the standard export. Full prompt, current-production qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-24.md).
+
 ## 23 October 2026 — Amateur Radio
 
 Original built-in generated artwork: `amateur-radio-master-2x1.jpg` (1600×800) and `amateur-radio-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. The centered standard crop preserves the complete transceiver, tuning dial and Morse key; the legacy image mirrors the standard crop. Full prompt, current-operating-evidence qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-23.md).

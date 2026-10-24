@@ -670,6 +670,30 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/amateur-radio-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/amateur-radio.jpg",
       "image_alt": "Interpretive monochrome illustration of a generic amateur-radio transceiver, headphones and Morse key beside an antenna-view window."
+    },
+    {
+      "id": "mechanical-watches",
+      "name": "MECHANICAL WATCHES",
+      "timeline": "Still ticking",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still winding",
+      "headline": "Quartz won on convenience. Springs, gears and escapements never stopped.",
+      "why_survives": "Repairability, craft, collecting and the appeal of stored mechanical energy sustain specialist production.",
+      "where_now": "Sellita currently designs, manufactures and assembles mechanical watch movements in Switzerland.",
+      "source_name": "Sellita — Manufacture",
+      "source_url": "https://sellita.ch/index.php/en/manufacture",
+      "note": "Rechecked 24 October 2026. Sellita’s current manufacture documentation describes in-house design and manufacture of regulating organs, continuing production equipment and an active range of mechanical movements. This verifies specialist manufacture today, not uninterrupted production by every historical maker, superiority over quartz or a claim about total market share. The subject is newly manufactured mechanical wristwatch movements, not battery-powered watches or antique-only restoration. Artwork is an original generic watchmaker-bench interpretation, not a branded product.",
+      "sources": [{"name": "Sellita — Mechanical movements catalogue", "url": "https://www.sellita.ch/images/documents/Catalogue2024_ENG.pdf", "supports": "Current range and in-house control of design, production and assembly of mechanical movements."}],
+      "verified_on": "2026-10-24",
+      "review": {"fact_check": "approved", "text_review": "approved", "image_review": "approved", "final_approval": "approved"},
+      "rating": {"recognition": 5, "visual_strength": 5, "story_strength": 4, "survival_evidence": 5, "catalogue_fit": 4, "total": 23, "status": "reviewed", "rated_on": "2026-10-24", "note": "Current manufacturing evidence, qualified scope and original responsive artwork reviewed 24 October 2026; hosted device-layout review remains a mandatory merge gate."},
+      "exhibit": "024",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/mechanical-watches-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/mechanical-watches-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/mechanical-watches.jpg",
+      "image_alt": "Interpretive monochrome illustration of an open mechanical watch movement and an unbranded wristwatch on a watchmaker’s bench."
     }
   ]
 }
