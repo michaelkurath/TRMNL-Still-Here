@@ -694,6 +694,30 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/mechanical-watches-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/mechanical-watches.jpg",
       "image_alt": "Interpretive monochrome illustration of an open mechanical watch movement and an unbranded wristwatch on a watchmaker’s bench."
+    },
+    {
+      "id": "nixie-tubes",
+      "name": "NIXIE TUBES",
+      "timeline": "Introduced in 1955",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still glowing",
+      "headline": "Solid-state displays replaced them. New Nixie tubes still leave a workshop.",
+      "why_survives": "Collectors and designers value layered numerals and a warm neon glow flat displays do not reproduce.",
+      "where_now": "Dalibor Farny’s Czech workshop currently hand-makes R-series Nixie tubes from raw materials.",
+      "source_name": "Dalibor Farny — R Nixie Tube",
+      "source_url": "https://www.daliborfarny.com/project/rz568m-nixie-tube/",
+      "note": "Rechecked 25 October 2026. Dalibor Farny’s current project page reports production of about fifty R Nixie tubes each week and replacement stock; the current workshop page confirms that the tubes are newly manufactured by hand rather than unused historical stock. This establishes small-scale specialist production, not mass-market manufacture, uninterrupted survival of the original factories or availability of every historic type. The exhibit concerns numeric cold-cathode display tubes, not ordinary radio or audio valves. Artwork is an original generic workshop interpretation, not a branded product or factory record.",
+      "sources": [{"name": "Dalibor Farny — About the workshop", "url": "https://www.daliborfarny.com/about/", "supports": "Current confirmation that the Czech workshop manufactures its own Nixie tubes by hand."}],
+      "verified_on": "2026-10-25",
+      "review": {"fact_check": "approved", "text_review": "approved", "image_review": "approved", "final_approval": "approved"},
+      "rating": {"recognition": 4, "visual_strength": 5, "story_strength": 5, "survival_evidence": 5, "catalogue_fit": 4, "total": 23, "status": "reviewed", "rated_on": "2026-10-25", "note": "Current manufacturing evidence, qualified scope and original responsive artwork reviewed 25 October 2026; hosted device-layout review remains a mandatory merge gate."},
+      "exhibit": "025",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/nixie-tubes-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/nixie-tubes-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/nixie-tubes.jpg",
+      "image_alt": "Interpretive monochrome illustration of three newly made numeric cold-cathode display tubes on a glassworking workshop bench."
     }
   ]
 }

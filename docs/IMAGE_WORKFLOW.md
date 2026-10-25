@@ -1,5 +1,9 @@
 # Image workflow
 
+## 25 October 2026 — Nixie Tubes
+
+Original built-in generated artwork: `nixie-tubes-master-2x1.jpg` (1600×800) and `nixie-tubes-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves all three complete tubes and their layered electrodes; the legacy image mirrors the standard export. Full prompt, new-production qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-25.md).
+
 ## 24 October 2026 — Mechanical Watches
 
 Original built-in generated artwork: `mechanical-watches-master-2x1.jpg` (1600×800) and `mechanical-watches-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the open movement, balance assembly and complete unbranded wristwatch; the legacy image mirrors the standard export. Full prompt, current-production qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-24.md).
