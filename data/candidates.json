@@ -439,27 +439,27 @@
       }
     },
     {
-      "id": "nixie-tubes",
-      "name": "NIXIE TUBES",
-      "timeline": "Introduced in 1955",
+      "id": "british-semaphore-signals",
+      "name": "BRITISH SEMAPHORE SIGNALS",
+      "timeline": "Still on the line",
       "verified_year": "2026",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still glowing",
-      "headline": "Solid-state displays replaced them. New Nixie tubes still leave a workshop.",
-      "why_survives": "Collectors and designers value layered numerals and a warm neon glow flat displays do not reproduce.",
-      "where_now": "Dalibor Farny’s Czech workshop currently hand-makes R-series Nixie tubes from raw materials.",
-      "source_name": "Dalibor Farny — R Nixie Tube",
-      "source_url": "https://www.daliborfarny.com/project/rz568m-nixie-tube/",
-      "note": "Checked 24 October 2026. Dalibor Farny’s current project page states that its Czech workshop produces about fifty R Nixie tubes each week and keeps replacements in stock; its current about page confirms that these are newly manufactured tubes rather than unused historical stock. This establishes small-scale specialist production, not mass-market manufacture, continuous survival of the original factories or availability of every historic type. The exhibit candidate concerns numeric cold-cathode display tubes, not ordinary vacuum amplifier tubes.",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still signalling",
+      "headline": "Colour lights dominate. Mechanical arms still clear trains on parts of Britain’s railway.",
+      "why_survives": "Working legacy installations remain within an operating network while signalling modernisation proceeds route by route.",
+      "where_now": "Network Rail confirms that some traditional mechanical semaphore signals remain in use on its network.",
+      "source_name": "Network Rail — Signals explained",
+      "source_url": "https://www.networkrail.co.uk/stories/signals-explained/",
+      "note": "Checked 25 October 2026. Network Rail’s current signalling explainer states that traditional mechanical semaphore signals still exist on the operational network and distinguishes them from modern colour-light and cab signalling. Its Safety Central glossary defines semaphore arms and their mechanical or electrical operation. This verifies continued use somewhere on Network Rail, not a complete inventory, uninterrupted nineteenth-century equipment at every site, or a claim that semaphore remains common. Preserved museum and heritage-railway signals are outside the candidate’s evidence scope.",
       "sources": [
         {
-          "name": "Dalibor Farny — About the workshop",
-          "url": "https://www.daliborfarny.com/about/",
-          "supports": "Current confirmation that the workshop manufactures its own tubes by hand rather than building clocks around old stock."
+          "name": "Network Rail Safety Central — Jargon Buster",
+          "url": "https://safety.networkrail.co.uk/jargon-buster/",
+          "supports": "Defines operational semaphore signals as fixed mechanical arms, usually worked by wire from a signal box lever frame."
         }
       ],
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-10-25",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -469,13 +469,13 @@
       "rating": {
         "recognition": 4,
         "visual_strength": 5,
-        "story_strength": 5,
+        "story_strength": 4,
         "survival_evidence": 5,
-        "catalogue_fit": 4,
+        "catalogue_fit": 5,
         "total": 23,
         "status": "provisional",
-        "rated_on": "2026-10-24",
-        "note": "Exceptional visual and revival story with unusually specific current production evidence; recognition and catalogue fit are moderated by niche familiarity and overlap with vacuum-tube technology."
+        "rated_on": "2026-10-25",
+        "note": "Highly legible railway silhouette and direct current-operator evidence; recognition is regionally uneven and the survival story is evolutionary rather than a dramatic revival."
       }
     }
   ]
