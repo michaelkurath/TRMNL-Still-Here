@@ -102,39 +102,6 @@
       }
     },
     {
-      "id": "tuatara",
-      "name": "THE TUATARA",
-      "timeline": "An ancient reptile lineage",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Still surviving",
-      "headline": "It looks like a lizard. It is the last survivor of another reptile order.",
-      "why_survives": "Rodent-free island refuges and active conservation management protect surviving populations.",
-      "where_now": "Tuatara persist on New Zealand offshore islands and in managed sanctuaries.",
-      "source_name": "New Zealand Department of Conservation",
-      "source_url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/",
-      "note": "Tuatara are not lizards or dinosaurs. An ancient order does not mean the modern species is unchanged for 200 million years. At Risk-Relict; avoid current population counts or implying recovery is complete. Sanctuary evidence: https://www.doc.govt.nz/news/media-releases/2025-media-releases/doc-ranger-snaps-rare-footage-of-tuatara-and-takahe-having-a-scrap/",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 3,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "takahe",
       "name": "THE TAKAHĒ",
       "timeline": "Rediscovered in 1948",
@@ -476,6 +443,39 @@
         "status": "provisional",
         "rated_on": "2026-10-25",
         "note": "Highly legible railway silhouette and direct current-operator evidence; recognition is regionally uneven and the survival story is evolutionary rather than a dramatic revival."
+      }
+    },
+    {
+      "id": "pipe-organs",
+      "name": "PIPE ORGANS",
+      "timeline": "Still sounding",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still sounding",
+      "headline": "Electronic keyboards arrived. Builders still make instruments that breathe through real pipes.",
+      "why_survives": "Specialist craftsmanship, restoration and demand for acoustic instruments sustain new construction.",
+      "where_now": "Kuhn Organ Builders lists completed new pipe organs and current projects in Switzerland and abroad.",
+      "source_name": "Kuhn Organ Builders — Organ catalogue",
+      "source_url": "https://www.orgelbau.ch/en/organs.html",
+      "note": "Checked 26 October 2026. Kuhn’s current catalogue distinguishes new organs completed in 2025 at Messkirch and Affoltern am Albis from projects still in progress for 2026–2028 and from restorations. This verifies a living specialist craft and recently completed new instruments, not that every listed future organ is finished or that pipe organs remain dominant. Electronic and sampled organs are outside this candidate’s scope.",
+      "verified_on": "2026-10-26",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 3,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-26",
+        "note": "Distinctive pipework and strong builder evidence; the ongoing craft is compelling, although its continued existence is less surprising than the collection’s strongest revivals."
       }
     }
   ]

@@ -718,6 +718,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/nixie-tubes-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/nixie-tubes.jpg",
       "image_alt": "Interpretive monochrome illustration of three newly made numeric cold-cathode display tubes on a glassworking workshop bench."
+    },
+    {
+      "id": "tuatara",
+      "name": "THE TUATARA",
+      "timeline": "An ancient reptile lineage",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Still surviving",
+      "headline": "It looks like a lizard. It is the last survivor of another reptile order.",
+      "why_survives": "Rodent-free island refuges and active conservation management protect surviving populations.",
+      "where_now": "Tuatara persist on New Zealand offshore islands and in managed sanctuaries.",
+      "source_name": "New Zealand Department of Conservation",
+      "source_url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/",
+      "note": "Rechecked 26 October 2026. DOC’s current species page identifies living tuatara as the only surviving members of Sphenodontia, lists their At Risk–Relict status and describes island refuges and active conservation management. DOC also documents the introduced population on Matiu/Somes Island. The modern species is not an unchanged dinosaur or a lizard; no current population total or completed recovery is asserted. Artwork is an original natural-history interpretation, not evidence of an exact individual or site.",
+      "verified_on": "2026-10-26",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-26",
+        "note": "Living species and current conservation scope reverified; original anatomy-corrected responsive artwork reviewed. Device-layout review is a mandatory merge gate."
+      },
+      "exhibit": "026",
+      "sources": [
+        {
+          "name": "DOC — Matiu/Somes nature and conservation",
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/matiu-somes-island/nature-and-conservation/",
+          "supports": "Documents living introduced tuatara and breeding on a managed island refuge."
+        }
+      ],
+      "image_alt": "Interpretive monochrome natural-history illustration of a tuatara with a pale dorsal crest and complete curved tail on a coastal-forest rock.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/tuatara-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/tuatara-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/tuatara.jpg"
     }
   ]
 }
