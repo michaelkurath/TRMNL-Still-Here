@@ -2,7 +2,7 @@
 
 ## 26 October 2026 — Tuatara
 
-Original built-in generated artwork: `tuatara-master-2x1.jpg` (1600×800) and `tuatara-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the complete curved tail, feet, crest and head. The legacy image mirrors the standard export. Full prompt, corrections, source scope and export decisions: [image update](IMAGE_UPDATE_2026-10-26.md).
+Original built-in generated artwork: `tuatara-master-2x1.jpg` (1600×800) and `tuatara-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the complete curved tail, feet, crest and head. After the first OG Full review, the wide master gained extra white breathing room for its wider cover-cropped slot; the detailed standard and legacy exports are unchanged. Full prompt, corrections, source scope and export decisions: [image update](IMAGE_UPDATE_2026-10-26.md).
 
 ## 25 October 2026 — Nixie Tubes
 

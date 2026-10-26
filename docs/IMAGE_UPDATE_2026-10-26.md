@@ -16,7 +16,7 @@ Created with OpenAI’s built-in image generator, not the API/CLI fallback.
 - `assets/exhibits/responsive-v2/tuatara-standard-4x3.jpg`: 1067×800 grayscale JPEG, quality 88.
 - `assets/exhibits/tuatara.jpg`: legacy copy of standard export.
 
-White contain padding preserves the complete curved tail, feet, crest and head. The legacy image mirrors the standard export.
+White contain padding preserves the complete curved tail, feet, crest and head. The legacy image mirrors the standard export. The first hosted OG Full preview cropped the head because its slot is wider than 2:1. The wide master was therefore re-exported with the entire source at 1040×520 centered on a white 1600×800 canvas. This adds vertical breathing room for OG cover-cropping without changing the detailed standard asset or any layout. The corrected wide export requires a fresh hosted render review before merge.
 
 DOC confirms living tuatara with At Risk–Relict status and active conservation needs. No unchanged-dinosaur or recovery-complete claim is made.
 
