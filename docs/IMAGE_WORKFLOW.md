@@ -1,5 +1,9 @@
 # Image workflow
 
+## 26 October 2026 — Tuatara
+
+Original built-in generated artwork: `tuatara-master-2x1.jpg` (1600×800) and `tuatara-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the complete curved tail, feet, crest and head. The legacy image mirrors the standard export. Full prompt, corrections, source scope and export decisions: [image update](IMAGE_UPDATE_2026-10-26.md).
+
 ## 25 October 2026 — Nixie Tubes
 
 Original built-in generated artwork: `nixie-tubes-master-2x1.jpg` (1600×800) and `nixie-tubes-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves all three complete tubes and their layered electrodes; the legacy image mirrors the standard export. Full prompt, new-production qualification and export decisions: [image update](IMAGE_UPDATE_2026-10-25.md).
