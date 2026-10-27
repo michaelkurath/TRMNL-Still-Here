@@ -18,7 +18,7 @@ Kuhn's current catalogue distinguishes completed new organs from restorations an
 - `assets/exhibits/responsive-v2/pipe-organs-standard-4x3.jpg` — 1067×800
 - `assets/exhibits/pipe-organs.jpg` — legacy standard-path copy
 
-Grayscale JPEG, quality 88. Wide export contains the source at 1040×520 centered on 1600×800 white, providing vertical headroom for OG Full cover cropping. Standard is a genuine centered 1067×800 crop of a separate 1600×800 normalization of the source, preserving the pipe tops, case, pedalboard and bench. Legacy image is a copy of the standard.
+Grayscale JPEG, quality 88. The first hosted OG Full preview clipped the top cornice at a 1040×520 source containment. The corrected wide export contains the source at 880×440 centered on 1600×800 white, providing additional vertical headroom for OG Full cover cropping. Standard is a genuine centered 1067×800 crop of a separate 1600×800 normalization of the source, preserving the pipe tops, case, pedalboard and bench. Legacy image is a copy of the standard. The headline was also shortened after compact-layout review so its essential contrast remains readable.
 
 ### Device review gate
 

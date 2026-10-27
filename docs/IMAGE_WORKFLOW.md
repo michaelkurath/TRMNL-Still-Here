@@ -2,7 +2,7 @@
 
 ## 27 October 2026 — Pipe Organs
 
-Original built-in generated artwork: `pipe-organs-master-2x1.jpg` (1600×800) and `pipe-organs-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. Complete prompt, scope review and crop/export decisions: [image update](IMAGE_UPDATE_2026-10-27.md).
+Original built-in generated artwork: `pipe-organs-master-2x1.jpg` (1600×800) and `pipe-organs-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. OG Full review required extra white space around the complete organ; the standard and legacy exports remain unchanged. Complete prompt, scope review and crop/export decisions: [image update](IMAGE_UPDATE_2026-10-27.md).
 
 ## 26 October 2026 — Tuatara
 
