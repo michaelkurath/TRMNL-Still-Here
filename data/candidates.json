@@ -446,20 +446,27 @@
       }
     },
     {
-      "id": "pipe-organs",
-      "name": "PIPE ORGANS",
-      "timeline": "Still sounding",
+      "id": "racing-pigeons",
+      "name": "RACING PIGEONS",
+      "timeline": "Still finding home",
       "verified_year": "2026",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still sounding",
-      "headline": "Electronic keyboards arrived. Builders still make instruments that breathe through real pipes.",
-      "why_survives": "Specialist craftsmanship, restoration and demand for acoustic instruments sustain new construction.",
-      "where_now": "Kuhn Organ Builders lists completed new pipe organs and current projects in Switzerland and abroad.",
-      "source_name": "Kuhn Organ Builders — Organ catalogue",
-      "source_url": "https://www.orgelbau.ch/en/organs.html",
-      "note": "Checked 26 October 2026. Kuhn’s current catalogue distinguishes new organs completed in 2025 at Messkirch and Affoltern am Albis from projects still in progress for 2026–2028 and from restorations. This verifies a living specialist craft and recently completed new instruments, not that every listed future organ is finished or that pipe organs remain dominant. Electronic and sampled organs are outside this candidate’s scope.",
-      "verified_on": "2026-10-26",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still racing",
+      "headline": "The message went digital. The pigeons still race home.",
+      "why_survives": "Fanciers, clubs and organised competitions sustain breeding, training and timed homeward flights.",
+      "where_now": "The RPRA publishes current UK race bookings and its 2026 national performance awards.",
+      "source_name": "Royal Pigeon Racing Association — National Awards 2026",
+      "source_url": "https://www.rpra.org/awards/",
+      "sources": [
+        {
+          "name": "RPRA — Race programmes",
+          "url": "https://www.rpra.org/racing-handbook/race-programmes/",
+          "supports": "Current bookings include 31 October 2026; a booking is not proof that a future liberation has occurred."
+        }
+      ],
+      "note": "Checked 27 October 2026. RPRA's 16 September 2026 awards call asks for performances in the current racing year, with entries due 6 November. The current programme also lists a future 31 October booking. Together these document an active organised sport, not merely museum birds; the scheduled race is not treated as completed. This is domestic homing-pigeon racing, not a claim that pigeons remain a normal communications network or that every event takes place.",
+      "verified_on": "2026-10-27",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -467,15 +474,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
+        "recognition": 4,
         "visual_strength": 5,
-        "story_strength": 3,
+        "story_strength": 4,
         "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
+        "catalogue_fit": 4,
+        "total": 22,
         "status": "provisional",
-        "rated_on": "2026-10-26",
-        "note": "Distinctive pipework and strong builder evidence; the ongoing craft is compelling, although its continued existence is less surprising than the collection’s strongest revivals."
+        "rated_on": "2026-10-27",
+        "note": "Recognisable animal and clear current association evidence; the collection fit is the surviving practice rather than an endangered species."
       }
     }
   ]

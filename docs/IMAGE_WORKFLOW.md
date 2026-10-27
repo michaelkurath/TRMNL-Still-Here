@@ -1,5 +1,9 @@
 # Image workflow
 
+## 27 October 2026 — Pipe Organs
+
+Original built-in generated artwork: `pipe-organs-master-2x1.jpg` (1600×800) and `pipe-organs-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. OG Full review required extra white space around the complete organ; the standard and legacy exports remain unchanged. Complete prompt, scope review and crop/export decisions: [image update](IMAGE_UPDATE_2026-10-27.md).
+
 ## 26 October 2026 — Tuatara
 
 Original built-in generated artwork: `tuatara-master-2x1.jpg` (1600×800) and `tuatara-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. White contain padding preserves the complete curved tail, feet, crest and head. After the first OG Full review, the wide master gained extra white breathing room for its wider cover-cropped slot; the detailed standard and legacy exports are unchanged. Full prompt, corrections, source scope and export decisions: [image update](IMAGE_UPDATE_2026-10-26.md).

@@ -763,6 +763,51 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/tuatara-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/tuatara-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/tuatara.jpg"
+    },
+    {
+      "id": "pipe-organs",
+      "name": "PIPE ORGANS",
+      "timeline": "Still sounding",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still sounding",
+      "headline": "Digital keyboards arrived. Real pipes still sound.",
+      "why_survives": "Specialist craftsmanship, restoration and demand for acoustic instruments sustain new construction.",
+      "where_now": "Kuhn Organ Builders lists completed new pipe organs and current projects in Switzerland and abroad.",
+      "source_name": "Kuhn Organ Builders — Organ catalogue",
+      "source_url": "https://www.orgelbau.ch/en/organs.html",
+      "note": "Rechecked 27 October 2026. Kuhn's current catalogue distinguishes completed new organs from restorations and future projects. Its Messkirch record dates inauguration to 25 July 2025 and describes the installation. The collection records a living specialist craft, not dominance over electronic instruments or completion of all future orders. Artwork is a generic acoustic instrument, not a replica of the Messkirch organ.",
+      "verified_on": "2026-10-27",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 3,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-27",
+        "note": "Distinctive pipework and strong builder evidence; the ongoing craft is compelling, although its continued existence is less surprising than the collection’s strongest revivals."
+      },
+      "exhibit": "027",
+      "image_alt": "Interpretive monochrome engraving of an acoustic pipe organ with stepped pipe towers, two-manual console, pedalboard and bench.",
+      "sources": [
+        {
+          "name": "Kuhn — Messkirch new organ",
+          "url": "https://www.orgelbau.ch/en/organ-details/114850.html",
+          "supports": "Documents a new pipe organ inaugurated on 25 July 2025 and distinguishes its acoustic pipes from purely electronic substitutes."
+        }
+      ],
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pipe-organs-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pipe-organs-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/pipe-organs.jpg"
     }
   ]
 }
