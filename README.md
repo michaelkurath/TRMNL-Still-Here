@@ -25,7 +25,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Photographic film | ILFORD: current 35mm, roll and sheet-film product listing |
 | PS Waverley | Operator: dated October 2026 sailings and booking instructions |
 
-**27 live exhibits and 14 candidates.** Pipe Organs is exhibit 027. New candidate: Racing Pigeons (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**28 live exhibits and 14 candidates.** Pipe Organs is exhibit 027. New candidate: Racing Pigeons (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -85,4 +85,7 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **27 live exhibits and 14 candidates**. See [27 October review](docs/PROMOTION_2026-10-27.md).
+Latest collection update: **28 live exhibits and 14 candidates**. See [27 October review](docs/PROMOTION_2026-10-27.md).
+
+
+30 October update: THE TAKAHĒ (028) promoted; new candidate MECHANICAL METRONOMES (22/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).
