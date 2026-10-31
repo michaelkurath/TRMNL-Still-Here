@@ -373,46 +373,6 @@
       }
     },
     {
-      "id": "british-semaphore-signals",
-      "name": "BRITISH SEMAPHORE SIGNALS",
-      "timeline": "Still on the line",
-      "verified_year": "2026",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still signalling",
-      "headline": "Colour lights dominate. Mechanical arms still clear trains on parts of Britain’s railway.",
-      "why_survives": "Working legacy installations remain within an operating network while signalling modernisation proceeds route by route.",
-      "where_now": "Network Rail confirms that some traditional mechanical semaphore signals remain in use on its network.",
-      "source_name": "Network Rail — Signals explained",
-      "source_url": "https://www.networkrail.co.uk/stories/signals-explained/",
-      "note": "Checked 25 October 2026. Network Rail’s current signalling explainer states that traditional mechanical semaphore signals still exist on the operational network and distinguishes them from modern colour-light and cab signalling. Its Safety Central glossary defines semaphore arms and their mechanical or electrical operation. This verifies continued use somewhere on Network Rail, not a complete inventory, uninterrupted nineteenth-century equipment at every site, or a claim that semaphore remains common. Preserved museum and heritage-railway signals are outside the candidate’s evidence scope.",
-      "sources": [
-        {
-          "name": "Network Rail Safety Central — Jargon Buster",
-          "url": "https://safety.networkrail.co.uk/jargon-buster/",
-          "supports": "Defines operational semaphore signals as fixed mechanical arms, usually worked by wire from a signal box lever frame."
-        }
-      ],
-      "verified_on": "2026-10-25",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-25",
-        "note": "Highly legible railway silhouette and direct current-operator evidence; recognition is regionally uneven and the survival story is evolutionary rather than a dramatic revival."
-      }
-    },
-    {
       "id": "racing-pigeons",
       "name": "RACING PIGEONS",
       "timeline": "Still finding home",
@@ -483,6 +443,46 @@
         "status": "provisional",
         "rated_on": "2026-10-30",
         "note": "Provisional editorial rating; original artwork and device review required before promotion."
+      }
+    },
+    {
+      "id": "mechanical-music-boxes",
+      "name": "MECHANICAL MUSIC BOXES",
+      "timeline": "Still playing by pins",
+      "verified_year": "2026",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still crafted",
+      "headline": "Streaming filled the room. Pins and a steel comb still make music by hand.",
+      "why_survives": "Specialist craft, collectible objects and the tactile appeal of visible mechanisms sustain new mechanical music boxes.",
+      "where_now": "Reuge currently designs and crafts mechanical music boxes and automata in Sainte-Croix, Switzerland.",
+      "source_name": "Reuge — Manufacture",
+      "source_url": "https://www.reuge.com/en",
+      "note": "Checked 31 October 2026. Reuge describes current mechanical music-box and automata production, a workshop in Sainte-Croix and contemporary creations. Its movement page documents pinned brass cylinders and steel combs. This verifies one active luxury specialist, not mass-market prevalence or uninterrupted production by every historical maker.",
+      "sources": [
+        {
+          "name": "Reuge — Mechanical Music Movement",
+          "url": "https://www.reuge.com/en/factory/nos-savoirs-faire/mouvements-a-musique-mecanique",
+          "supports": "Documents current construction of pinned-cylinder and steel-comb movements."
+        }
+      ],
+      "verified_on": "2026-10-31",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-10-31",
+        "note": "Familiar object, excellent visible mechanism and direct current-manufacturer evidence; luxury positioning narrows the survival claim."
       }
     }
   ]

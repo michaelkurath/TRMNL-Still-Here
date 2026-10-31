@@ -909,6 +909,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/takahe-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/takahe.jpg",
       "image_alt": "Original interpretive monochrome illustration of the takahē, not archival photography."
+    },
+    {
+      "id": "british-semaphore-signals",
+      "name": "SEMAPHORE SIGNALS",
+      "timeline": "Still on the line",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still signalling",
+      "headline": "Colour lights dominate. Mechanical arms still clear trains on parts of Britain’s railway.",
+      "why_survives": "Working legacy installations remain within an operating network while signalling modernisation proceeds route by route.",
+      "where_now": "Network Rail confirms that some traditional mechanical semaphore signals remain in operational use.",
+      "source_name": "Network Rail — Signals explained",
+      "source_url": "https://www.networkrail.co.uk/stories/signals-explained/",
+      "note": "Rechecked 31 October 2026. Network Rail states that traditional mechanical semaphore signals still exist among roughly 40,000 operational signals and distinguishes them from colour-light and cab signalling. Safety Central defines their mechanical arms and wire or electrical operation. This verifies continued use somewhere on Network Rail, not a complete inventory, unchanged nineteenth-century equipment, or that semaphore remains common. Heritage-only installations are outside this entry’s evidence scope.",
+      "sources": [
+        {
+          "name": "Network Rail Safety Central — Jargon Buster",
+          "url": "https://safety.networkrail.co.uk/jargon-buster/",
+          "supports": "Defines semaphore signals as fixed mechanical arms, usually worked by wire from a signal-box lever frame but sometimes electrically operated."
+        }
+      ],
+      "verified_on": "2026-10-31",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-10-31",
+        "note": "Highly legible railway silhouette and direct current-operator evidence; recognition is regionally uneven and the survival story is evolutionary rather than a dramatic revival."
+      },
+      "exhibit": "029",
+      "image_alt": "Original interpretive monochrome engraving of an operational British semaphore signal beside railway tracks and a signal box.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/british-semaphore-signals-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/british-semaphore-signals-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/british-semaphore-signals.jpg"
     }
   ]
 }

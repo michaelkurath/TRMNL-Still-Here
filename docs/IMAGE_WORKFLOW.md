@@ -1,5 +1,9 @@
 # Image workflow
 
+## 31 October 2026 — British Semaphore Signals
+
+Original built-in generated artwork: `british-semaphore-signals-master-2x1.jpg` (1600×800) and `british-semaphore-signals-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. The standard asset uses a white contain export so the complete post, arm, base and signal box survive compact layouts. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-10-31.md).
+
 ## 27 October 2026 — Pipe Organs
 
 Original built-in generated artwork: `pipe-organs-master-2x1.jpg` (1600×800) and `pipe-organs-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`. OG Full review required extra white space around the complete organ; the standard and legacy exports remain unchanged. Complete prompt, scope review and crop/export decisions: [image update](IMAGE_UPDATE_2026-10-27.md).
