@@ -446,27 +446,27 @@
       }
     },
     {
-      "id": "mechanical-music-boxes",
-      "name": "MECHANICAL MUSIC BOXES",
-      "timeline": "Still playing by pins",
+      "id": "theremins",
+      "name": "THEREMINS",
+      "timeline": "1920–present",
       "verified_year": "2026",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Still crafted",
-      "headline": "Streaming filled the room. Pins and a steel comb still make music by hand.",
-      "why_survives": "Specialist craft, collectible objects and the tactile appeal of visible mechanisms sustain new mechanical music boxes.",
-      "where_now": "Reuge currently designs and crafts mechanical music boxes and automata in Sainte-Croix, Switzerland.",
-      "source_name": "Reuge — Manufacture",
-      "source_url": "https://www.reuge.com/en",
-      "note": "Checked 31 October 2026. Reuge describes current mechanical music-box and automata production, a workshop in Sainte-Croix and contemporary creations. Its movement page documents pinned brass cylinders and steel combs. This verifies one active luxury specialist, not mass-market prevalence or uninterrupted production by every historical maker.",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still played",
+      "headline": "A century of keyboards passed. The instrument still answers empty air.",
+      "why_survives": "Touch-free performance, specialist players and open hardware keep the instrument playable and buildable.",
+      "where_now": "GaudiLabs maintains OpenTheremin V4 hardware, software and build documentation for a two-antenna instrument.",
+      "source_name": "GaudiLabs — OpenTheremin V4",
+      "source_url": "https://github.com/GaudiLabs/OpenThereminV4",
+      "note": "Checked 1 November 2026. The project documents a current two-antenna OpenTheremin V4 with pitch and volume control, schematics, board design, parts list and software. A 2026 project manual documents calibration and playing. This proves ongoing open-hardware development and use, not the production status of every commercial theremin model or broad popularity.",
       "sources": [
         {
-          "name": "Reuge — Mechanical Music Movement",
-          "url": "https://www.reuge.com/en/factory/nos-savoirs-faire/mouvements-a-musique-mecanique",
-          "supports": "Documents current construction of pinned-cylinder and steel-comb movements."
+          "name": "GaudiLabs — OpenTheremin V4 Deluxe instructions",
+          "url": "https://www.gaudi.ch/OpenTheremin/images/stories/OpenTheremin/OTV4/Instructions_OpenThereminV4_Deluxe.pdf",
+          "supports": "Current operating, calibration and playing instructions for the two-antenna instrument."
         }
       ],
-      "verified_on": "2026-10-31",
+      "verified_on": "2026-11-01",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -474,15 +474,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
+        "recognition": 4,
         "visual_strength": 5,
         "story_strength": 4,
         "survival_evidence": 5,
         "catalogue_fit": 4,
-        "total": 23,
+        "total": 22,
         "status": "provisional",
-        "rated_on": "2026-10-31",
-        "note": "Familiar object, excellent visible mechanism and direct current-manufacturer evidence; luxury positioning narrows the survival claim."
+        "rated_on": "2026-11-01",
+        "note": "Iconic silhouette and unusually clear current open-hardware evidence; specialist reach and another electronic-instrument story temper recognition and catalogue novelty."
       }
     }
   ]

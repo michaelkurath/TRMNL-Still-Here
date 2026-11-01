@@ -954,6 +954,51 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/british-semaphore-signals-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/british-semaphore-signals-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/british-semaphore-signals.jpg"
+    },
+    {
+      "id": "mechanical-music-boxes",
+      "name": "MECHANICAL MUSIC BOXES",
+      "timeline": "Still playing by pins",
+      "verified_year": "2026",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still crafted",
+      "headline": "Streaming filled the room. Pins and a steel comb still make music by hand.",
+      "why_survives": "Specialist craft, collectible objects and the tactile appeal of visible mechanisms sustain new mechanical music boxes.",
+      "where_now": "Reuge currently designs and crafts mechanical music boxes and automata in Sainte-Croix, Switzerland.",
+      "source_name": "Reuge — Manufacture",
+      "source_url": "https://www.reuge.com/en",
+      "note": "Rechecked 1 November 2026. Reuge describes itself as the only remaining specialist designing and crafting luxury mechanical music boxes and automata, with an active workshop in Sainte-Croix. Its movement page documents the pinned brass cylinder, steel comb, spring barrel and governor. This verifies current specialist manufacture, not mass-market prevalence or uninterrupted production by every historic maker. Artwork is an original generic mechanism, not a Reuge product portrait.",
+      "sources": [
+        {
+          "name": "Reuge — Mechanical Music Movement",
+          "url": "https://www.reuge.com/en/factory/nos-savoirs-faire/mouvements-a-musique-mecanique",
+          "supports": "Documents current construction of pinned-cylinder and steel-comb movements."
+        }
+      ],
+      "verified_on": "2026-11-01",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-11-01",
+        "note": "Familiar object, excellent visible mechanism and direct current-manufacturer evidence; luxury positioning narrows the survival claim."
+      },
+      "image_alt": "Original monochrome engraving of an open mechanical cylinder music box with its pinned cylinder, steel comb and spring mechanism visible.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/mechanical-music-boxes-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/mechanical-music-boxes-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/mechanical-music-boxes.jpg",
+      "exhibit": "030"
     }
   ]
 }
