@@ -1,5 +1,9 @@
 # Image workflow
 
+## 1 November 2026 — Mechanical Music Boxes
+
+Original built-in generated artwork: `mechanical-music-boxes-master-2x1.jpg` (1600×800) and `mechanical-music-boxes-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. A white contain export preserves the complete open case, raised lid, feet, pinned cylinder, steel comb and governor in compact layouts. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-01.md).
+
 ## 31 October 2026 — British Semaphore Signals
 
 Original built-in generated artwork: `british-semaphore-signals-master-2x1.jpg` (1600×800) and `british-semaphore-signals-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. The standard asset uses a white contain export so the complete post, arm, base and signal box survive compact layouts. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-10-31.md).
