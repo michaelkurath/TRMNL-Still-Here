@@ -1,5 +1,9 @@
 # Image workflow
 
+## 2 November 2026 — Typewriters
+
+Original built-in generated artwork: `typewriters-master-2x1.jpg` (1600×800) and `typewriters-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. The original 3:2 generation is contained on white for the wide asset and independently center-cropped for the detailed 4:3 asset, preserving the complete carriage, knobs, keyboard, feet and paper. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-02.md).
+
 ## 1 November 2026 — Mechanical Music Boxes
 
 Original built-in generated artwork: `mechanical-music-boxes-master-2x1.jpg` (1600×800) and `mechanical-music-boxes-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. A white contain export preserves the complete open case, raised lid, feet, pinned cylinder, steel comb and governor in compact layouts. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-01.md).
