@@ -300,39 +300,6 @@
       }
     },
     {
-      "id": "typewriters",
-      "name": "TYPEWRITERS",
-      "timeline": "Still sold today",
-      "verified_year": "2026",
-      "category": "Everyday life",
-      "category_key": "everyday",
-      "status": "Still typing",
-      "headline": "The keys still strike paper without opening an app.",
-      "why_survives": "Specialist offices, secure institutions, collectors and distraction-free writers sustain a small typewriter market.",
-      "where_now": "Swintec currently lists manual and electronic typewriters, ribbons and service supplies.",
-      "source_name": "Swintec",
-      "source_url": "https://www.swintec.com/3_Swintec?n=50&orderby=quantity&orderway=asc",
-      "note": "Verified 14 October 2026 against current Swintec product listings showing manual and electronic typewriters with prices and availability. This supports a specialist continuing market, not mass-market popularity or continuous production of every listed model.",
-      "verified_on": "2026-10-14",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "survival_evidence": 4,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-14",
-        "note": "Current specialist product listings and a universally recognisable silhouette make a strong exhibit; evidence supports availability rather than a broad manufacturing-volume claim."
-      }
-    },
-    {
       "id": "usenet",
       "name": "USENET",
       "timeline": "Before the Web",
@@ -483,6 +450,46 @@
         "status": "provisional",
         "rated_on": "2026-11-01",
         "note": "Iconic silhouette and unusually clear current open-hardware evidence; specialist reach and another electronic-instrument story temper recognition and catalogue novelty."
+      }
+    },
+    {
+      "id": "letterpress-printing",
+      "name": "LETTERPRESS PRINTING",
+      "timeline": "Still printing by hand",
+      "verified_year": "2026",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still pressing",
+      "headline": "Offset won the volume. Metal and wood type still press ink into paper.",
+      "why_survives": "Specialist design, tactile prints and working archives sustain commercial and educational letterpress shops.",
+      "where_now": "Hatch Show Print remains a working letterpress shop, producing posters for artists and businesses.",
+      "source_name": "Hatch Show Print",
+      "source_url": "https://www.hatchshowprint.com/",
+      "note": "Checked 2 November 2026. Hatch Show Print describes itself as a working letterpress print shop and documents current poster design and printing for hundreds of artists, performers and businesses annually. This verifies one active commercial and educational shop, not industry-wide prevalence or unchanged nineteenth-century equipment.",
+      "sources": [
+        {
+          "name": "Country Music Hall of Fame — Hatch Show Print",
+          "url": "https://www.countrymusichalloffame.org/experiences/hatch-show-print",
+          "supports": "Museum owner describes the shop as active and producing current letterpress work."
+        }
+      ],
+      "verified_on": "2026-11-02",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-11-02",
+        "note": "Strong press-and-type silhouette with direct current-shop evidence; recognition and reach are strongest among design and print audiences."
       }
     }
   ]

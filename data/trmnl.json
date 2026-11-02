@@ -999,6 +999,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/mechanical-music-boxes-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/mechanical-music-boxes.jpg",
       "exhibit": "030"
+    },
+    {
+      "id": "typewriters",
+      "name": "TYPEWRITERS",
+      "timeline": "Still sold today",
+      "verified_year": "2026",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still typing",
+      "headline": "The keys still strike paper without opening an app.",
+      "why_survives": "Specialist offices, secure institutions, collectors and distraction-free writers sustain a small typewriter market.",
+      "where_now": "Swintec currently lists manual and electronic typewriters, ribbons and service supplies.",
+      "source_name": "Swintec — Typewriters",
+      "source_url": "https://www.swintec.com/",
+      "note": "Rechecked 2 November 2026. Swintec currently lists electronic and portable typewriters, including models available to order, plus current ribbons, print wheels and service supplies. This verifies an active specialist market, not mass-market popularity, current manufacture of every historical model or the uninterrupted survival of every brand. Artwork is a generic maintained manual machine, not a Swintec product portrait.",
+      "verified_on": "2026-11-02",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 4,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-11-02",
+        "note": "Current specialist product listings and a universally recognisable silhouette make a strong exhibit; evidence supports availability rather than a broad manufacturing-volume claim."
+      },
+      "sources": [
+        {
+          "name": "Swintec — Personal Electronic Typewriters",
+          "url": "https://www.swintec.com/216-portable-typewriters?orderby=name&orderway=asc",
+          "supports": "Lists current typewriter models, including an available-to-order electronic machine."
+        }
+      ],
+      "image_alt": "Original monochrome engraving of a complete maintained manual typewriter with paper loaded.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/typewriters-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/typewriters-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/typewriters.jpg",
+      "exhibit": "031"
     }
   ]
 }
