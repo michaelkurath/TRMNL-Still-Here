@@ -234,39 +234,6 @@
       }
     },
     {
-      "id": "san-francisco-trolleybuses",
-      "name": "SAN FRANCISCO TROLLEYBUSES",
-      "timeline": "Still under the wires",
-      "verified_year": "2026",
-      "category": "Transport",
-      "category_key": "transport",
-      "status": "Still operating",
-      "headline": "The poles still trace the wires. The batteries now bridge the gaps.",
-      "why_survives": "Electric trolleybuses suit frequent hilly routes and combine quiet operation with long vehicle life.",
-      "where_now": "San Francisco Muni operates North America’s largest trolleybus fleet with New Flyer vehicles.",
-      "source_name": "San Francisco Municipal Transportation Agency",
-      "source_url": "https://www.sfmta.com/getting-around/muni/munis-electric-trolley-buses",
-      "note": "Verified 11 October 2026 against SFMTA’s current fleet page. The claim is continued operation in San Francisco, not that trolleybuses remain common everywhere; modern vehicles can travel short distances off-wire using batteries.",
-      "verified_on": "2026-10-11",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 4,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-11",
-        "note": "Direct current-agency evidence and a highly legible visual; geographically specific rather than a universal survival claim."
-      }
-    },
-    {
       "id": "nist-radio-wwv",
       "name": "RADIO STATION WWV",
       "timeline": "Broadcasting since 1920",
@@ -490,6 +457,39 @@
         "status": "provisional",
         "rated_on": "2026-11-02",
         "note": "Strong press-and-type silhouette with direct current-shop evidence; recognition and reach are strongest among design and print audiences."
+      }
+    },
+    {
+      "id": "pneumatic-tube-systems",
+      "name": "PNEUMATIC TUBE SYSTEMS",
+      "timeline": "Still rushing through walls",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still in service",
+      "headline": "The capsule still disappears into the wall and arrives upstairs.",
+      "why_survives": "Hospitals need fast, enclosed transport for laboratory samples, medicines and blood products.",
+      "where_now": "Swisslog Healthcare currently supplies, upgrades and services hospital pneumatic tube systems.",
+      "source_name": "Swisslog Healthcare — TransLogic pneumatic tube system",
+      "source_url": "https://www.swisslog-healthcare.com/en-us/products/transport-automation/translogic-pneumatic-tube-system",
+      "note": "Checked 3 November 2026. Swisslog currently markets hospital pneumatic tube systems for specimens, medications and blood products, and publishes current software-upgrade and field-service information. This verifies active specialist deployment and maintenance, not continuous survival of every historic postal or retail network.",
+      "verified_on": "2026-11-03",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-11-03",
+        "note": "Excellent current manufacturer evidence and an instantly understandable capsule-and-tube visual; the modern survival is concentrated in specialist healthcare logistics."
       }
     }
   ]

@@ -1044,6 +1044,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/typewriters-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/typewriters.jpg",
       "exhibit": "031"
+    },
+    {
+      "id": "san-francisco-trolleybuses",
+      "name": "SAN FRANCISCO TROLLEYBUSES",
+      "timeline": "Still under the wires",
+      "verified_year": "2026",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still operating",
+      "headline": "The poles still trace the wires. Batteries now bridge the gaps.",
+      "why_survives": "Frequent hilly routes still reward quiet electric buses powered from overhead wires.",
+      "where_now": "San Francisco Muni operates North America’s largest trolleybus fleet and is planning replacement vehicles.",
+      "source_name": "San Francisco Municipal Transportation Agency",
+      "source_url": "https://www.sfmta.com/getting-around/muni/munis-electric-trolley-buses",
+      "note": "Rechecked 3 November 2026. SFMTA identifies its current New Flyer trolleybus fleet as the largest in the United States and Canada. Its adopted FY2027–FY2031 capital programme also includes purchasing replacement trolleybuses for revenue service. The exhibit claims continued operation in San Francisco, not worldwide prevalence. Modern buses can bridge obstructions off-wire on batteries. Artwork is a generic interpretive trolleybus, not an exact product portrait.",
+      "verified_on": "2026-11-03",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-11-03",
+        "note": "Current operator and procurement evidence plus a distinctive overhead-wire silhouette make a strong exhibit; the survival claim is intentionally location-specific."
+      },
+      "sources": [
+        {
+          "name": "SFMTA — FY2027–FY2031 Capital Improvement Program",
+          "url": "https://www.sfmta.com/media/44860/download?inline=",
+          "supports": "Schedules replacement trolleybus procurement and deployment in revenue service."
+        }
+      ],
+      "image_alt": "Original monochrome engraving of a complete modern trolleybus climbing a San Francisco hill with both trolley poles connected to paired wires.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-trolleybuses-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-trolleybuses-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/san-francisco-trolleybuses.jpg",
+      "exhibit": "032"
     }
   ]
 }
