@@ -1,5 +1,9 @@
 # Image workflow
 
+## 3 November 2026 — San Francisco Trolleybuses
+
+Original built-in generated artwork: `san-francisco-trolleybuses-master-2x1.jpg` (1600×800) and `san-francisco-trolleybuses-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. White contain exports preserve the complete bus, wheels, both trolley poles and wire contacts. Hosted review found the first wide export lost the wheels in OG Full, so the final master contains a 1040×520 safe image on the 1600×800 canvas. The generic vehicle is not an exact New Flyer product portrait. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-03.md).
+
 ## 2 November 2026 — Typewriters
 
 Original built-in generated artwork: `typewriters-master-2x1.jpg` (1600×800) and `typewriters-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. The original 3:2 generation is contained on white for the wide asset and independently center-cropped for the detailed 4:3 asset, preserving the complete carriage, knobs, keyboard, feet and paper. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-02.md).
