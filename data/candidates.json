@@ -460,20 +460,27 @@
       }
     },
     {
-      "id": "pneumatic-tube-systems",
-      "name": "PNEUMATIC TUBE SYSTEMS",
-      "timeline": "Still rushing through walls",
+      "id": "drive-in-movie-theaters",
+      "name": "DRIVE-IN MOVIE THEATERS",
+      "timeline": "Still at the drive-in",
       "verified_year": "2026",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still in service",
-      "headline": "The capsule still disappears into the wall and arrives upstairs.",
-      "why_survives": "Hospitals need fast, enclosed transport for laboratory samples, medicines and blood products.",
-      "where_now": "Swisslog Healthcare currently supplies, upgrades and services hospital pneumatic tube systems.",
-      "source_name": "Swisslog Healthcare — TransLogic pneumatic tube system",
-      "source_url": "https://www.swisslog-healthcare.com/en-us/products/transport-automation/translogic-pneumatic-tube-system",
-      "note": "Checked 3 November 2026. Swisslog currently markets hospital pneumatic tube systems for specimens, medications and blood products, and publishes current software-upgrade and field-service information. This verifies active specialist deployment and maintenance, not continuous survival of every historic postal or retail network.",
-      "verified_on": "2026-11-03",
+      "category": "Everyday",
+      "category_key": "everyday",
+      "status": "Still operating",
+      "headline": "The screen still waits beyond the windshield.",
+      "why_survives": "Independent operators turn outdoor projection, cars and seasonal events into a distinct cinema experience.",
+      "where_now": "UDITOA represents active operators; Shankweiler’s continues as the world’s oldest operating drive-in.",
+      "source_name": "United Drive-In Theatre Owners Association",
+      "source_url": "https://uditoa.wildapricot.org/About-Us",
+      "sources": [
+        {
+          "name": "Shankweiler’s Drive-In",
+          "url": "https://www.shankweilers.com/",
+          "supports": "Current operator identifies the 1934 venue as the world’s oldest operating drive-in theater."
+        }
+      ],
+      "note": "Checked 4 November 2026. UDITOA lists current 2026–2027 officers and exists to support drive-in owners and commercial exhibition. Shankweiler’s current site confirms continued operation. The candidate concerns the surviving exhibition format, not a claim that every historic drive-in remains open.",
+      "verified_on": "2026-11-04",
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
@@ -485,11 +492,11 @@
         "visual_strength": 5,
         "story_strength": 4,
         "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
+        "catalogue_fit": 4,
+        "total": 22,
         "status": "provisional",
-        "rated_on": "2026-11-03",
-        "note": "Excellent current manufacturer evidence and an instantly understandable capsule-and-tube visual; the modern survival is concentrated in specialist healthcare logistics."
+        "rated_on": "2026-11-04",
+        "note": "Strong current operator evidence and an iconic screen-and-car silhouette; the format survives as a geographically limited specialist experience."
       }
     }
   ]

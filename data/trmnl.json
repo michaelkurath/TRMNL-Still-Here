@@ -1089,6 +1089,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-trolleybuses-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/san-francisco-trolleybuses.jpg",
       "exhibit": "032"
+    },
+    {
+      "id": "pneumatic-tube-systems",
+      "name": "PNEUMATIC TUBE SYSTEMS",
+      "timeline": "Still rushing through walls",
+      "verified_year": "2026",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still in service",
+      "headline": "The capsule still disappears into the wall and arrives upstairs.",
+      "why_survives": "Hospitals need fast, enclosed transport for laboratory samples, medicines and blood products.",
+      "where_now": "Swisslog Healthcare currently supplies, upgrades and services hospital pneumatic tube systems.",
+      "source_name": "Swisslog Healthcare — TransLogic pneumatic tube system",
+      "source_url": "https://www.swisslog-healthcare.com/en-us/products/transport-automation/translogic-pneumatic-tube-system",
+      "note": "Rechecked 4 November 2026. Swisslog currently markets hospital pneumatic tube systems for specimens, medications and blood products, reports more than 2,500 North American facilities, and publishes current 2026 software-upgrade and monitoring information. This verifies active specialist deployment and maintenance, not continuous survival of every historic postal or retail network. Artwork is a generic station and carrier, not an exact Swisslog product portrait.",
+      "verified_on": "2026-11-04",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-11-04",
+        "note": "Current manufacturer, installed-base and 2026 software evidence plus an instantly understandable carrier-and-tube visual make a strong exhibit; modern survival is concentrated in specialist healthcare logistics."
+      },
+      "sources": [
+        {
+          "name": "Swisslog Healthcare — TranspoNet maintenance",
+          "url": "https://www.swisslog-healthcare.com/en-gb/products/transport/transponet-pneumatic-tube-system/pneumatic-tube-system-maintenance",
+          "supports": "Documents current software releases, patches and hardware/firmware maintenance through 2026."
+        }
+      ],
+      "image_alt": "Original monochrome technical engraving of a generic hospital pneumatic tube station, visible tube bend and complete cylindrical carrier.",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pneumatic-tube-systems-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pneumatic-tube-systems-master-2x1.jpg",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/pneumatic-tube-systems.jpg",
+      "exhibit": "033"
     }
   ]
 }

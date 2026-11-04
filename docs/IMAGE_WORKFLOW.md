@@ -1,5 +1,9 @@
 # Image workflow
 
+## 4 November 2026 — Pneumatic Tube Systems
+
+Original built-in generated artwork: `pneumatic-tube-systems-master-2x1.jpg` (1600×800) and `pneumatic-tube-systems-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. White contain exports preserve the complete generic hospital station, tube bend and separate carrier. It is an interpretive device, not an exact Swisslog product portrait. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-04.md).
+
 ## 3 November 2026 — San Francisco Trolleybuses
 
 Original built-in generated artwork: `san-francisco-trolleybuses-master-2x1.jpg` (1600×800) and `san-francisco-trolleybuses-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. White contain exports preserve the complete bus, wheels, both trolley poles and wire contacts. Hosted review found the first wide export lost the wheels in OG Full, so the final master contains a 1040×520 safe image on the 1600×800 canvas. The generic vehicle is not an exact New Flyer product portrait. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-03.md).
