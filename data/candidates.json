@@ -460,33 +460,32 @@
       }
     },
     {
-      "id": "drive-in-movie-theaters",
-      "name": "DRIVE-IN MOVIE THEATERS",
-      "timeline": "Still at the drive-in",
+      "id": "soroban-abacuses",
+      "name": "SOROBAN ABACUSES",
+      "timeline": "Still counting by hand",
       "verified_year": "2026",
       "category": "Everyday",
       "category_key": "everyday",
-      "status": "Still operating",
-      "headline": "The screen still waits beyond the windshield.",
-      "why_survives": "Independent operators turn outdoor projection, cars and seasonal events into a distinct cinema experience.",
-      "where_now": "UDITOA represents active operators; Shankweiler’s continues as the world’s oldest operating drive-in.",
-      "source_name": "United Drive-In Theatre Owners Association",
-      "source_url": "https://uditoa.wildapricot.org/About-Us",
+      "status": "Still taught",
+      "headline": "The beads still slide, even with a calculator in every pocket.",
+      "why_survives": "Abacus schools teach calculation as a practical skill, with graded exams to measure progress.",
+      "where_now": "Japan’s national soroban education federation maintains school listings and graded abacus exams.",
+      "source_name": "National Federation of Abacus Education — abacus exams",
+      "source_url": "https://www.soroban.or.jp/exam/shuzan/",
       "sources": [
         {
-          "name": "Shankweiler’s Drive-In",
-          "url": "https://www.shankweilers.com/",
-          "supports": "Current operator identifies the 1934 venue as the world’s oldest operating drive-in theater."
+          "name": "National Federation of Abacus Education — school finder",
+          "url": "https://www.soroban.or.jp/school/",
+          "supports": "Lists schools teaching the physical Japanese abacus."
+        },
+        {
+          "name": "Federation news",
+          "url": "https://www.soroban.or.jp/",
+          "supports": "Posts current federation activity and October 2026 examination results."
         }
       ],
-      "note": "Checked 4 November 2026. UDITOA lists current 2026–2027 officers and exists to support drive-in owners and commercial exhibition. Shankweiler’s current site confirms continued operation. The candidate concerns the surviving exhibition format, not a claim that every historic drive-in remains open.",
-      "verified_on": "2026-11-04",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
+      "note": "Verified 5 November 2026. The claim is continued teaching and examination of physical soroban use, not widespread commercial use or a claim about all abacus traditions.",
+      "verified_on": "2026-11-05",
       "rating": {
         "recognition": 4,
         "visual_strength": 5,
@@ -494,9 +493,15 @@
         "survival_evidence": 5,
         "catalogue_fit": 4,
         "total": 22,
+        "note": "A familiar bead-frame silhouette with direct evidence of active teaching; scope is the Japanese soroban.",
         "status": "provisional",
-        "rated_on": "2026-11-04",
-        "note": "Strong current operator evidence and an iconic screen-and-car silhouette; the format survives as a geographically limited specialist experience."
+        "rated_on": "2026-11-05"
+      },
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
       }
     }
   ]
