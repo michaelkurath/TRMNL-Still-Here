@@ -1134,6 +1134,51 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/pneumatic-tube-systems-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/pneumatic-tube-systems.jpg",
       "exhibit": "033"
+    },
+    {
+      "id": "drive-in-movie-theaters",
+      "name": "DRIVE-IN MOVIE THEATERS",
+      "timeline": "Still at the drive-in",
+      "verified_year": "2026",
+      "category": "Everyday",
+      "category_key": "everyday",
+      "status": "Still operating",
+      "headline": "The screen still waits beyond the windshield.",
+      "why_survives": "Independent operators turn outdoor projection, cars and seasonal events into a distinct cinema experience.",
+      "where_now": "Shankweiler’s in Orefield, Pennsylvania, opened in 1934 and still sells tickets to outdoor screenings.",
+      "source_name": "Shankweiler’s Drive-In — screenings",
+      "source_url": "https://www.shankweilers.com/events",
+      "sources": [
+        {
+          "name": "Shankweiler’s — history",
+          "url": "https://www.shankweilers.com/history",
+          "supports": "Documents the Orefield opening on 15 April 1934."
+        }
+      ],
+      "note": "Verified 5 November 2026. Shankweiler’s published screenings for 6 and 8 November 2026. This is evidence of active commercial exhibition, not a claim that every historic venue survives. The artwork is a generic drive-in, not a depiction of the Orefield venue.",
+      "verified_on": "2026-11-05",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "reviewed",
+        "rated_on": "2026-11-05",
+        "note": "Strong current operator evidence and an iconic screen-and-car silhouette; the format survives as a geographically limited specialist experience."
+      },
+      "image_alt": "Original monochrome engraving of two cars facing a large outdoor drive-in cinema screen.",
+      "exhibit": "034",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/drive-in-movie-theaters.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/drive-in-movie-theaters-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/drive-in-movie-theaters-master-2x1.jpg"
     }
   ]
 }

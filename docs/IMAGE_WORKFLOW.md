@@ -1,5 +1,9 @@
 # Image workflow
 
+## 5 November 2026 — Drive-In Movie Theaters
+
+Original monochrome artwork, contained on white at 1600×800 and 1067×800 to preserve the subject in compact layouts. The legacy JPEG mirrors the standard export. See the [prompt and export record](IMAGE_UPDATE_2026-11-05.md).
+
 ## 4 November 2026 — Pneumatic Tube Systems
 
 Original built-in generated artwork: `pneumatic-tube-systems-master-2x1.jpg` (1600×800) and `pneumatic-tube-systems-standard-4x3.jpg` (1067×800) under `assets/exhibits/responsive-v2/`; the legacy path mirrors the standard export. White contain exports preserve the complete generic hospital station, tube bend and separate carrier. It is an interpretive device, not an exact Swisslog product portrait. Complete prompt and export decisions: [image update](IMAGE_UPDATE_2026-11-04.md).
