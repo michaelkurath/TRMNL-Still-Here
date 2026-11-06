@@ -460,43 +460,38 @@
       }
     },
     {
-      "id": "soroban-abacuses",
-      "name": "SOROBAN ABACUSES",
-      "timeline": "Still counting by hand",
+      "id": "whitby-jet-working",
+      "name": "WHITBY JET WORKING",
+      "timeline": "Still carved in Whitby",
       "verified_year": "2026",
       "category": "Everyday",
       "category_key": "everyday",
-      "status": "Still taught",
-      "headline": "The beads still slide, even with a calculator in every pocket.",
-      "why_survives": "Abacus schools teach calculation as a practical skill, with graded exams to measure progress.",
-      "where_now": "Japan’s national soroban education federation maintains school listings and graded abacus exams.",
-      "source_name": "National Federation of Abacus Education — abacus exams",
-      "source_url": "https://www.soroban.or.jp/exam/shuzan/",
-      "sources": [
-        {
-          "name": "National Federation of Abacus Education — school finder",
-          "url": "https://www.soroban.or.jp/school/",
-          "supports": "Lists schools teaching the physical Japanese abacus."
-        },
-        {
-          "name": "Federation news",
-          "url": "https://www.soroban.or.jp/",
-          "supports": "Posts current federation activity and October 2026 examination results."
-        }
-      ],
-      "note": "Verified 5 November 2026. The claim is continued teaching and examination of physical soroban use, not widespread commercial use or a claim about all abacus traditions.",
-      "verified_on": "2026-11-05",
+      "status": "Still made",
+      "headline": "Victorian mourning jewellery fell from fashion. The craft survived.",
+      "why_survives": "Small workshops still turn locally sourced jet into polished beads, pendants and other jewellery.",
+      "where_now": "Whitby Museum documents makers still working in shops and workshops in the Yorkshire town.",
+      "source_name": "Whitby Museum — Whitby Jet and Jet Jewellery",
+      "source_url": "https://whitbymuseum.org.uk/collection/jet-and-jet-jewellery/",
+      "note": "Verified 6 November 2026. The museum documents an active but endangered cottage industry; the scope is local working of Whitby jet, not all black jewellery marketed as jet.",
+      "verified_on": "2026-11-06",
       "rating": {
-        "recognition": 4,
+        "recognition": 3,
         "visual_strength": 5,
-        "story_strength": 4,
+        "story_strength": 5,
         "survival_evidence": 5,
         "catalogue_fit": 4,
         "total": 22,
-        "note": "A familiar bead-frame silhouette with direct evidence of active teaching; scope is the Japanese soroban.",
+        "note": "Strong surviving-workshop evidence and a distinctive lapidary visual, despite niche recognition.",
         "status": "provisional",
-        "rated_on": "2026-11-05"
+        "rated_on": "2026-11-06"
       },
+      "sources": [
+        {
+          "name": "W Hamond — Whitby Jet Store",
+          "url": "https://whamond.com/pages/whitby-jet-store",
+          "supports": "Provides current evidence of the local specialist retail trade."
+        }
+      ],
       "review": {
         "fact_check": "approved",
         "text_review": "pending",
