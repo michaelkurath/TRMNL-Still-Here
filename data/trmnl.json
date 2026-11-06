@@ -1179,6 +1179,61 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/drive-in-movie-theaters.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/drive-in-movie-theaters-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/drive-in-movie-theaters-master-2x1.jpg"
+    },
+    {
+      "id": "soroban-abacuses",
+      "name": "SOROBAN ABACUSES",
+      "timeline": "Still counting by hand",
+      "verified_year": "2026",
+      "category": "Everyday",
+      "category_key": "everyday",
+      "status": "Still taught",
+      "headline": "The beads still slide, even with a calculator in every pocket.",
+      "why_survives": "Abacus schools teach calculation as a practical skill, with graded exams to measure progress.",
+      "where_now": "Japanese abacus schools still teach the soroban, and national federations organise exams and competitions.",
+      "source_name": "National Federation of Abacus Education — abacus exams",
+      "source_url": "https://www.soroban.or.jp/exam/shuzan/",
+      "sources": [
+        {
+          "name": "National Federation of Abacus Education — school finder",
+          "url": "https://www.soroban.or.jp/school/",
+          "supports": "Lists schools teaching the physical Japanese abacus."
+        },
+        {
+          "name": "Federation news",
+          "url": "https://www.soroban.or.jp/",
+          "supports": "Posts current federation activity and October 2026 examination results."
+        },
+        {
+          "name": "Federation — November 2026 competition results",
+          "url": "https://www.soroban.or.jp/news/",
+          "supports": "Announced national competition results on 6 November 2026."
+        }
+      ],
+      "note": "Verified 6 November 2026. Japan’s national abacus education federation posts graded physical abacus exams and announced national competition results on 6 November 2026. This is evidence of active specialist education and competition, not widespread commercial use.",
+      "verified_on": "2026-11-06",
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "note": "A familiar bead-frame silhouette with direct evidence of active teaching; scope is the Japanese soroban.",
+        "status": "reviewed",
+        "rated_on": "2026-11-06"
+      },
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "exhibit": "035",
+      "image_alt": "Monochrome engraving of a Japanese soroban with one upper and four lower beads on each rod.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/soroban-abacuses.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/soroban-abacuses-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/soroban-abacuses-master-2x1.jpg"
     }
   ]
 }

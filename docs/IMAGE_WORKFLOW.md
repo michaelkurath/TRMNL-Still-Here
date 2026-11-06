@@ -1,5 +1,9 @@
 # Image workflow
 
+## 6 November 2026 — Soroban Abacuses
+
+Original monochrome artwork, contained on white at 1600×800 and 1067×800. The legacy JPEG mirrors the standard export. See the [prompt and export record](IMAGE_UPDATE_2026-11-06.md).
+
 ## 5 November 2026 — Drive-In Movie Theaters
 
 Original monochrome artwork, contained on white at 1600×800 and 1067×800 to preserve the subject in compact layouts. The legacy JPEG mirrors the standard export. See the [prompt and export record](IMAGE_UPDATE_2026-11-05.md).
