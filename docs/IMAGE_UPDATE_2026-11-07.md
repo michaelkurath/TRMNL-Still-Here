@@ -8,11 +8,11 @@ Use case: illustration-story. Original black-and-white museum engraving of a Whi
 
 ## Exports and review
 
-- `assets/exhibits/responsive-v2/whitby-jet-working-master-2x1.jpg`: 1600×800, grayscale JPEG quality 87; source contained within 1180×530 on white.
+- `assets/exhibits/responsive-v2/whitby-jet-working-master-2x1.jpg`: 1600×800, grayscale JPEG quality 87; source contained within 1180×430 on white.
 - `assets/exhibits/responsive-v2/whitby-jet-working-standard-4x3.jpg`: 1067×800, source contained within 977×680, grayscale JPEG quality 87 on white.
 - `assets/exhibits/whitby-jet-working.jpg` mirrors the standard export.
 
-The whole polishing wheel, rough jet, three beads and pendant remain visible. This is a generic contemporary craft still life, not a documented workshop or named machine.
+The whole polishing wheel, rough jet, three beads and pendant remain visible. The first OG full preview placed the wheel knob and pendant against the cover-crop boundary; reducing the wide source height from 530 to 430 pixels restores white breathing room. This is a generic contemporary craft still life, not a documented workshop or named machine.
 
 Merge is gated on repository checks, trmnlp lint and visual review of full, half-horizontal, half-vertical and quadrant on OG, X landscape and X portrait. Exact-head hosted artifacts provide the review record in the PR.
 
