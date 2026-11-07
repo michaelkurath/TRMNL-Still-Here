@@ -460,38 +460,38 @@
       }
     },
     {
-      "id": "whitby-jet-working",
-      "name": "WHITBY JET WORKING",
-      "timeline": "Still carved in Whitby",
+      "id": "dry-stone-walling",
+      "name": "DRY STONE WALLING",
+      "timeline": "Still laid by hand",
       "verified_year": "2026",
       "category": "Everyday",
       "category_key": "everyday",
-      "status": "Still made",
-      "headline": "Victorian mourning jewellery fell from fashion. The craft survived.",
-      "why_survives": "Small workshops still turn locally sourced jet into polished beads, pendants and other jewellery.",
-      "where_now": "Whitby Museum documents makers still working in shops and workshops in the Yorkshire town.",
-      "source_name": "Whitby Museum — Whitby Jet and Jet Jewellery",
-      "source_url": "https://whitbymuseum.org.uk/collection/jet-and-jet-jewellery/",
-      "note": "Verified 6 November 2026. The museum documents an active but endangered cottage industry; the scope is local working of Whitby jet, not all black jewellery marketed as jet.",
-      "verified_on": "2026-11-06",
+      "status": "Still practised",
+      "headline": "No mortar. Still standing.",
+      "why_survives": "Traditional walling remains useful for landscape repair, conservation and new boundary walls.",
+      "where_now": "Britain’s Dry Stone Walling Association maintains training, professional registers and a current events programme.",
+      "source_name": "Heritage Crafts — Dry stone walling",
+      "source_url": "https://heritagecrafts.org.uk/craft/dry-stone-walling/",
+      "sources": [
+        {
+          "name": "Dry Stone Walling Association — events",
+          "url": "https://www.dswa.org.uk/events/",
+          "supports": "Lists training and branch activity extending through November and December 2026."
+        }
+      ],
+      "note": "Verified 7 November 2026. Heritage Crafts classifies the craft as currently viable, not endangered. Walls are assembled without mortar or cement; repaired historic walls alone are not the evidence of continued practice. Current association training and activity establish the living craft.",
+      "verified_on": "2026-11-07",
       "rating": {
-        "recognition": 3,
+        "recognition": 4,
         "visual_strength": 5,
-        "story_strength": 5,
+        "story_strength": 4,
         "survival_evidence": 5,
         "catalogue_fit": 4,
         "total": 22,
-        "note": "Strong surviving-workshop evidence and a distinctive lapidary visual, despite niche recognition.",
+        "note": "Recognisable stonework and direct current training evidence; avoid implying all traditional crafts are endangered.",
         "status": "provisional",
-        "rated_on": "2026-11-06"
+        "rated_on": "2026-11-07"
       },
-      "sources": [
-        {
-          "name": "W Hamond — Whitby Jet Store",
-          "url": "https://whamond.com/pages/whitby-jet-store",
-          "supports": "Provides current evidence of the local specialist retail trade."
-        }
-      ],
       "review": {
         "fact_check": "approved",
         "text_review": "pending",

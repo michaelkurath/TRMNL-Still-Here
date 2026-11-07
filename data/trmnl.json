@@ -1234,6 +1234,56 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/soroban-abacuses.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/soroban-abacuses-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/soroban-abacuses-master-2x1.jpg"
+    },
+    {
+      "id": "whitby-jet-working",
+      "name": "WHITBY JET WORKING",
+      "timeline": "Still carved",
+      "verified_year": "2026",
+      "category": "Everyday",
+      "category_key": "everyday",
+      "status": "Still made",
+      "headline": "The black gemstone is still worked.",
+      "why_survives": "Small workshops still turn locally sourced jet into polished beads, pendants and other jewellery.",
+      "where_now": "Whitby Museum documents makers still working in shops and workshops in the Yorkshire town.",
+      "source_name": "Whitby Museum — Whitby Jet and Jet Jewellery",
+      "source_url": "https://whitbymuseum.org.uk/collection/jet-and-jet-jewellery/",
+      "note": "Verified 7 November 2026. Whitby Museum documents the surviving local jet-working trade; Simpson’s Jet currently states its jewellery is handmade in its local workshop. Scope is the craft using Whitby jet, not all black jewellery marketed as jet. The illustration is an interpretive workshop still life.",
+      "verified_on": "2026-11-07",
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "note": "Strong surviving-workshop evidence and a distinctive lapidary visual, despite niche recognition.",
+        "status": "reviewed",
+        "rated_on": "2026-11-07"
+      },
+      "sources": [
+        {
+          "name": "W Hamond — Whitby Jet Store",
+          "url": "https://whamond.com/pages/whitby-jet-store",
+          "supports": "Provides current evidence of the local specialist retail trade."
+        },
+        {
+          "name": "Simpson’s Jet — current Whitby workshop",
+          "url": "https://www.whitbyjetjewellery.net/pages/frontpage",
+          "supports": "States that jewellery is handmade in its local Whitby workshop."
+        }
+      ],
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "exhibit": "036",
+      "image_alt": "Original monochrome engraving of a polishing wheel, rough jet, polished black beads and a carved pendant.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/whitby-jet-working.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/whitby-jet-working-standard-4x3.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/whitby-jet-working-master-2x1.jpg"
     }
   ]
 }
