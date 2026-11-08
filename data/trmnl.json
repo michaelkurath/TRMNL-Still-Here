@@ -1284,6 +1284,56 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/whitby-jet-working.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/whitby-jet-working-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/whitby-jet-working-master-2x1.jpg"
+    },
+    {
+      "id": "atlantic-horseshoe-crab",
+      "name": "HORSESHOE CRABS",
+      "timeline": "Still spawning",
+      "category": "Nature",
+      "category_key": "nature",
+      "status": "Still spawning",
+      "headline": "Still spawning on Atlantic shores.",
+      "why_survives": "Spawning habitat and managed harvest support populations; pressures and regional trends still vary.",
+      "where_now": "Maryland DNR recorded Atlantic horseshoe crabs returning to coastal spawning sites in May 2026.",
+      "source_name": "NOAA Ocean Service",
+      "source_url": "https://oceanservice.noaa.gov/facts/horseshoe-crab.html",
+      "note": "Verified 8 November 2026. Scope is Atlantic horseshoe crabs (Limulus polyphemus), not all horseshoe-crab species. Maryland DNR documented their 2026 spawning return on 19 May. An ancient lineage does not mean an unchanged modern species. They are not true crabs, and survival does not imply secure populations. Artwork is an interpretive natural-history illustration.",
+      "verified_on": "2026-11-08",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "reviewed",
+        "rated_on": "2026-11-08",
+        "note": "Recognisable shield-and-tail silhouette, strong 2026 field evidence and ecological story; conservation pressures must remain explicit."
+      },
+      "exhibit": "037",
+      "sources": [
+        {
+          "name": "Maryland DNR — spawning migration, 19 May 2026",
+          "url": "https://news.maryland.gov/dnr/2026/05/19/horseshoe-crab-spawning-migration-arriving-in-maryland-2/",
+          "supports": "Documents living Limulus polyphemus and active monitoring of the 2026 spawning return."
+        },
+        {
+          "name": "US Fish & Wildlife Service — Atlantic horseshoe crab",
+          "url": "https://www.fws.gov/species/atlantic-horseshoe-crab-limulus-polyphemus",
+          "supports": "Confirms species identity, distribution and spawning biology."
+        }
+      ],
+      "image_alt": "Original monochrome natural-history engraving of an Atlantic horseshoe crab showing its domed shield, spined rear body and complete telson.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/atlantic-horseshoe-crab.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-standard-4x3.jpg"
     }
   ]
 }
