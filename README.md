@@ -25,7 +25,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Photographic film | ILFORD: current 35mm, roll and sheet-film product listing |
 | PS Waverley | Operator: dated October 2026 sailings and booking instructions |
 
-**36 live exhibits and 14 candidates.** Whitby Jet Working is exhibit 036. New candidate: Dry Stone Walling (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**37 live exhibits and 14 candidates.** Atlantic Horseshoe Crabs is exhibit 037. New candidate: Handmade Globes (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -85,7 +85,7 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **36 live exhibits and 14 candidates**. Whitby Jet Working is exhibit 036; new candidate Dry Stone Walling scored 22/25. See [7 November review](docs/PROMOTION_2026-11-07.md).
+Latest collection update: **37 live exhibits and 14 candidates**. Atlantic Horseshoe Crabs is exhibit 037; new candidate Handmade Globes scored 22/25. See [8 November review](docs/PROMOTION_2026-11-08.md).
 
 
 30 October update: THE TAKAHĒ (028) promoted; new candidate MECHANICAL METRONOMES (22/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).

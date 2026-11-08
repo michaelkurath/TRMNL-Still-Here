@@ -69,39 +69,6 @@
       }
     },
     {
-      "id": "atlantic-horseshoe-crab",
-      "name": "ATLANTIC HORSESHOE CRABS",
-      "timeline": "An ancient lineage",
-      "category": "Nature",
-      "category_key": "nature",
-      "status": "Still spawning",
-      "headline": "An ancient body plan still leaves tracks on Atlantic beaches.",
-      "why_survives": "Coastal habitat, spawning beaches and managed harvest help sustain surviving populations.",
-      "where_now": "Atlantic horseshoe crabs still spawn on US shores, including Delaware Bay.",
-      "source_name": "NOAA Ocean Service",
-      "source_url": "https://oceanservice.noaa.gov/facts/horseshoe-crab.html",
-      "note": "Ancient lineage does not mean the modern species is unchanged for hundreds of millions of years. They are not true crabs. Conservation status varies by region; avoid implying that survival means secure populations. Habitat and harvest context: https://www.fisheries.noaa.gov/feature-story/horseshoe-crabs-managing-resource-birds-bait-and-blood",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 4,
-        "total": 22,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "fax",
       "name": "FAX",
       "timeline": "Still sending documents",
@@ -491,6 +458,51 @@
         "note": "Recognisable stonework and direct current training evidence; avoid implying all traditional crafts are endangered.",
         "status": "provisional",
         "rated_on": "2026-11-07"
+      },
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "handmade-globes",
+      "name": "HANDMADE GLOBES",
+      "timeline": "Still made by hand",
+      "verified_year": "2026",
+      "category": "Everyday",
+      "category_key": "everyday",
+      "status": "Still made",
+      "headline": "The world still takes shape by hand.",
+      "why_survives": "Bespoke commissions sustain specialist workshops making physical globes with hand-applied paper and paint.",
+      "where_now": "Bellerby & Co describes current bespoke globe production and hand-built bases in its London workshop.",
+      "source_name": "Bellerby & Co — how they are made",
+      "source_url": "https://bellerbyandco.com/how-theyre-made/",
+      "sources": [
+        {
+          "name": "Bellerby & Co — current commissions FAQ",
+          "url": "https://bellerbyandco.com/faq/",
+          "supports": "Describes a working studio making globes to order and training apprentice globemakers."
+        },
+        {
+          "name": "Bellerby & Co — 2026 collection",
+          "url": "https://bellerbyandco.com/",
+          "supports": "Lists a Harrods-exclusive 2026 globe and current handmade collections."
+        }
+      ],
+      "note": "Verified 8 November 2026. Scope is current specialist production of handmade globes, not restored antiques or all mass-produced globes. The maker’s workshop process, commissions and 2026 collection establish ongoing production; they do not establish market size or uninterrupted continuity of every historic technique.",
+      "verified_on": "2026-11-08",
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "provisional",
+        "rated_on": "2026-11-08",
+        "note": "Distinctive spherical object and direct workshop evidence; survival is a specialist craft market, not universal everyday use."
       },
       "review": {
         "fact_check": "approved",
