@@ -11,4 +11,3 @@ Handmade Globes — provisional 22/25: 4 + 5 + 4 + 5 + 4. [Bellerby’s making p
 Sources checked 8 November 2026. New candidate remains outside the live rotation. Counts: 37 live / 14 candidates. Original art, exact prompt and crop decisions: [image record](IMAGE_UPDATE_2026-11-08.md).
 
 Final merge requires data/candidate validation, Saved State tests, website build, asset checks, trmnlp lint and all 12 device-layout reviews. Exact-head hosted run and visual evidence are recorded on the pull request.
-

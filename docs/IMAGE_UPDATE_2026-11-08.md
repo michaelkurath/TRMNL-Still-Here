@@ -15,4 +15,3 @@ Use case: illustration-story. Asset: STILL HERE natural-history exhibit. Origina
 Identity review: the complete domed horseshoe shield, lateral eyes, smaller spined rear shield and long straight telson are visible. This is an interpretive illustration of Limulus polyphemus, not field evidence or a claim about an unchanged ancient species. The standard export uses contain padding rather than cutting off the unusually long tail.
 
 Merge gate: successful repository checks and trmnlp lint, inspection of both exports, and visual review of all four layouts on OG, X landscape and X portrait. Exact-head artifact and final review evidence are recorded in the PR.
-
