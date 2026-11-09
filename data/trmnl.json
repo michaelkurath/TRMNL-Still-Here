@@ -1334,6 +1334,56 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/atlantic-horseshoe-crab.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-master-2x1.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-standard-4x3.jpg"
+    },
+    {
+      "id": "fax",
+      "name": "FAX",
+      "timeline": "Still faxing",
+      "category": "Technology",
+      "category_key": "technology",
+      "status": "Still faxing",
+      "headline": "The fax number still answers.",
+      "why_survives": "Online services connect digital documents to fax numbers.",
+      "where_now": "eFax currently supports sending and receiving through email, browsers and mobile apps.",
+      "source_name": "eFax",
+      "source_url": "https://www.efax.com/how-it-works",
+      "note": "Verified 9 November 2026. Scope is the fax communication format, including online fax, not a claim of new standalone-machine production. eFax’s current service documents active functionality, not market size or a legal/security necessity. Interoperability as a survival explanation is an editorial inference. Artwork juxtaposes generic paper-fax and online-document devices, not specific products.",
+      "verified_on": "2026-11-09",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "reviewed",
+        "rated_on": "2026-11-09",
+        "note": "Familiar machine silhouette, clear current service evidence and a strong format-versus-hardware survival story."
+      },
+      "exhibit": "038",
+      "sources": [
+        {
+          "name": "eFax — online faxing and conventional-machine interoperability",
+          "url": "https://ww2.efax.com/uk/features/online-faxing",
+          "supports": "Explains use of fax numbers to communicate with conventional fax machines."
+        },
+        {
+          "name": "eFax — current service FAQ",
+          "url": "https://ww2.efax.com/eu/faq",
+          "supports": "Describes online sending/receiving without a physical fax machine."
+        }
+      ],
+      "image_alt": "Original monochrome engraving of a generic fax machine with handset and paper beside a laptop showing a document icon.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/fax.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/fax-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/fax-standard-4x3.jpg"
     }
   ]
 }

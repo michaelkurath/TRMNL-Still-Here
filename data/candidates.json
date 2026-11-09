@@ -69,39 +69,6 @@
       }
     },
     {
-      "id": "fax",
-      "name": "FAX",
-      "timeline": "Still sending documents",
-      "category": "Technology",
-      "category_key": "technology",
-      "status": "Still faxing",
-      "headline": "Email took over. The fax number kept receiving documents.",
-      "why_survives": "Online fax services connect digital workflows to fax numbers, keeping the communication format usable.",
-      "where_now": "eFax offers sending and receiving through email, browsers and mobile devices.",
-      "source_name": "eFax",
-      "source_url": "https://www.efax.com/how-it-works",
-      "note": "Scope includes online fax, not only standalone machines. A current service establishes functionality, not market size. Survival explanation is an editorial inference from interoperability. No security or legal necessity claim. Supporting hardware listing: https://www.brother-usa.com/p/fax-machines/FAX2840 (out of stock when checked).",
-      "verified_on": "2026-10-07",
-      "verified_year": "2026",
-      "review": {
-        "fact_check": "approved",
-        "text_review": "pending",
-        "image_review": "not_started",
-        "final_approval": "pending"
-      },
-      "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
-        "story_strength": 4,
-        "survival_evidence": 5,
-        "catalogue_fit": 5,
-        "total": 23,
-        "status": "provisional",
-        "rated_on": "2026-10-07",
-        "note": "Editorial score; images and device review required before promotion."
-      }
-    },
-    {
       "id": "queen-mary-2-crossings",
       "name": "QUEEN MARY 2 CROSSINGS",
       "timeline": "Still crossing the Atlantic",
@@ -506,6 +473,51 @@
       },
       "review": {
         "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      }
+    },
+    {
+      "id": "circular-slide-rules",
+      "name": "CIRCULAR SLIDE RULES",
+      "timeline": "Still catalogued",
+      "verified_year": "2026",
+      "category": "Everyday",
+      "category_key": "everyday",
+      "status": "Still listed",
+      "headline": "The scales still do the sums.",
+      "why_survives": "Specialist catalogues retain mechanical calculation tools alongside modern drafting supplies.",
+      "where_now": "Concise lists the Japanese-made No.28N circular slide rule, but its store currently reports no stock.",
+      "source_name": "Concise — No.28N circular slide rule",
+      "source_url": "https://www.concise.co.jp/fs/concise/100973",
+      "sources": [
+        {
+          "name": "Concise — July 2025 ruler catalogue",
+          "url": "https://www.concise.co.jp/wp/wp-content/themes/concise/pdf/ruler202507.pdf",
+          "supports": "Includes circular slide rules in the maker’s modern product range."
+        },
+        {
+          "name": "Concise — slide-rule feature",
+          "url": "https://www.concise.co.jp/feature/slide_rule/",
+          "supports": "Explains the calculation instrument and circular form."
+        }
+      ],
+      "note": "Checked 9 November 2026. This is evidence of a current maker catalogue and product listing, not proof of current production volume or immediate availability. No.28N was marked out of stock. Verify supply or active use before promotion; do not use a museum’s 2012 manufacturing statement as present-day evidence. Scope is circular slide rules, not all historic linear-rule brands.",
+      "verified_on": "2026-11-09",
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 4,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "provisional",
+        "rated_on": "2026-11-09",
+        "note": "Distinctive circular instrument and current catalogue evidence; out-of-stock status limits survival-evidence confidence."
+      },
+      "review": {
+        "fact_check": "pending",
         "text_review": "pending",
         "image_review": "not_started",
         "final_approval": "pending"

@@ -25,7 +25,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Photographic film | ILFORD: current 35mm, roll and sheet-film product listing |
 | PS Waverley | Operator: dated October 2026 sailings and booking instructions |
 
-**37 live exhibits and 14 candidates.** Atlantic Horseshoe Crabs is exhibit 037. New candidate: Handmade Globes (22/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**38 live exhibits and 14 candidates.** Fax is exhibit 038. New candidate: Circular Slide Rules (21/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -85,7 +85,7 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **37 live exhibits and 14 candidates**. Atlantic Horseshoe Crabs is exhibit 037; new candidate Handmade Globes scored 22/25. See [8 November review](docs/PROMOTION_2026-11-08.md).
+Latest collection update: **38 live exhibits and 14 candidates**. Fax is exhibit 038; new candidate Circular Slide Rules scored 21/25. See [9 November review](docs/PROMOTION_2026-11-09.md).
 
 
 30 October update: THE TAKAHĒ (028) promoted; new candidate MECHANICAL METRONOMES (22/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).
