@@ -85,7 +85,7 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **39 live exhibits and 14 candidates**. Fountain Pens is exhibit 039; new candidate Circular Slide Rules scored 21/25. See [10 November review](docs/PROMOTION_2026-11-10.md).
+Latest collection update: **39 live exhibits and 14 candidates**. Fountain Pens is exhibit 039; new candidate Hand-Crank Sewing Machines scored 23/25. See [10 November review](docs/PROMOTION_2026-11-10.md).
 
 
 30 October update: THE TAKAHĒ (028) promoted; new candidate MECHANICAL METRONOMES (22/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).
