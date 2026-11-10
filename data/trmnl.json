@@ -1384,6 +1384,56 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/fax.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/fax-master-2x1.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/fax-standard-4x3.jpg"
+    },
+    {
+      "id": "fountain-pens",
+      "name": "FOUNTAIN PENS",
+      "timeline": "Still writing",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still writing",
+      "headline": "The nib still has a place.",
+      "why_survives": "Refillable ink and repair support keep the pen useful for handwriting.",
+      "where_now": "Pelikan currently lists fountain pens, bottled inks and a repair service.",
+      "source_name": "Pelikan",
+      "source_url": "https://www.pelikan-passion.com/int/",
+      "note": "Verified 10 November 2026. Current Pelikan products and its repair-contact service establish an ongoing offering, not sales growth or worldwide use. Refillability and support as reasons for survival are editorial inferences; repair availability depends on the instrument and region. Artwork depicts generic unbranded objects, not an exact Pelikan product.",
+      "verified_on": "2026-11-10",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 5,
+        "visual_strength": 5,
+        "story_strength": 3,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "reviewed",
+        "rated_on": "2026-11-10",
+        "note": "Immediately recognisable pen and nib, current maker evidence and repair support; a quieter survival story than discontinued technologies."
+      },
+      "exhibit": "039",
+      "image_alt": "Original monochrome engraving of a generic uncapped fountain pen with complete nib, separate cap and closed ink bottle.",
+      "sources": [
+        {
+          "name": "Pelikan — repair service",
+          "url": "https://www.pelikan-passion.com/de/service/reparatur-service",
+          "supports": "Current repair-contact route through dealers, country companies or the maker."
+        },
+        {
+          "name": "Pelikan — filling and maintenance",
+          "url": "https://www.pelikan-passion.com/int/services/filling-and-maintenance-service.html",
+          "supports": "Explains refilling and care of fountain pens."
+        }
+      ],
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/fountain-pens.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/fountain-pens-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/fountain-pens-standard-4x3.jpg"
     }
   ]
 }

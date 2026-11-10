@@ -1,5 +1,9 @@
 # Image workflow
 
+## 10 November 2026 — FOUNTAIN PENS
+
+Original monochrome artwork, full generation prompt, scope and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-10.md).
+
 ## 9 November 2026 — Fax
 
 Original monochrome artwork, complete prompt, scope and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-09.md).
