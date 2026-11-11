@@ -1,5 +1,9 @@
 # Image workflow
 
+## 11 November 2026 — Hand-Crank Sewing Machines
+
+Original monochrome artwork, complete prompt and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-11.md).
+
 ## 10 November 2026 — FOUNTAIN PENS
 
 Original monochrome artwork, full generation prompt, scope and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-10.md).
