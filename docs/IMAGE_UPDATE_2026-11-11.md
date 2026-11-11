@@ -12,4 +12,4 @@ Use case: historical-scene. Original monochrome e-ink museum engraving of a gene
 - `assets/exhibits/responsive-v2/hand-operated-sewing-machines-standard-4x3.jpg`: 1067×800 grayscale JPEG.
 - `assets/exhibits/hand-operated-sewing-machines.jpg` mirrors the standard export.
 
-Contain artwork within 1180×430 for wide and 977×680 for standard, centered on white, quality 87. No subject crop. Review all four layouts on OG, X landscape and X portrait before opening or merging the PR.
+Normalize near-white paper above 96% to pure white before resizing. Contain artwork within 1180×430 for wide and 977×680 for standard, centered on white, quality 87. No subject crop. The first hosted X renders showed gray quantization streaks; recheck both aspect ratios on all four OG, X landscape and X portrait layouts before opening or merging the PR.
