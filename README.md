@@ -69,7 +69,7 @@ trmnlp lint
 trmnlp serve
 ```
 
-CI validates and renders all four layouts at OG 800×480, X 1040×780, and X portrait 780×1040. Rendered output must also be visually reviewed. See [docs/VALIDATION.md](docs/VALIDATION.md).
+CI validates and renders all four layouts at OG 800×480, X 1872×1404, and X portrait 1404×1872. Rendered output must also be visually reviewed. See [docs/VALIDATION.md](docs/VALIDATION.md).
 
 ## Images, icon, and website
 
