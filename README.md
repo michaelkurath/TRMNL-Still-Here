@@ -64,7 +64,7 @@ the full catalogue directly and selects its daily exhibit by UTC date.
 node scripts/validate-data.js
 node scripts/validate-candidates.js
 node scripts/test-transform.js
-gem install trmnl_preview --version 0.14.2
+gem install trmnl_preview --version 0.34.0
 trmnlp lint
 trmnlp serve
 ```

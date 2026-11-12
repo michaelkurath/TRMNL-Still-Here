@@ -24,7 +24,7 @@ jobs:
           fi
           sudo apt-get update -o Acquire::Retries=2 -o Acquire::http::Timeout=30
           sudo apt-get install --yes --no-install-recommends -o Acquire::Retries=2 -o Acquire::http::Timeout=30 imagemagick
-          gem install trmnl_preview --version 0.14.2
+          gem install trmnl_preview --version 0.34.0
 
       - name: Validate data and rotation
         run: |

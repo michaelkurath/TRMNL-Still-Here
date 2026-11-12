@@ -2,7 +2,7 @@
 
 Data, candidate ratings, source scope and transform checks are run before merge.
 
-The inherited pinned `trmnl_preview` 0.14.2 workflow renders Full, Half Horizontal, Half Vertical and Quadrant for OG, X landscape and X portrait. CI serves the checked-out catalogue locally, so it tests the PR payload rather than a cached main-branch payload. Production polling remains the raw GitHub main URL.
+The pinned `trmnl_preview` 0.34.0 workflow renders Full, Half Horizontal, Half Vertical and Quadrant for OG, X landscape and X portrait. The pin replaces 0.14.2 after that version's 4-bit previews showed gray trails extending outside the image box. The newer quantizer avoids the older second palette reduction. CI still uses the same screen dimensions and bit depths and serves the checked-out catalogue locally. Production polling remains the raw GitHub main URL.
 
 Transform coverage: complete no-repeat cycle/reset; filtered pools; unknown/whitespace/case settings; stale and duplicate history; empty data; malformed entries; one-entry pools; duplicate IDs; invalid seed; bounded state keys.
 
