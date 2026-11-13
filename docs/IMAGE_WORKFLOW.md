@@ -1,5 +1,9 @@
 # Image workflow
 
+## 13 November 2026 — Bicycle Frame Pumps
+
+Original monochrome artwork, complete prompt and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-13.md).
+
 ## 11 November 2026 — Hand-Crank Sewing Machines
 
 Original monochrome artwork, complete prompt and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-11.md).
