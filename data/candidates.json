@@ -491,19 +491,19 @@
       }
     },
     {
-      "id": "hand-operated-sewing-machines",
-      "name": "HAND-CRANK SEWING MACHINES",
-      "timeline": "Still stitching",
+      "id": "bicycle-frame-pumps",
+      "name": "BICYCLE FRAME PUMPS",
+      "timeline": "Still inflating",
       "category": "Everyday life",
       "category_key": "everyday",
-      "status": "Still stitching",
-      "headline": "A hand still turns the wheel.",
-      "why_survives": "Manual drive offers straight stitching without requiring a powered drive.",
-      "where_now": "USHA currently lists a hand-operated Tailor Deluxe Cherry Brown model.",
-      "source_name": "USHA",
-      "source_url": "https://www.ushasew.com/cherry-brown/",
-      "note": "Verified 10 November 2026. Scope is current hand-operated straight-stitch sewing machines, not only antiques or every mechanical sewing machine. The maker also offers foot variants and optional motor operation; do not imply these models can only be hand-powered. A current listing establishes an offering, not stock everywhere, production volume or typical use. The usefulness explanation is an editorial inference.",
-      "verified_on": "2026-11-10",
+      "status": "Still sold",
+      "headline": "The pump still rides on the frame.",
+      "why_survives": "A full-length hand pump can travel with the bike without batteries or cartridges.",
+      "where_now": "SILCA lists the Impero Ultimate II in several frame sizes.",
+      "source_name": "SILCA",
+      "source_url": "https://silca.cc/products/impero-ultimate-frame-pump",
+      "note": "Verified 11 November 2026. Scope is full-length, frame-fit hand pumps, not all portable pumps. SILCA lists sizes and online purchase options. This establishes a current offering, not market share or worldwide availability. Carrying convenience is an editorial inference.",
+      "verified_on": "2026-11-11",
       "verified_year": "2026",
       "review": {
         "fact_check": "approved",
@@ -512,15 +512,15 @@
         "final_approval": "pending"
       },
       "rating": {
-        "recognition": 5,
-        "visual_strength": 5,
+        "recognition": 4,
+        "visual_strength": 4,
         "story_strength": 4,
         "survival_evidence": 5,
         "catalogue_fit": 4,
-        "total": 23,
+        "total": 21,
         "status": "provisional",
-        "rated_on": "2026-11-10",
-        "note": "Recognisable crank and flywheel; direct current maker evidence. Verify the exact hand variant before artwork and promotion."
+        "rated_on": "2026-11-11",
+        "note": "Direct current offering and clear mechanical purpose; show the frame mounting to distinguish it from a generic mini-pump."
       }
     }
   ]
