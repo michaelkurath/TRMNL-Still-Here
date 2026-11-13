@@ -25,7 +25,7 @@ Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL
 | Photographic film | ILFORD: current 35mm, roll and sheet-film product listing |
 | PS Waverley | Operator: dated October 2026 sailings and booking instructions |
 
-**40 live exhibits and 14 candidates.** Hand-Crank Sewing Machines is exhibit 040. New candidate: Bicycle Frame Pumps (21/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
+**41 live exhibits and 14 candidates.** Bicycle Frame Pumps is exhibit 041. New candidate: Drafting Leadholders (20/25). Candidates remain outside production until all review gates pass. Sources and qualifications are stored with each entry.
 
 ## Install / GitHub sync
 
@@ -85,7 +85,7 @@ The [companion website](https://michaelkurath.github.io/TRMNL-Still-Here/) prese
 
 [TRMNL Community Plugin terms](https://trmnl.com/plugin-license), with CC BY 4.0 attribution as described in [LICENSE.md](LICENSE.md). Copyright 2026 Michael Kurath.
 
-Latest collection update: **40 live exhibits and 14 candidates**. Hand-Crank Sewing Machines is exhibit 040; new candidate Bicycle Frame Pumps scored 21/25. See [11 November review](docs/PROMOTION_2026-11-11.md).
+Latest collection update: **41 live exhibits and 14 candidates**. Bicycle Frame Pumps is exhibit 041; new candidate Drafting Leadholders scored 20/25. See [13 November review](docs/PROMOTION_2026-11-13.md).
 
 
 30 October update: THE TAKAHĒ (028) promoted; new candidate MECHANICAL METRONOMES (22/25). Source and artwork record: [review](docs/PROMOTION_2026-10-30.md).

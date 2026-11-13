@@ -491,19 +491,19 @@
       }
     },
     {
-      "id": "bicycle-frame-pumps",
-      "name": "BICYCLE FRAME PUMPS",
-      "timeline": "Still inflating",
+      "id": "drafting-leadholders",
+      "name": "DRAFTING LEADHOLDERS",
+      "timeline": "Still drawing",
       "category": "Everyday life",
       "category_key": "everyday",
       "status": "Still sold",
-      "headline": "The pump still rides on the frame.",
-      "why_survives": "A full-length hand pump can travel with the bike without batteries or cartridges.",
-      "where_now": "SILCA lists the Impero Ultimate II in several frame sizes.",
-      "source_name": "SILCA",
-      "source_url": "https://silca.cc/products/impero-ultimate-frame-pump",
-      "note": "Verified 11 November 2026. Scope is full-length, frame-fit hand pumps, not all portable pumps. SILCA lists sizes and online purchase options. This establishes a current offering, not market share or worldwide availability. Carrying convenience is an editorial inference.",
-      "verified_on": "2026-11-11",
+      "headline": "The drawing lead still clicks into place.",
+      "why_survives": "Thick replaceable leads suit sketching and manual drafting.",
+      "where_now": "STAEDTLER lists the Mars technico 780 for 2 mm leads.",
+      "source_name": "STAEDTLER",
+      "source_url": "https://www.staedtler.com/us/en/products/pencils-and-accessories/mechanical-pencils-and-lead-holders/mars-technico-780-leadholder-780-bk-a6/",
+      "note": "Verified 13 November 2026. Scope is the thick-lead drafting holder, not every mechanical pencil. The manufacturer lists the model and its built-in sharpener. No market-share or worldwide stock claim.",
+      "verified_on": "2026-11-13",
       "verified_year": "2026",
       "review": {
         "fact_check": "approved",
@@ -514,13 +514,13 @@
       "rating": {
         "recognition": 4,
         "visual_strength": 4,
-        "story_strength": 4,
+        "story_strength": 3,
         "survival_evidence": 5,
         "catalogue_fit": 4,
-        "total": 21,
+        "total": 20,
         "status": "provisional",
-        "rated_on": "2026-11-11",
-        "note": "Direct current offering and clear mechanical purpose; show the frame mounting to distinguish it from a generic mini-pump."
+        "rated_on": "2026-11-13",
+        "note": "Strong maker evidence; distinguish the exposed thick lead and holder from a generic mechanical pencil."
       }
     }
   ]

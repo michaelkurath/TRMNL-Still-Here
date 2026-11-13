@@ -1472,6 +1472,44 @@
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/hand-operated-sewing-machines-master-2x1.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/hand-operated-sewing-machines-standard-4x3.jpg",
       "image_alt": "Monochrome engraving of an unbranded straight-stitch sewing machine with a spoked flywheel and hand crank."
+    },
+    {
+      "id": "bicycle-frame-pumps",
+      "name": "BICYCLE FRAME PUMPS",
+      "timeline": "Still inflating",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still sold",
+      "headline": "The pump still rides on the frame.",
+      "why_survives": "A hand pump rides on the bike without batteries or cartridges.",
+      "where_now": "SILCA lists its Impero Ultimate II in several sizes.",
+      "source_name": "SILCA",
+      "source_url": "https://silca.cc/products/impero-ultimate-frame-pump",
+      "note": "Verified 13 November 2026. SILCA’s Impero Ultimate II listing shows a current full-length frame pump in multiple sizes. This is a generic illustration of a frame-mounted pump, not the named product or its exact retention mechanism. No worldwide stock claim.",
+      "verified_on": "2026-11-13",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 21,
+        "status": "reviewed",
+        "rated_on": "2026-11-13",
+        "note": "Current maker evidence and a clear frame-mounted form distinguish it from generic mini-pumps."
+      },
+      "exhibit": "041",
+      "image_alt": "Original monochrome illustration of a full-length bicycle hand pump mounted beneath a road-bike top tube.",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/bicycle-frame-pumps.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bicycle-frame-pumps-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bicycle-frame-pumps-standard-4x3.jpg"
     }
   ]
 }
