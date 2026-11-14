@@ -1510,6 +1510,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/bicycle-frame-pumps.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bicycle-frame-pumps-master-2x1.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/bicycle-frame-pumps-standard-4x3.jpg"
+    },
+    {
+      "id": "queen-mary-2-crossings",
+      "name": "QUEEN MARY 2 CROSSINGS",
+      "timeline": "Still at sea",
+      "category": "Transport",
+      "category_key": "transport",
+      "status": "Still sailing",
+      "headline": "The ocean liner still crosses.",
+      "why_survives": "Cunard sells the days at sea as part of the trip, not as time to save.",
+      "where_now": "Cunard schedules New York to Southampton for 28 Nov–5 Dec 2026.",
+      "source_name": "Cunard",
+      "source_url": "https://www.cunard.com/en-us/find-a-cruise/M632/M632",
+      "note": "Verified 14 November 2026. Cunard’s M632 itinerary lists Queen Mary 2 between New York and Southampton. This is a scheduled voyage, not confirmation that this particular crossing has sailed. The subject is the current liner service, not the original Queen Mary or QE2.",
+      "verified_on": "2026-11-14",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 4,
+        "total": 22,
+        "status": "reviewed",
+        "rated_on": "2026-11-14",
+        "note": "Direct operator schedule, strong ocean-liner silhouette and a surviving long-distance service."
+      },
+      "image_alt": "Original monochrome engraving of the Queen Mary 2 ocean liner at sea.",
+      "exhibit": "042",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/queen-mary-2-crossings.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-standard-4x3.jpg"
     }
   ]
 }
