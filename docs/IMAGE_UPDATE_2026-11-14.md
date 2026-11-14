@@ -12,4 +12,4 @@ Original black-ink museum engraving for monochrome e-paper, showing Cunard's Que
 - `assets/exhibits/responsive-v2/queen-mary-2-crossings-standard-4x3.jpg`: 1067×800 grayscale JPEG.
 - `assets/exhibits/queen-mary-2-crossings.jpg` mirrors the standard export.
 
-Normalize near-white paper above 96%; contain the artwork within 1250×430 (wide) and 977×680 (standard), center on white, and export at quality 87. Inspect full, both halves and quadrant on OG, X landscape and X portrait.
+Normalize near-white paper above 96%; contain the artwork within 1040×430 (wide) and 790×680 (standard), center on white, and export at quality 87. The narrower fits preserve the bow and stern in X portrait Full. Inspect full, both halves and quadrant on OG, X landscape and X portrait.
