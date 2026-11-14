@@ -1,5 +1,9 @@
 # Image workflow
 
+## 14 November 2026 — Queen Mary 2 Crossings
+
+Original monochrome artwork, exact prompt, and responsive exports: [image record](IMAGE_UPDATE_2026-11-14.md).
+
 ## 13 November 2026 — Bicycle Frame Pumps
 
 Original monochrome artwork, complete prompt and crop-safe exports: [image record](IMAGE_UPDATE_2026-11-13.md).
