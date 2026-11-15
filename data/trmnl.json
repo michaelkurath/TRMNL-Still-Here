@@ -1548,6 +1548,44 @@
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/queen-mary-2-crossings.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-master-2x1.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-standard-4x3.jpg"
+    },
+    {
+      "id": "orkney-chair-making",
+      "name": "ORKNEY CHAIR MAKING",
+      "timeline": "Still stitched",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still made",
+      "headline": "Oat straw still forms the chair back.",
+      "why_survives": "Workshop makers still hand-stitch straw backs onto wooden chair frames.",
+      "where_now": "Scapa Crafts makes straw-backed chairs in Kirkwall, Orkney.",
+      "source_name": "Scapa Crafts",
+      "source_url": "https://www.scapacrafts.co.uk/creating-an-orkney-chair/",
+      "note": "Verified 15 November 2026. Scapa Crafts describes hand-stitching local oat straw to handmade wooden frames and links to its price list. The 2026 Creative Orkney directory lists the working Kirkwall shop. Artwork is an original generic interpretation of a hooded Orkney chair.",
+      "verified_on": "2026-11-15",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "approved",
+        "image_review": "approved",
+        "final_approval": "approved"
+      },
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 22,
+        "status": "reviewed",
+        "rated_on": "2026-11-15",
+        "note": "Distinctive straw backs and direct workshop evidence; less familiar outside Orkney."
+      },
+      "image_alt": "Original monochrome engraving of a hooded Orkney chair with a stitched straw back.",
+      "exhibit": "043",
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/orkney-chair-making.jpg",
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/orkney-chair-making-master-2x1.jpg",
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/orkney-chair-making-standard-4x3.jpg"
     }
   ]
 }

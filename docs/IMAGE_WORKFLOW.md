@@ -1,5 +1,9 @@
 # Image workflow
 
+## 15 November 2026 — Orkney Chair Making
+
+Original monochrome artwork, exact prompt and responsive exports: [image record](IMAGE_UPDATE_2026-11-15.md).
+
 ## 14 November 2026 — Queen Mary 2 Crossings
 
 Original monochrome artwork, exact prompt, and responsive exports: [image record](IMAGE_UPDATE_2026-11-14.md).
