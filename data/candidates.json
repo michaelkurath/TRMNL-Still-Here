@@ -522,6 +522,39 @@
         "rated_on": "2026-11-15",
         "note": "Recognisable barrel shape; direct commercial workshop evidence and a clear reason the craft persists."
       }
+    },
+    {
+      "id": "tower-bellfounding",
+      "name": "TOWER BELLFOUNDING",
+      "timeline": "Still casting",
+      "category": "Everyday life",
+      "category_key": "everyday",
+      "status": "Still practised",
+      "headline": "New tower bells are still cast.",
+      "why_survives": "A working foundry casts new bells and restores worn bells and fittings.",
+      "where_now": "John Taylor & Co casts and restores bells in Loughborough.",
+      "source_name": "John Taylor & Co",
+      "source_url": "https://taylorbells.co.uk/",
+      "note": "Verified 16 November 2026. The foundry describes ongoing new casting and restoration, independently of the site museum. Its director documents active casting in the September 2026 issue of Context (https://ihbc.org.uk/context/189/33/). No worldwide exclusivity claim.",
+      "verified_on": "2026-11-16",
+      "verified_year": "2026",
+      "review": {
+        "fact_check": "approved",
+        "text_review": "pending",
+        "image_review": "not_started",
+        "final_approval": "pending"
+      },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 4,
+        "survival_evidence": 5,
+        "catalogue_fit": 5,
+        "total": 23,
+        "status": "provisional",
+        "rated_on": "2026-11-16",
+        "note": "Recognisable cast-bell shape, distinctive craft, and direct evidence from a working foundry."
+      }
     }
   ]
 }
