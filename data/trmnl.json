@@ -368,10 +368,12 @@
         "note": "Current operator routes, hours and live stop data establish continuing service; original artwork passed responsive crop review. Catalogue fit is moderated because the system is intentionally preserved and globally famous."
       },
       "exhibit": "015",
-      "image_alt": "Interpretive monochrome illustration of a San Francisco street cable car climbing a steep hill above the moving cable slot.",
+      "image_alt": "Artistic colour reconstruction of a San Francisco cable car climbing a steep hill above the moving cable slot.",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/san-francisco-cable-cars.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-master-2x1.jpg"
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/san-francisco-cable-cars-master-2x1.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/san-francisco-cable-cars-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/san-francisco-cable-cars-portrait.jpg"
     },
     {
       "id": "bookmobiles",
