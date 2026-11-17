@@ -122,6 +122,24 @@
       "verified_on": "2026-10-07",
       "verified_year": "2026",
       "exhibit": "006",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/solent-hovercraft-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/solent-hovercraft-portrait.jpg",
+      "frame_photo": {
+        "landscape": {
+          "author": "Geni",
+          "source": "https://commons.wikimedia.org/wiki/File:Solent_flyer_hovercraft.JPG",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Solent Flyer approaching Ryde in a cloud of spray"
+        },
+        "portrait": {
+          "author": "HJ Mitchell",
+          "source": "https://commons.wikimedia.org/wiki/File:Hovercraft_off_Ryde_Pier_03.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "alt": "Passenger hovercraft trailing spray as it crosses the Solent off Ryde"
+        }
+      },
       "image_alt": "Interpretive monochrome illustration of a modern passenger hovercraft crossing coastal water",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/solent-hovercraft.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/solent-hovercraft-master-2x1.jpg",
@@ -185,6 +203,24 @@
       "verified_on": "2026-10-09",
       "verified_year": "2026",
       "exhibit": "009",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/brienz-rothorn-bahn-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/brienz-rothorn-bahn-portrait.jpg",
+      "frame_photo": {
+        "landscape": {
+          "author": "Chris j wood",
+          "source": "https://commons.wikimedia.org/wiki/File:Brienz_Rothorn_Bahn_2014-09-11_16.33.19.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Steam locomotive 6 at Brienz station beside red railway coaches"
+        },
+        "portrait": {
+          "author": "Christian Gebhardt (Bybbisch94)",
+          "source": "https://commons.wikimedia.org/wiki/File:20060706.Brienz_Rothorn_Bahn.-036.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Red Brienz Rothorn Bahn coaches curving around a steep green mountainside behind a steaming locomotive"
+        }
+      },
       "image_alt": "Interpretive monochrome illustration of a Swiss steam rack railway in an alpine landscape",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/brienz-rothorn-bahn.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/brienz-rothorn-bahn-standard-4x3.jpg",

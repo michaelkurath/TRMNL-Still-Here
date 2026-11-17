@@ -58,6 +58,26 @@ if (!Array.isArray(payload.items) || payload.items.length === 0) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(item.verified_on || "") || item.verified_year !== item.verified_on.slice(0, 4)) {
       errors.push(`${label}.verified_on/year must contain a consistent verification date`);
     }
+    if (["landscape", "portrait"].some((view) => Object.hasOwn(item, `image_url_frame_${view}`))) {
+      for (const view of ["landscape", "portrait"]) {
+        const file = `assets/exhibits/frame/${item.id}-${view}.jpg`;
+        const url = "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/" + file;
+        if (item[`image_url_frame_${view}`] !== url || !fs.existsSync(file)) {
+          errors.push(`${label} requires its ${view} Frame asset and matching URL`);
+        }
+      }
+    }
+    if (Object.hasOwn(item, "frame_photo")) {
+      for (const view of ["landscape", "portrait"]) {
+        const photo = item.frame_photo?.[view];
+        const hasText = (field) => typeof photo?.[field] === "string" && photo[field].trim() !== "";
+        const isHttps = (field) => hasText(field) && URL.canParse(photo[field]) && new URL(photo[field]).protocol === "https:";
+        if (!item[`image_url_frame_${view}`] || !hasText("alt") || !hasText("author")
+          || !hasText("license") || !isHttps("source") || !isHttps("license_url")) {
+          errors.push(`${label} requires complete photo credit for its ${view} Frame asset`);
+        }
+      }
+    }
     Object.entries(displayLimits).forEach(([key, limit]) => {
       if (typeof item[key] === "string" && item[key].length > limit) {
         errors.push(`${label}.${key} exceeds the ${limit}-character layout limit`);
