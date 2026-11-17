@@ -43,11 +43,14 @@ custom_fields:
   default: auto
   conditional_validation:
   - when: auto
-    visible: [exhibit_ids]
+    visible:
+    - exhibit_ids
   - when: classic
-    visible: [exhibit_ids]
+    visible:
+    - exhibit_ids
   - when: frame
-    visible: [frame_exhibit_ids]
+    visible:
+    - frame_exhibit_ids
   description: Automatic uses the gallery layout on TRMNL Frame. Choose Classic or Frame to override the full-screen layout.
   optional: true
 - keyname: exhibit_mode
@@ -62,12 +65,12 @@ custom_fields:
 - keyname: exhibit_ids
   name: My exhibits
   field_type: string
-  description: '<a href="https://michaelkurath.github.io/Never-Built/picker.html?recipe=TRMNL-Still-Here">Choose exhibits</a>, then paste your selection here.'
+  description: <a href="https://michaelkurath.github.io/Never-Built/picker.html?recipe=TRMNL-Still-Here">Choose exhibits</a>, then paste your selection here.
   optional: true
 - keyname: frame_exhibit_ids
   name: My Frame exhibits
   field_type: string
-  description: '<a href="https://michaelkurath.github.io/Never-Built/picker.html?recipe=TRMNL-Still-Here&amp;edition=frame">Choose Frame artwork</a>, then paste your selection here.'
+  description: <a href="https://michaelkurath.github.io/Never-Built/picker.html?recipe=TRMNL-Still-Here&amp;edition=frame">Choose Frame artwork</a>, then paste your selection here.
   optional: true
 - keyname: frame_caption
   name: Frame presentation
