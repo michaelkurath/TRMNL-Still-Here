@@ -3,6 +3,8 @@ const state = { items: [], activeCategory: 'all', currentId: null };
 const els = {
   count: document.querySelector('#collection-count'),
   image: document.querySelector('#feature-image'),
+  frameArtwork: document.querySelector('#frame-artwork'),
+  frameVersions: document.querySelector('#frame-versions'),
   index: document.querySelector('#image-index'),
   status: document.querySelector('#feature-status'),
   category: document.querySelector('#feature-category'),
@@ -25,6 +27,46 @@ function imagePath(item) {
   return `assets/${filename}`;
 }
 
+function frameImagePath(item, orientation) {
+  const source = item[`image_url_frame_${orientation}`];
+  return source ? `assets/frame/${source.split('/').pop()}` : '';
+}
+
+function setExhibitImage(image, item) {
+  const frame = frameImagePath(item, 'landscape');
+  image.toggleAttribute('data-frame', Boolean(frame));
+  image.src = frame || imagePath(item);
+  image.alt = frame ? (item.frame_photo?.landscape?.alt || `Colour Frame image of ${item.name}`) : item.image_alt;
+}
+
+function showFrameArtwork(item) {
+  els.frameVersions.replaceChildren();
+  for (const [orientation, label] of [['landscape', 'Landscape'], ['portrait', 'Portrait']]) {
+    const path = frameImagePath(item, orientation);
+    if (!path) continue;
+    const version = document.createElement('span');
+    version.className = 'frame-version';
+    const link = document.createElement('a');
+    link.href = path;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = label;
+    version.appendChild(link);
+    const credit = item.frame_photo?.[orientation];
+    if (credit) {
+      const original = document.createElement('a');
+      original.href = credit.source;
+      original.textContent = credit.author;
+      const license = document.createElement('a');
+      license.href = credit.license_url;
+      license.textContent = credit.license;
+      version.append(' · ', original, ' · ', license, ' · adapted for Frame');
+    }
+    els.frameVersions.appendChild(version);
+  }
+  els.frameArtwork.hidden = !els.frameVersions.childElementCount;
+}
+
 function dayNumber() {
   const now = new Date();
   return Math.floor(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) / 86400000);
@@ -36,8 +78,8 @@ function todayItem() {
 
 function showItem(item, moveFocus = false) {
   state.currentId = item.id;
-  els.image.src = imagePath(item);
-  els.image.alt = item.image_alt;
+  setExhibitImage(els.image, item);
+  showFrameArtwork(item);
   els.index.textContent = `EXHIBIT ${item.exhibit}`;
   els.status.textContent = item.status;
   els.category.textContent = item.category;
@@ -70,6 +112,8 @@ function makeFilters() {
     ['all', 'All', state.items.length],
     ...Object.entries(counts).map(([key, count]) => [key, state.items.find(item => item.category_key === key).category, count])
   ];
+  const frameCount = state.items.filter(item => item.image_url_frame_landscape).length;
+  if (frameCount) categories.splice(1, 0, ['frame', 'TRMNL Frame', frameCount]);
   categories.forEach(([key, label, count]) => {
     const button = document.createElement('button');
     button.className = 'filter-button';
@@ -91,14 +135,15 @@ function makeFilters() {
 function renderCards() {
   const visible = state.activeCategory === 'all'
     ? state.items
-    : state.items.filter(item => item.category_key === state.activeCategory);
+    : state.items.filter(item => state.activeCategory === 'frame'
+      ? item.image_url_frame_landscape
+      : item.category_key === state.activeCategory);
   els.grid.replaceChildren();
   visible.forEach(item => {
     const card = els.template.content.firstElementChild.cloneNode(true);
     card.dataset.id = item.id;
     card.setAttribute('aria-label', `Open exhibit ${item.exhibit}: ${item.name}`);
-    card.querySelector('.archive-image').src = imagePath(item);
-    card.querySelector('.archive-image').alt = item.image_alt;
+    setExhibitImage(card.querySelector('.archive-image'), item);
     card.querySelector('.archive-number').textContent = `No. ${item.exhibit}`;
     card.querySelector('.archive-category').textContent = item.category;
     card.querySelector('.archive-year').textContent = `Verified ${item.verified_on}`;
@@ -110,7 +155,7 @@ function renderCards() {
   });
   const label = state.activeCategory === 'all'
     ? 'the full collection'
-    : state.items.find(item => item.category_key === state.activeCategory).category;
+    : state.activeCategory === 'frame' ? 'TRMNL Frame' : visible[0].category;
   els.results.textContent = `${visible.length} exhibits · ${label}`;
 }
 
