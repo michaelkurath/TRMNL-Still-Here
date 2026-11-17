@@ -1,3 +1,7 @@
+function hasFrameArtwork(item) {
+  return Boolean(item.image_url_frame_landscape && item.image_url_frame_portrait);
+}
+
 const state = { items: [], activeCategory: 'all', currentId: null };
 
 const els = {
@@ -112,7 +116,7 @@ function makeFilters() {
     ['all', 'All', state.items.length],
     ...Object.entries(counts).map(([key, count]) => [key, state.items.find(item => item.category_key === key).category, count])
   ];
-  const frameCount = state.items.filter(item => item.image_url_frame_landscape).length;
+  const frameCount = state.items.filter(hasFrameArtwork).length;
   if (frameCount) categories.splice(1, 0, ['frame', 'TRMNL Frame', frameCount]);
   categories.forEach(([key, label, count]) => {
     const button = document.createElement('button');
@@ -136,7 +140,7 @@ function renderCards() {
   const visible = state.activeCategory === 'all'
     ? state.items
     : state.items.filter(item => state.activeCategory === 'frame'
-      ? item.image_url_frame_landscape
+      ? hasFrameArtwork(item)
       : item.category_key === state.activeCategory);
   els.grid.replaceChildren();
   visible.forEach(item => {
@@ -145,7 +149,8 @@ function renderCards() {
     card.setAttribute('aria-label', `Open exhibit ${item.exhibit}: ${item.name}`);
     setExhibitImage(card.querySelector('.archive-image'), item);
     card.querySelector('.archive-number').textContent = `No. ${item.exhibit}`;
-    card.querySelector('.archive-category').textContent = item.category;
+    card.querySelector('.archive-category').textContent = hasFrameArtwork(item)
+      ? `${item.category} · Frame` : item.category;
     card.querySelector('.archive-year').textContent = `Verified ${item.verified_on}`;
     card.querySelector('.archive-name').textContent = item.name;
     card.querySelector('.archive-epitaph').textContent = item.headline;
@@ -173,7 +178,7 @@ async function init() {
     if (!state.items.length) throw new Error("Empty catalogue");
     els.count.textContent = state.items.length;
     const frameView = new URLSearchParams(location.search).get('view') === 'frame';
-    const firstFrame = frameView && state.items.find(item => item.image_url_frame_landscape);
+    const firstFrame = frameView && state.items.find(hasFrameArtwork);
     if (firstFrame) state.activeCategory = 'frame';
     makeFilters();
     renderCards();

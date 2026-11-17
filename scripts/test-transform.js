@@ -44,6 +44,31 @@ assert.equal(stale.selectedEntry.id, "tech-two");
 assert.deepEqual(stale.histories.all, ["tech-one", "tech-two"]);
 
 
+const frameArtwork = {
+  image_url_frame_landscape: "landscape.jpg",
+  image_url_frame_portrait: "portrait.jpg",
+};
+const selectedInput = input("nature", { all: ["tech-one"] });
+selectedInput.items = items.map((item) => item.id === "nature-one" ? item : { ...item, ...frameArtwork });
+const settings = selectedInput.trmnl.plugin_settings.custom_fields_values;
+Object.assign(settings, { exhibit_mode: "selected", exhibit_ids: ["tech-one", "tech-two", "removed"] });
+const myFirst = selectEntry(selectedInput, 0);
+assert.equal(myFirst.selectedEntry.id, "tech-one");
+assert.deepEqual(myFirst.histories.all, ["tech-one"]);
+selectedInput.trmnl.state.histories = myFirst.histories;
+assert.equal(selectEntry(selectedInput, 0).selectedEntry.id, "tech-two");
+
+Object.assign(settings, { display_edition: "frame", frame_exhibit_ids: "nature-one, tech-one" });
+const pinned = selectEntry(selectedInput, 0.99);
+assert.equal(pinned.selectedEntry.id, "tech-one");
+selectedInput.trmnl.state.histories = pinned.histories;
+assert.equal(selectEntry(selectedInput, 0.99).selectedEntry.id, "tech-one");
+
+settings.frame_exhibit_ids = [];
+assert.equal(selectEntry(selectedInput, 0).selectedEntry.id, "nature-one");
+Object.assign(settings, { exhibit_mode: "all", exhibit_ids: ["tech-one"] });
+assert.equal(selectEntry(selectedInput, 0).selectedEntry.id, "nature-one");
+
 async function main() {
   const empty = await run({ items: [] });
   assert.equal(empty.selected_entry, null);
