@@ -35,6 +35,22 @@ const items = JSON.parse(fs.readFileSync('data/trmnl.json')).items;
       const today = await page.locator('#feature-name').textContent();
       await page.getByRole('button', { name: 'Random exhibit', exact: true }).click();
       if (items.length > 1) assert.notEqual(await page.locator('#feature-name').textContent(), today);
+      const frameItems = items.filter(item => item.image_url_frame_landscape);
+      if (frameItems.length) {
+        await page.getByRole('link', { name: 'TRMNL Frame photos', exact: true }).click();
+        await page.waitForFunction(() => {
+          const image = document.querySelector('#feature-image');
+          return image.complete && image.naturalWidth > 0 && image.hasAttribute('data-frame');
+        });
+        assert.equal(await page.locator('#feature-name').textContent(), frameItems[0].name);
+        assert.equal(await page.locator('[data-category="frame"]').getAttribute('aria-pressed'), 'true');
+        assert.equal(await page.locator('.archive-card').count(), frameItems.length);
+        for (const [orientation, label] of [['landscape', 'Landscape'], ['portrait', 'Portrait']]) {
+          const url = await page.locator('#frame-artwork').getByRole('link', { name: label, exact: true }).getAttribute('href');
+          assert.equal(url, `assets/frame/${frameItems[0][`image_url_frame_${orientation}`].split('/').pop()}`);
+        }
+        await page.locator('[data-category="all"]').click();
+      }
       const selected = items.find(item => item.id === exhibit);
       await page.getByRole('button', { name: `Open exhibit ${selected.exhibit}: ${selected.name}`, exact: true }).click();
       await page.waitForFunction(() => document.querySelector('#feature-image').complete && document.querySelector('#feature-image').naturalWidth > 0);
