@@ -217,6 +217,8 @@
     },
     {
       "id": "zeppelin-nt-passenger-flights",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/zeppelin-nt-passenger-flights-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/zeppelin-nt-passenger-flights-portrait.jpg",
       "name": "ZEPPELIN NT FLIGHTS",
       "timeline": "Still carrying passengers",
       "category": "Transport",
