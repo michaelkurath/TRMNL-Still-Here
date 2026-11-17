@@ -166,17 +166,20 @@ function randomItem() {
 
 async function init() {
   try {
-    const response = await fetch('catalogue.json');
+    const response = await fetch('catalogue.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('Catalogue unavailable');
     const data = await response.json();
     state.items = Array.isArray(data.items) ? data.items : [];
     if (!state.items.length) throw new Error("Empty catalogue");
     els.count.textContent = state.items.length;
+    const frameView = new URLSearchParams(location.search).get('view') === 'frame';
+    const firstFrame = frameView && state.items.find(item => item.image_url_frame_landscape);
+    if (firstFrame) state.activeCategory = 'frame';
     makeFilters();
     renderCards();
 
     const requested = location.hash.slice(1);
-    const initial = state.items.find(item => item.id === requested) || todayItem();
+    const initial = state.items.find(item => item.id === requested) || firstFrame || todayItem();
     showItem(initial);
 
     document.querySelector('#today-button').addEventListener('click', () => showItem(todayItem(), true));
