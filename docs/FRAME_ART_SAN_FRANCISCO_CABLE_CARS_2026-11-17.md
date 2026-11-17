@@ -11,8 +11,8 @@ The San Francisco Municipal Transportation Agency continues to list the Powell�
 
 ## Exports
 
-- `assets/exhibits/frame/san-francisco-cable-cars-landscape.jpg` — sRGB JPEG, 2560 × 1440, quality 86, 4:4:4
-- `assets/exhibits/frame/san-francisco-cable-cars-portrait.jpg` — sRGB JPEG, 1440 × 2560, quality 86, 4:4:4
+- `assets/exhibits/frame/san-francisco-cable-cars-landscape.jpg` — sRGB JPEG, 2560 × 1440, quality 68, 4:4:4
+- `assets/exhibits/frame/san-francisco-cable-cars-portrait.jpg` — sRGB JPEG, 1440 × 2560, quality 68, 4:4:4
 
 Each orientation is separately composed and preserves a quiet upper-right area for the Frame overlay. Physical Spectra 6 colour review remains pending.
 
