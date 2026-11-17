@@ -2,6 +2,21 @@
 
 The Frame artwork for Brienz Rothorn Bahn and the Solent hovercraft consists of original generated illustrations. Each orientation was composed separately, with a quiet upper-right corner for the caption. Landscape exports are 2560 × 1440 and portrait exports are 1440 × 2560, in sRGB JPEG. Caption overlay identifies these images as artistic reconstructions.
 
+## Zeppelin NT passenger flights — 17 November 2026
+
+Zeppelin NT passenger flights remain available from Deutsche Zeppelin-Reederei; the operator's current booking page documents the active sightseeing programme. The two JPEGs are original AI-generated artistic reconstructions, not photographs of a particular airship, trip, or Lake Constance location. Both are sRGB JPEGs, separately composed, resized with Lanczos and exported at quality 86 with 4:4:4 chroma sampling. The upper-right quarter is held quiet for the optional title or caption overlay. Physical Spectra 6 colour review remains pending.
+
+- [Deutsche Zeppelin-Reederei booking](https://zeppelinflug.de/en/zeppelin-flights/booking)
+- [Zeppelin NT operator information](https://zeppelinflug.de/en/zeppelin-nt/)
+
+### zeppelin-nt-passenger-flights · landscape
+
+Use case: stylized-concept. Asset type: 31.5-inch TRMNL Spectra 6 Frame, landscape colour artwork. Original artistic reconstruction of a modern Zeppelin NT passenger airship still operating sightseeing flights over Lake Constance, Germany. Calm blue lake and distant Alpine foothills in understated morning light. Complete modern semi-rigid Zeppelin NT, white/silver hull with small blue-gray gondola and three engine pods, recognisable but unbranded. Quiet hand-painted museum illustration with restrained gouache texture and broad shapes legible from wall distance. 16:9 landscape: airship across lower-left to centre, upper-right quarter is calm pale sky. No people, readable text, logos, watermark, or border; interpretive artwork, not a photograph.
+
+### zeppelin-nt-passenger-flights · portrait
+
+Use case: stylized-concept. Asset type: 31.5-inch TRMNL Spectra 6 Frame, portrait colour artwork. Original artistic reconstruction of a modern Zeppelin NT passenger airship still operating sightseeing flights over Lake Constance, Germany. Tall view over calm blue Lake Constance with distant Alpine foothills and soft atmospheric sky. Complete modern semi-rigid Zeppelin NT, white/silver hull with small blue-gray gondola and three engine pods, recognisable but unbranded. Quiet hand-painted museum illustration with restrained gouache texture and broad shapes legible from wall distance. 9:16 portrait: airship on a gentle diagonal in lower-left and centre, quiet upper-right pale-blue sky. No people, readable text, logos, watermark, or border; interpretive artwork, not a photograph.
+
 - **Brienz Rothorn Bahn** depicts the rack steam railway with red coaches on a grassy Alpine curve. The railway publishes its seasonal service dates. [Railway timetable](https://brienz-rothorn-bahn.ch/fahrplan-preise/) · [Locomotive reference](https://commons.wikimedia.org/wiki/File:Brienz_Rothorn_Bahn_2014-09-11_16.33.19.jpg) · [Train and terrain reference](https://commons.wikimedia.org/wiki/File:20060706.Brienz_Rothorn_Bahn.-036.jpg)
 - **Solent hovercraft** depicts a modern passenger hovercraft inspired by the Solent Flyer, with twin stern fans, a broad black skirt and spray from the crossing. [Hovertravel timetable](https://www.hovertravel.co.uk/wp-content/uploads/2026/09/Hovertravel-WinterTimetable-26-27-Southsea-to-Ryde.pdf) · [Solent Flyer reference](https://commons.wikimedia.org/wiki/File:Solent_flyer_hovercraft.JPG)
 
