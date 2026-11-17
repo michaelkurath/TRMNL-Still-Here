@@ -5,7 +5,7 @@ function buildExhibitOptions(items, outputDirectory) {
   const sorted = [...items].sort((a, b) => a.name.localeCompare(b.name, "en"));
   const frameReady = (item) => item.image_url_frame_landscape && item.image_url_frame_portrait;
 
-  for (const edition of ["auto", "classic", "frame"]) {
+  for (const edition of ["auto", "frame"]) {
     const pool = edition === "frame" ? sorted.filter(frameReady) : sorted;
     const options = pool.map((item) => {
       const label = edition === "auto" && frameReady(item) ? item.name + " · Frame" : item.name;

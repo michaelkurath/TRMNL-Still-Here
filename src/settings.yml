@@ -41,6 +41,13 @@ custom_fields:
   - Classic: classic
   - Frame: frame
   default: auto
+  conditional_validation:
+  - when: auto
+    visible: [exhibit_ids]
+  - when: classic
+    visible: [exhibit_ids]
+  - when: frame
+    visible: [frame_exhibit_ids]
   description: Automatic uses the gallery layout on TRMNL Frame. Choose Classic or Frame to override the full-screen layout.
   optional: true
 - keyname: exhibit_mode
@@ -55,12 +62,20 @@ custom_fields:
 - keyname: exhibit_ids
   name: My exhibits
   field_type: xhrSelect
-  depends_on: display_edition
-  endpoint: https://michaelkurath.github.io/TRMNL-Still-Here/exhibits-{{display_edition}}.json
+  endpoint: https://michaelkurath.github.io/TRMNL-Still-Here/exhibits-auto.json
   http_verb: GET
   exclude_csrf_token: true
   multiple: true
-  description: Pick one to keep it on screen or several to rotate. Set Display edition to Frame for colour artwork only.
+  description: Use My Selection to keep one exhibit on screen or rotate through several.
+  optional: true
+- keyname: frame_exhibit_ids
+  name: My Frame exhibits
+  field_type: xhrSelect
+  endpoint: https://michaelkurath.github.io/TRMNL-Still-Here/exhibits-frame.json
+  http_verb: GET
+  exclude_csrf_token: true
+  multiple: true
+  description: Use My Selection to show your chosen colour exhibits.
   optional: true
 - keyname: frame_caption
   name: Frame presentation

@@ -37,12 +37,12 @@ function getPool(items, category) {
 function getSelectedPool(items, settings) {
   if (settings?.exhibit_mode !== "selected") return [];
 
-  const ids = Array.isArray(settings.exhibit_ids)
-    ? settings.exhibit_ids
-    : String(settings.exhibit_ids ?? "").split(",");
+  const frame = settings.display_edition === "frame";
+  const value = frame ? settings.frame_exhibit_ids : settings.exhibit_ids;
+  const ids = Array.isArray(value) ? value : String(value ?? "").split(",");
   const selectedIds = new Set(ids.map((id) => String(id).trim()));
   return items.filter((item) => selectedIds.has(item.id) && (
-    settings.display_edition !== "frame" ||
+    !frame ||
     (item.image_url_frame_landscape && item.image_url_frame_portrait)
   ));
 }

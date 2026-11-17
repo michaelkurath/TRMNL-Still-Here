@@ -58,13 +58,13 @@ assert.deepEqual(myFirst.histories.all, ["tech-one"]);
 selectedInput.trmnl.state.histories = myFirst.histories;
 assert.equal(selectEntry(selectedInput, 0).selectedEntry.id, "tech-two");
 
-Object.assign(settings, { display_edition: "frame", exhibit_ids: "nature-one, tech-one" });
+Object.assign(settings, { display_edition: "frame", frame_exhibit_ids: "nature-one, tech-one" });
 const pinned = selectEntry(selectedInput, 0.99);
 assert.equal(pinned.selectedEntry.id, "tech-one");
 selectedInput.trmnl.state.histories = pinned.histories;
 assert.equal(selectEntry(selectedInput, 0.99).selectedEntry.id, "tech-one");
 
-settings.exhibit_ids = [];
+settings.frame_exhibit_ids = [];
 assert.equal(selectEntry(selectedInput, 0).selectedEntry.id, "nature-one");
 Object.assign(settings, { exhibit_mode: "all", exhibit_ids: ["tech-one"] });
 assert.equal(selectEntry(selectedInput, 0).selectedEntry.id, "nature-one");
