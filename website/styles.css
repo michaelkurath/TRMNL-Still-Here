@@ -157,3 +157,10 @@ footer a { justify-self: end; }
 .button:disabled { cursor: default; opacity: .5; transform: none; }
 .load-error { padding: 24px; }
 .archive-card[data-current] { box-shadow: inset 0 -4px 0 var(--moss); }
+
+.feature-image[data-frame] { position: absolute; inset: 0; }
+.feature-image[data-frame], .archive-image[data-frame] { filter: none; object-fit: contain; }
+.frame-artwork { margin-top: 1.25rem; font-size: .85rem; }
+.frame-artwork h2 { margin: 0 0 .35rem; font-size: inherit; }
+#frame-versions { display: flex; flex-wrap: wrap; gap: .35rem 1rem; }
+.frame-version a { text-underline-offset: 3px; }

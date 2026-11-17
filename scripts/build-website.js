@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 fs.rmSync('_site', { recursive: true, force: true });
 fs.mkdirSync('_site/assets', { recursive: true });
+fs.cpSync('assets/exhibits/frame', '_site/assets/frame', { recursive: true });
 for (const file of ['index.html', 'styles.css', 'app.js']) fs.copyFileSync(path.join('website', file), path.join('_site', file));
 fs.copyFileSync('data/trmnl.json', '_site/catalogue.json');
 fs.copyFileSync('assets/icon/still-here-icon.svg', '_site/assets/still-here-icon.svg');
