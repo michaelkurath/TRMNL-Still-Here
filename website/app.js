@@ -36,7 +36,7 @@ function setExhibitImage(image, item) {
   const frame = frameImagePath(item, 'landscape');
   image.toggleAttribute('data-frame', Boolean(frame));
   image.src = frame || imagePath(item);
-  image.alt = frame ? (item.frame_photo?.landscape?.alt || `Colour Frame image of ${item.name}`) : item.image_alt;
+  image.alt = frame ? (item.frame_photo?.landscape?.alt || `Artistic reconstruction of ${item.name}`) : item.image_alt;
 }
 
 function showFrameArtwork(item) {

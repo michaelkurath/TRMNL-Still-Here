@@ -126,9 +126,9 @@
   </style>
   <div class="layout still-here-frame{{ frame_visibility }}">
     <img class="image image-dither still-here-frame__art still-here-frame__art--landscape{% if selected.image_url_frame_landscape %} still-here-frame__art--colour{% endif %}"
-      loading="lazy" src="{{ frame_landscape | escape }}" alt="{{ photos.landscape.alt | default: selected.image_alt | escape }}">
+      loading="lazy" src="{{ frame_landscape | escape }}" alt="{% if photos.landscape.alt %}{{ photos.landscape.alt | escape }}{% elsif selected.image_url_frame_landscape %}Artistic reconstruction of {{ selected.name | escape }}{% else %}{{ selected.image_alt | escape }}{% endif %}">
     <img class="image image-dither still-here-frame__art still-here-frame__art--portrait{% if selected.image_url_frame_portrait %} still-here-frame__art--colour{% endif %}"
-      loading="lazy" src="{{ frame_portrait | escape }}" alt="{{ photos.portrait.alt | default: selected.image_alt | escape }}">
+      loading="lazy" src="{{ frame_portrait | escape }}" alt="{% if photos.portrait.alt %}{{ photos.portrait.alt | escape }}{% elsif selected.image_url_frame_portrait %}Artistic reconstruction of {{ selected.name | escape }}{% else %}{{ selected.image_alt | escape }}{% endif %}">
     {{ photo_credit }}
     {% if frame_caption == "overlay" %}
       <aside class="still-here-frame__label">

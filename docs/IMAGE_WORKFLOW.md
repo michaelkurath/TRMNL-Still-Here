@@ -2,7 +2,7 @@
 
 ## TRMNL Frame
 
-Brienz Rothorn Bahn and the Solent hovercraft have separate documentary photographs for each orientation. See the [Frame photo credits](FRAME_ART.md) for original files, licences and adaptations.
+Brienz Rothorn Bahn and the Solent hovercraft have separate original colour illustrations for each orientation. See the [Frame artwork record](FRAME_ART.md) for reference sources, generation prompts and export details.
 
 
 ## 15 November 2026 — Orkney Chair Making

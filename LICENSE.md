@@ -8,5 +8,5 @@ Publication and operation of this plugin are also subject to the
 
 Copyright 2026 Michael Kurath
 
-Third-party Frame photographs and their adaptations are distributed under the
-licences listed in [the Frame photo credits](docs/FRAME_ART.md).
+Third-party Frame photographs and adaptations in earlier versions retain the
+licences listed in the [historical photo credits](https://github.com/michaelkurath/TRMNL-Still-Here/blob/c18bc1ea33c479a3c65acd00cca113210b4a4148/docs/FRAME_ART.md).

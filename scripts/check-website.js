@@ -37,7 +37,7 @@ const items = JSON.parse(fs.readFileSync('data/trmnl.json')).items;
       if (items.length > 1) assert.notEqual(await page.locator('#feature-name').textContent(), today);
       const frameItems = items.filter(item => item.image_url_frame_landscape);
       if (frameItems.length) {
-        await page.getByRole('link', { name: 'TRMNL Frame photos', exact: true }).click();
+        await page.getByRole('link', { name: 'TRMNL Frame artwork', exact: true }).click();
         await page.waitForFunction(() => {
           const image = document.querySelector('#feature-image');
           return image.complete && image.naturalWidth > 0 && image.hasAttribute('data-frame');
