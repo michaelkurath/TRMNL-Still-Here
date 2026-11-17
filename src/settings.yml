@@ -61,21 +61,13 @@ custom_fields:
   optional: true
 - keyname: exhibit_ids
   name: My exhibits
-  field_type: xhrSelect
-  endpoint: https://michaelkurath.github.io/TRMNL-Still-Here/exhibits-auto.json
-  http_verb: GET
-  exclude_csrf_token: true
-  multiple: true
-  description: Use My Selection to keep one exhibit on screen or rotate through several.
+  field_type: string
+  description: '<a href="https://michaelkurath.github.io/Never-Built/picker.html?recipe=TRMNL-Still-Here">Choose exhibits</a>, then paste your selection here.'
   optional: true
 - keyname: frame_exhibit_ids
   name: My Frame exhibits
-  field_type: xhrSelect
-  endpoint: https://michaelkurath.github.io/TRMNL-Still-Here/exhibits-frame.json
-  http_verb: GET
-  exclude_csrf_token: true
-  multiple: true
-  description: Use My Selection to show your chosen colour exhibits.
+  field_type: string
+  description: '<a href="https://michaelkurath.github.io/Never-Built/picker.html?recipe=TRMNL-Still-Here&amp;edition=frame">Choose Frame artwork</a>, then paste your selection here.'
   optional: true
 - keyname: frame_caption
   name: Frame presentation
