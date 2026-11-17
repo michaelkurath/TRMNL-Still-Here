@@ -6,6 +6,10 @@ A quiet museum of species, technologies, and places people assume have disappear
 
 Adapted from [Michael Kurath’s GOODBYE](https://github.com/michaelkurath/TRMNL-Goodbye) at commit `63f7b5d59b2be6b096d42b41b78929d9d8e20621`. The established Framework 3.3.1 layouts, catalogue structure, Saved State rotation, candidate review system, and companion website are reused.
 
+## Choose exhibits
+
+Set **Exhibit rotation** to **My Selection** and choose one or more titles in **My exhibits**. A single title stays on screen. Several titles use the normal refresh and rotation rules. Your selection can span categories. **Full Collection** is the default, and it also applies when no selected titles are available. Choose **Frame** under **Display edition** to limit the picker to exhibits with both colour orientations. The companion website marks those titles as Frame-ready.
+
 ## Starter collection
 
 | Live exhibit | Survival evidence |

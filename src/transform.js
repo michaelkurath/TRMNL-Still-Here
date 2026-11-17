@@ -34,6 +34,19 @@ function getPool(items, category) {
   return filtered.length ? filtered : items;
 }
 
+function getSelectedPool(items, settings) {
+  if (settings?.exhibit_mode !== "selected") return [];
+
+  const ids = Array.isArray(settings.exhibit_ids)
+    ? settings.exhibit_ids
+    : String(settings.exhibit_ids ?? "").split(",");
+  const selectedIds = new Set(ids.map((id) => String(id).trim()));
+  return items.filter((item) => selectedIds.has(item.id) && (
+    settings.display_edition !== "frame" ||
+    (item.image_url_frame_landscape && item.image_url_frame_portrait)
+  ));
+}
+
 function validHistory(history, poolIds) {
   if (!Array.isArray(history)) return [];
   const seen = new Set();
@@ -65,20 +78,23 @@ function selectEntry(input, randomValue = refreshSeed()) {
   });
   if (!items.length) return { selectedEntry: null, category: ALL_CATEGORIES, histories: {} };
   const category = normalizeCategory(input);
-  const pool = getPool(items, category);
+  const selectedPool = getSelectedPool(items, input?.trmnl?.plugin_settings?.custom_fields_values);
+  const pool = selectedPool.length ? selectedPool : getPool(items, category);
+  const historyKey = selectedPool.length ? "my_selection" : category;
   const stored = input?.trmnl?.state?.histories;
   const histories = {};
   if (stored && typeof stored === "object" && !Array.isArray(stored)) {
     for (const key of CATEGORIES) {
       if (stored[key]) histories[key] = validHistory(stored[key], new Set(getPool(items, key).map((item) => item.id)));
     }
+    if (stored.my_selection) histories.my_selection = validHistory(stored.my_selection, seen);
   }
-  let history = validHistory(histories[category], new Set(pool.map((item) => item.id)));
+  let history = validHistory(histories[historyKey], new Set(pool.map((item) => item.id)));
   let available = pool.filter((item) => !history.includes(item.id));
   if (!available.length) { history = []; available = pool; }
   const bounded = Number.isFinite(randomValue) ? Math.min(Math.max(randomValue, 0), 0.9999999999999999) : 0;
   const selectedEntry = available[Math.floor(bounded * available.length)];
-  histories[category] = [...history, selectedEntry.id];
+  histories[historyKey] = [...history, selectedEntry.id];
   return { selectedEntry, category, histories };
 }
 

@@ -10,4 +10,5 @@ for (const item of JSON.parse(fs.readFileSync('data/trmnl.json')).items) {
  const filename = item.image_url_standard.split('/').pop();
  fs.copyFileSync(path.join('assets/exhibits/responsive-v2', filename), path.join('_site/assets', filename));
 }
+require('./build-exhibit-options')(require('../data/trmnl.json').items, '_site');
 console.log('Built companion catalogue in _site/');

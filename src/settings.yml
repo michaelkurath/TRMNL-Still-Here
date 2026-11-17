@@ -43,6 +43,25 @@ custom_fields:
   default: auto
   description: Automatic uses the gallery layout on TRMNL Frame. Choose Classic or Frame to override the full-screen layout.
   optional: true
+- keyname: exhibit_mode
+  name: Exhibit rotation
+  field_type: select
+  options:
+  - Full Collection: all
+  - My Selection: selected
+  default: all
+  description: My Selection uses your chosen exhibits across categories.
+  optional: true
+- keyname: exhibit_ids
+  name: My exhibits
+  field_type: xhrSelect
+  depends_on: display_edition
+  endpoint: https://michaelkurath.github.io/TRMNL-Still-Here/exhibits-{{display_edition}}.json
+  http_verb: GET
+  exclude_csrf_token: true
+  multiple: true
+  description: Pick one to keep it on screen or several to rotate. Set Display edition to Frame for colour artwork only.
+  optional: true
 - keyname: frame_caption
   name: Frame presentation
   field_type: select
