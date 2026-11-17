@@ -1,5 +1,9 @@
+{% if selected and display_edition != "classic" %}
+  {{ frame_exhibit }}
+{% endif %}
+{% if selected == nil or display_edition != "frame" %}
 {% if selected %}
-<div class="layout layout--col layout--top layout--stretch-x gap--small lg:gap--medium">
+<div class="layout layout--col layout--top layout--stretch-x gap--small lg:gap--medium{{ classic_visibility }}">
   <div class="border--h-10 flex flex--row flex--between flex--center-y gap--small w--full pb--small lg:pb--medium shrink-0">
     <div class="flex flex--row flex--center-y gap--small">
       <span class="label lg:label--base">MUSEUM OF SURVIVORS</span>
@@ -52,7 +56,7 @@
 </div>
 {% endif %}
 
-<div class="title_bar">
+<div class="title_bar{{ classic_visibility }}">
   <span class="title flex flex--row flex--center-y gap--xsmall">{{ still_here_mark }} STILL HERE</span>
   <span class="instance">
     {% if selected %}
@@ -62,3 +66,4 @@
     {% endif %}
   </span>
 </div>
+{% endif %}

@@ -30,3 +30,117 @@
 {% capture still_here_mark %}
 <svg class="w--[20px] h--[20px] shrink-0" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M6 6h52v52H6V6zm8 8v36h36V14H14zM30 45V31c-10 0-14-5-14-13 10 0 16 5 16 12 0-9 6-14 15-14 0 9-5 15-13 16v13h-4z"/></svg>
 {% endcapture %}
+
+{% assign display_edition = trmnl.plugin_settings.custom_fields_values.display_edition | default: "auto" %}
+{% if selected and display_edition != "classic" and display_edition != "frame" %}
+  {% assign frame_visibility = " still-here-frame--auto" %}
+  {% assign classic_visibility = " still-here-classic--auto" %}
+{% endif %}
+
+{% capture frame_exhibit %}
+  {% assign frame_landscape = selected.image_url_frame_landscape | default: selected.image_url_wide | default: selected.image_url %}
+  {% assign frame_portrait = selected.image_url_frame_portrait | default: selected.image_url_standard | default: selected.image_url %}
+  {% assign frame_caption = trmnl.plugin_settings.custom_fields_values.frame_caption %}
+  {% assign frame_show_title = trmnl.plugin_settings.custom_fields_values.frame_show_title | append: "" %}
+  {% assign photos = selected.frame_photo %}
+  {% capture photo_credit %}
+    {% if photos %}
+      {% assign orientations = "landscape,portrait" | split: "," %}
+      {% for view in orientations %}
+        {% assign photo = photos[view] %}
+        <small class="still-here-frame__credit still-here-frame__credit--{{ view | escape }}">
+          <a href="{{ photo.source | escape }}">{{ photo.author | escape }}</a> ·
+          <a href="{{ photo.license_url | escape }}">{{ photo.license | escape }}</a> · adapted
+        </small>
+      {% endfor %}
+    {% endif %}
+  {% endcapture %}
+  <style>
+    .trmnl .screen--frame:has(> .view--full > .still-here-frame),
+    .trmnl .screen:has(> .view--full > .still-here-frame:not(.still-here-frame--auto)) {
+      padding: 0;
+    }
+    .trmnl .screen--frame > .view--full:has(> .still-here-frame),
+    .trmnl .screen > .view--full:has(> .still-here-frame:not(.still-here-frame--auto)) {
+      width: var(--screen-w);
+      height: var(--screen-h);
+      padding: 0;
+    }
+    .trmnl .layout.still-here-frame {
+      position: relative;
+      width: var(--screen-w);
+      height: var(--screen-h);
+      padding: 0;
+      background: #fff;
+    }
+    .still-here-frame__art {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .screen--frame .still-here-frame__art--colour { object-fit: cover; }
+    .trmnl .screen:not(.screen--frame) .layout.still-here-frame--auto,
+    .trmnl .screen--frame .still-here-classic--auto,
+    .still-here-frame__art--portrait { display: none; }
+    .screen--portrait .still-here-frame__art--landscape { display: none; }
+    .screen--portrait .still-here-frame__art--portrait { display: block; }
+    .still-here-frame__credit {
+      position: absolute;
+      z-index: 1;
+      inset-block-end: 1.4cqmin;
+      inset-inline-start: 1.4cqmin;
+      padding: 0.2em 0.45em;
+      color: #181818;
+      background: #fff;
+      font: clamp(11px, 1.25cqmin, 18px)/1.3 system-ui, sans-serif;
+    }
+    .still-here-frame__credit a { color: inherit; }
+    .still-here-frame__credit--portrait { display: none; }
+    .screen--portrait .still-here-frame__credit--landscape { display: none; }
+    .screen--portrait .still-here-frame__credit--portrait { display: block; }
+    .still-here-frame__label {
+      position: absolute;
+      z-index: 1;
+      inset-block-start: 2.5cqmin;
+      inset-inline-end: 2.5cqmin;
+      box-sizing: border-box;
+      width: 23cqw;
+      padding: 0.75em 0.85em;
+      border: 1px solid #181818;
+      background: #fff;
+      color: #181818;
+      font: clamp(12px, 1.05cqw, 28px)/1.3 system-ui, sans-serif;
+      overflow-wrap: anywhere;
+    }
+    .screen--portrait .still-here-frame__label {
+      width: 40cqw;
+      font-size: clamp(12px, 1.8cqw, 26px);
+    }
+    .still-here-frame__label--title { width: fit-content; max-width: 40cqw; }
+    .screen--portrait .still-here-frame__label--title { width: fit-content; }
+    .still-here-frame__name { margin: 0; font: bold 1.4em/1.1 Georgia, serif; }
+    .still-here-frame__meta { font-size: 0.78em; }
+    .still-here-frame__description { margin: 0.45em 0; }
+  </style>
+  <div class="layout still-here-frame{{ frame_visibility }}">
+    <img class="image image-dither still-here-frame__art still-here-frame__art--landscape{% if selected.image_url_frame_landscape %} still-here-frame__art--colour{% endif %}"
+      loading="lazy" src="{{ frame_landscape | escape }}" alt="{{ photos.landscape.alt | default: selected.image_alt | escape }}">
+    <img class="image image-dither still-here-frame__art still-here-frame__art--portrait{% if selected.image_url_frame_portrait %} still-here-frame__art--colour{% endif %}"
+      loading="lazy" src="{{ frame_portrait | escape }}" alt="{{ photos.portrait.alt | default: selected.image_alt | escape }}">
+    {{ photo_credit }}
+    {% if frame_caption == "overlay" %}
+      <aside class="still-here-frame__label">
+        <h1 class="still-here-frame__name">{{ selected.name | escape }}</h1>
+        <div class="still-here-frame__meta">{{ selected.timeline | escape }} · {{ selected.status | escape }}</div>
+        <p class="still-here-frame__description">{{ selected.where_now | escape }}</p>
+        {% unless photos %}<div class="still-here-frame__meta">Artistic reconstruction</div>{% endunless %}
+      </aside>
+    {% elsif frame_show_title == "true" %}
+      <aside class="still-here-frame__label still-here-frame__label--title">
+        <h1 class="still-here-frame__name">{{ selected.name | escape }}</h1>
+      </aside>
+    {% endif %}
+  </div>
+{% endcapture %}

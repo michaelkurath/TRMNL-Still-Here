@@ -8,3 +8,5 @@ Publication and operation of this plugin are also subject to the
 
 Copyright 2026 Michael Kurath
 
+Third-party Frame photographs and their adaptations are distributed under the
+licences listed in [the Frame photo credits](docs/FRAME_ART.md).

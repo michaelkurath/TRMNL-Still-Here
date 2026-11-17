@@ -33,6 +33,31 @@ custom_fields:
   default: all
   description: Choose from all entries or one category. Every entry is shown once before the rotation repeats.
   optional: true
+- keyname: display_edition
+  name: Display edition
+  field_type: select
+  options:
+  - Automatic: auto
+  - Classic: classic
+  - Frame: frame
+  default: auto
+  description: Automatic uses the gallery layout on TRMNL Frame. Choose Classic or Frame to override the full-screen layout.
+  optional: true
+- keyname: frame_caption
+  name: Frame presentation
+  field_type: select
+  options:
+  - Artwork only: artwork
+  - Caption overlay: overlay
+  default: artwork
+  description: Show full-screen artwork alone or add a short description in the corner.
+  optional: true
+- keyname: frame_show_title
+  name: Show title in Artwork only
+  field_type: boolean
+  default: false
+  description: Add the exhibit title when Frame presentation is set to Artwork only.
+  optional: true
 name: STILL HERE
 description: Unexpected survivors, still here.
 refresh_interval: 15
