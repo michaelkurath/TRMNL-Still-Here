@@ -1,9 +1,11 @@
 {% if selected %}
+  {{ frame_panel_styles }}
 <div class="layout layout--col layout--stretch">
   <div class="grid grid--cols-4 gap--medium w--full h--full">
     <div class="outline rounded p--3 col--span-1 lg:portrait:col--span-2 flex flex--col flex--between">
       <div class="w--full h--full rounded">
-        <img class="image image--contain image-dither rounded w--full h--full" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
+        <img class="still-here-panel-classic image image--contain image-dither rounded w--full h--full" src="{{ selected.image_url_standard | default: selected.image_url }}" alt="{{ selected.image_alt }}">
+        {{ frame_panel_art }}
       </div>
     </div>
     <div class="outline rounded p--3 col--span-3 lg:portrait:col--span-2 flex flex--col flex--between gap--small">

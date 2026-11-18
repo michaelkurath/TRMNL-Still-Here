@@ -37,9 +37,29 @@
   {% assign classic_visibility = " still-here-classic--auto" %}
 {% endif %}
 
+{% assign frame_landscape = selected.image_url_frame_landscape | default: selected.image_url_frame_portrait %}
+{% assign frame_portrait = selected.image_url_frame_portrait | default: selected.image_url_frame_landscape %}
+{% capture frame_panel_art %}
+  {% if frame_landscape %}
+    <img class="image image--contain image-dither w--full h--full rounded still-here-panel-colour still-here-panel-colour--landscape" src="{{ frame_landscape | escape }}" alt="{{ selected.image_alt | escape }}">
+    <img class="image image--contain image-dither w--full h--full rounded still-here-panel-colour still-here-panel-colour--portrait" src="{{ frame_portrait | escape }}" alt="{{ selected.image_alt | escape }}">
+  {% else %}
+    <span class="label still-here-panel-colour">Colour artwork unavailable</span>
+  {% endif %}
+{% endcapture %}
+
+{% capture frame_panel_styles %}
+  <style>
+    .trmnl .still-here-panel-colour,
+    .trmnl .screen--frame .still-here-panel-classic { display: none; }
+    .trmnl .screen--frame .still-here-panel-colour { display: block; }
+    .trmnl .screen--frame .still-here-panel-colour--portrait,
+    .trmnl .screen--frame.screen--portrait .still-here-panel-colour--landscape { display: none; }
+    .trmnl .screen--frame.screen--portrait .still-here-panel-colour--portrait { display: block; }
+  </style>
+{% endcapture %}
+
 {% capture frame_exhibit %}
-  {% assign frame_landscape = selected.image_url_frame_landscape | default: selected.image_url_wide | default: selected.image_url %}
-  {% assign frame_portrait = selected.image_url_frame_portrait | default: selected.image_url_standard | default: selected.image_url %}
   {% assign frame_caption = trmnl.plugin_settings.custom_fields_values.frame_caption %}
   {% assign frame_show_title = trmnl.plugin_settings.custom_fields_values.frame_show_title | append: "" %}
   {% assign photos = selected.frame_photo %}
@@ -125,21 +145,24 @@
     .still-here-frame__description { margin: 0.45em 0; }
   </style>
   <div class="layout still-here-frame{{ frame_visibility }}">
-    <img class="image image-dither still-here-frame__art still-here-frame__art--landscape{% if selected.image_url_frame_landscape %} still-here-frame__art--colour{% endif %}"
-      loading="lazy" src="{{ frame_landscape | escape }}" alt="{{ photos.landscape.alt | default: selected.image_alt | escape }}">
-    <img class="image image-dither still-here-frame__art still-here-frame__art--portrait{% if selected.image_url_frame_portrait %} still-here-frame__art--colour{% endif %}"
-      loading="lazy" src="{{ frame_portrait | escape }}" alt="{{ photos.portrait.alt | default: selected.image_alt | escape }}">
-    {{ photo_credit }}
+    {% if frame_landscape %}
+      <img class="image image-dither still-here-frame__art still-here-frame__art--landscape still-here-frame__art--colour"
+        loading="lazy" src="{{ frame_landscape | escape }}" alt="{{ photos.landscape.alt | default: selected.image_alt | escape }}">
+      <img class="image image-dither still-here-frame__art still-here-frame__art--portrait still-here-frame__art--colour"
+        loading="lazy" src="{{ frame_portrait | escape }}" alt="{{ photos.portrait.alt | default: selected.image_alt | escape }}">
+      {{ photo_credit }}
+    {% endif %}
     {% if frame_caption == "overlay" %}
       <aside class="still-here-frame__label">
         <h1 class="still-here-frame__name">{{ selected.name | escape }}</h1>
         <div class="still-here-frame__meta">{{ selected.timeline | escape }} · {{ selected.status | escape }}</div>
         <p class="still-here-frame__description">{{ selected.where_now | escape }}</p>
-        {% unless photos %}<div class="still-here-frame__meta">Artistic reconstruction</div>{% endunless %}
+        {% unless photos %}<div class="still-here-frame__meta">{% if frame_landscape %}Artistic reconstruction{% else %}Colour artwork unavailable{% endif %}</div>{% endunless %}
       </aside>
-    {% elsif frame_show_title == "true" %}
+    {% elsif frame_show_title == "true" or frame_landscape == nil %}
       <aside class="still-here-frame__label still-here-frame__label--title">
         <h1 class="still-here-frame__name">{{ selected.name | escape }}</h1>
+        {% unless frame_landscape %}<p class="still-here-frame__meta">Colour artwork unavailable</p>{% endunless %}
       </aside>
     {% endif %}
   </div>
