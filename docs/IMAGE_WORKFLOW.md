@@ -1,5 +1,9 @@
 # Image workflow
 
+## 19 November 2026 — London Gas Lamps Frame artwork
+
+See the [artwork record](FRAME_ART_LONDON_GAS_LAMPS_2026-11-19.md) for verified references, generation prompts and both colour exports.
+
 ## TRMNL Frame
 
 Brienz Rothorn Bahn and the Solent hovercraft have separate original colour illustrations for each orientation. See the [Frame artwork record](FRAME_ART.md) for reference sources, generation prompts and export details.
