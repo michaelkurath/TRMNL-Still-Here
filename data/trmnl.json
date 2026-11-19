@@ -80,10 +80,12 @@
       "verified_on": "2026-10-07",
       "verified_year": "2026",
       "exhibit": "004",
-      "image_alt": "Interpretive monochrome illustration of a historic gas lamp in a London lane",
+      "image_alt": "Artistic reconstruction of a historic London gas lamp glowing in an imagined lane.",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/london-gas-lamps.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-master-2x1.jpg"
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/london-gas-lamps-master-2x1.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/london-gas-lamps-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/london-gas-lamps-portrait.jpg"
     },
     {
       "id": "wollemi-pine",
