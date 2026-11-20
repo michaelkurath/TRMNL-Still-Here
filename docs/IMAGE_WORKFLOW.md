@@ -1,5 +1,9 @@
 # Image workflow
 
+## 20 November 2026 — African Coelacanth Frame artwork
+
+See the [artwork record](FRAME_ART_COELACANTH_2026-11-20.md) for source verification, generation prompts and both colour exports.
+
 ## 19 November 2026 — London Gas Lamps Frame artwork
 
 See the [artwork record](FRAME_ART_LONDON_GAS_LAMPS_2026-11-19.md) for verified references, generation prompts and both colour exports.

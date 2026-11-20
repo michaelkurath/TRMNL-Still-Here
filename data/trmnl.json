@@ -14,13 +14,15 @@
       "source_name": "NOAA Fisheries",
       "source_url": "https://www.fisheries.noaa.gov/species/african-coelacanth",
       "note": "This entry concerns Latimeria chalumnae. Rediscovery refers to scientific recognition in 1938, not a return from extinction. Survival does not imply that the species is safe from threats.",
-      "image_alt": "Interpretive monochrome illustration of an African coelacanth in deep water",
+      "image_alt": "Artistic reconstruction of an African coelacanth drifting beside a deep rocky ledge.",
       "exhibit": "001",
       "verified_on": "2026-10-07",
       "verified_year": "2026",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/coelacanth.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/coelacanth-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/coelacanth-master-2x1.jpg"
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/coelacanth-master-2x1.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/coelacanth-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/coelacanth-portrait.jpg"
     },
     {
       "id": "cobol",
