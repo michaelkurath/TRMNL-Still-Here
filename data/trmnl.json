@@ -105,10 +105,12 @@
       "verified_on": "2026-10-07",
       "verified_year": "2026",
       "exhibit": "005",
-      "image_alt": "Interpretive monochrome illustration of a Wollemi pine in a sandstone gorge",
+      "image_alt": "Artistic reconstruction of a Wollemi pine growing in an imagined sandstone gorge.",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/wollemi-pine.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/wollemi-pine-master-2x1.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/wollemi-pine-standard-4x3.jpg"
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/wollemi-pine-standard-4x3.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/wollemi-pine-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/wollemi-pine-portrait.jpg"
     },
     {
       "id": "solent-hovercraft",
