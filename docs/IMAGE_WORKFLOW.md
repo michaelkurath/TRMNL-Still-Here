@@ -1,5 +1,9 @@
 # Image workflow
 
+## 21 November 2026 — The Wollemi Pine Frame artwork
+
+See the [artwork record](FRAME_ART_WOLLEMI_PINE_2026-11-21.md) for source verification, generation prompts and both colour exports.
+
 ## 20 November 2026 — African Coelacanth Frame artwork
 
 See the [artwork record](FRAME_ART_COELACANTH_2026-11-20.md) for source verification, generation prompts and both colour exports.
