@@ -2,10 +2,10 @@
 
 Verified 21 November 2026.
 
-Wollemia nobilis still survives in the wild in Wollemi National Park and in cultivated collections worldwide. NSW National Parks documents the living wild population and conservation programme; the Australian Government’s 2125 recovery plan classifies it as critically endangered. Published tree counts differ between records, so this update makes no precise population claim. The illustrations reconstruct the tree in an imagined sandstone gorge. They do not disclose or reproduce the protected wild location. Branch arrangement and foliage are interpretive, with rough bubbly bark and flattened leafy sprays used as identifying cues.
+Wollemia nobilis still survives in the wild in Wollemi National Park and in cultivated collections worldwide. NSW National Parks documents the living wild population and conservation programme; the Australian Government’s 2025 recovery plan classifies it as critically endangered. Published tree counts differ between records, so this update makes no precise population claim. The illustrations reconstruct the tree in an imagined sandstone gorge. They do not disclose or reproduce the protected wild location. Branch arrangement and foliage are interpretive, with rough bubbly bark and flattened leafy sprays used as identifying cues.
 
 - [NSW National Parks, living wild population and cultivation](https://www.nationalparks.nsw.gov.au/conservation-programs/wollemi-pine-conservation-project)
-- [Australian Government, 2125 National Recovery Plan](https://www.dcceew.gov.au/environment/biodiversity/threatened/publications/recovery/wollemi-pine)
+- [Australian Government, 2025 National Recovery Plan](https://www.dcceew.gov.au/environment/biodiversity/threatened/publications/recovery/wollemi-pine)
 
 Reference photographs and illustrations were consulted for subject information only; none is embedded or reused, and no third-party photo credit applies.
 

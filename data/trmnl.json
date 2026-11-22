@@ -538,7 +538,9 @@
           "supports": "Dated population milestone and continuing recovery programme."
         }
       ],
-      "image_alt": "Interpretive monochrome natural-history illustration of a complete kākāpō on a protected native forest floor."
+      "image_alt": "Artistic reconstruction of a living kākāpō on an imagined native forest floor.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/kakapo-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/kakapo-portrait.jpg"
     },
     {
       "id": "stuttgart-paternosters",
