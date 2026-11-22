@@ -1,5 +1,9 @@
 # Image workflow
 
+## 22 November 2026 — The Kākāpō Frame artwork
+
+See the [artwork record](FRAME_ART_KAKAPO_2026-11-22.md) for source verification, generation prompts and both colour exports.
+
 ## 21 November 2026 — The Wollemi Pine Frame artwork
 
 See the [artwork record](FRAME_ART_WOLLEMI_PINE_2026-11-21.md) for source verification, generation prompts and both colour exports.
