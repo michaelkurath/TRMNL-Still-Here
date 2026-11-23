@@ -1,5 +1,9 @@
 # Image workflow
 
+## 23 November 2026 — The Tuatara Frame artwork
+
+See the [artwork record](FRAME_ART_TUATARA_2026-11-23.md) for source verification, generation prompts and both colour exports.
+
 ## 22 November 2026 — The Kākāpō Frame artwork
 
 See the [artwork record](FRAME_ART_KAKAPO_2026-11-22.md) for source verification, generation prompts and both colour exports.

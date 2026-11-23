@@ -838,10 +838,12 @@
           "supports": "Documents living introduced tuatara and breeding on a managed island refuge."
         }
       ],
-      "image_alt": "Interpretive monochrome natural-history illustration of a tuatara with a pale dorsal crest and complete curved tail on a coastal-forest rock.",
+      "image_alt": "Artistic reconstruction of a living adult tuatara with a pale dorsal crest and complete curved tail on a forest rock.",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/tuatara-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/tuatara-master-2x1.jpg",
-      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/tuatara.jpg"
+      "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/tuatara.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/tuatara-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/tuatara-portrait.jpg"
     },
     {
       "id": "pipe-organs",
