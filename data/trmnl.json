@@ -1561,11 +1561,13 @@
         "rated_on": "2026-11-14",
         "note": "Direct operator schedule, strong ocean-liner silhouette and a surviving long-distance service."
       },
-      "image_alt": "Original monochrome engraving of the Queen Mary 2 ocean liner at sea.",
+      "image_alt": "Artistic reconstruction of the modern Queen Mary 2 ocean liner at sea, with a dark hull, white superstructure and single red funnel.",
       "exhibit": "042",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/queen-mary-2-crossings.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-master-2x1.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-standard-4x3.jpg"
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/queen-mary-2-crossings-standard-4x3.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/queen-mary-2-crossings-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/queen-mary-2-crossings-portrait.jpg"
     },
     {
       "id": "orkney-chair-making",
