@@ -1,5 +1,9 @@
 # Image workflow
 
+## 25 November 2026 — Queen Mary 2 Crossings Frame artwork
+
+See the [artwork record](FRAME_ART_QUEEN_MARY_2_CROSSINGS_2026-11-25.md) for source verification, generation prompts and both colour exports.
+
 ## 23 November 2026 — The Tuatara Frame artwork
 
 See the [artwork record](FRAME_ART_TUATARA_2026-11-23.md) for source verification, generation prompts and both colour exports.
