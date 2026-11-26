@@ -926,7 +926,9 @@
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/takahe-standard-4x3.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/takahe-master-2x1.jpg",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/takahe.jpg",
-      "image_alt": "Original interpretive monochrome illustration of the takahē, not archival photography."
+      "image_alt": "Artistic reconstruction of a living South Island takahē in imagined New Zealand tussock grassland.",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/takahe-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/takahe-portrait.jpg"
     },
     {
       "id": "british-semaphore-signals",
