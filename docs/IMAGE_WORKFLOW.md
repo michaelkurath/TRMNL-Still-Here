@@ -1,5 +1,9 @@
 # Image workflow
 
+## 27 November 2026 — Atlantic Horseshoe Crab Frame artwork
+
+See the [artwork record](FRAME_ART_ATLANTIC_HORSESHOE_CRAB_2026-11-27.md) for source verification, generation prompts and both colour exports.
+
 ## 26 November 2026 — The Takahē Frame artwork
 
 See the [artwork record](FRAME_ART_TAKAHE_2026-11-26.md) for source verification, generation prompts and both colour exports.
