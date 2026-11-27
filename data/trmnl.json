@@ -1350,10 +1350,12 @@
           "supports": "Confirms species identity, distribution and spawning biology."
         }
       ],
-      "image_alt": "Original monochrome natural-history engraving of an Atlantic horseshoe crab showing its domed shield, spined rear body and complete telson.",
+      "image_alt": "Artistic reconstruction of a living Atlantic horseshoe crab at an imagined tidal margin, with its shield, spined rear body and complete telson.",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/atlantic-horseshoe-crab.jpg",
       "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-master-2x1.jpg",
-      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-standard-4x3.jpg"
+      "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/atlantic-horseshoe-crab-standard-4x3.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/atlantic-horseshoe-crab-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/atlantic-horseshoe-crab-portrait.jpg"
     },
     {
       "id": "fax",
