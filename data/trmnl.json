@@ -216,10 +216,12 @@
       "verified_on": "2026-10-10",
       "verified_year": "2026",
       "exhibit": "010",
-      "image_alt": "Interpretive monochrome illustration of a vinyl record being pressed in a modern record plant.",
+      "image_alt": "Original artistic reconstruction of vinyl records, a physical music format still being manufactured.",
       "image_url": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/vinyl-records.jpg",
       "image_url_standard": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-standard-4x3.jpg",
-      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-master-2x1.jpg"
+      "image_url_wide": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/responsive-v2/vinyl-records-master-2x1.jpg",
+      "image_url_frame_landscape": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/vinyl-records-landscape.jpg",
+      "image_url_frame_portrait": "https://raw.githubusercontent.com/michaelkurath/TRMNL-Still-Here/main/assets/exhibits/frame/vinyl-records-portrait.jpg"
     },
     {
       "id": "zeppelin-nt-passenger-flights",
