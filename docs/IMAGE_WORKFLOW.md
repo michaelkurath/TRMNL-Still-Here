@@ -1,5 +1,9 @@
 # Image workflow
 
+## 28 November 2026 — Vinyl Records Frame artwork
+
+See the [artwork record](FRAME_ART_VINYL_RECORDS_2026-11-28.md) for source verification, generation prompts and both colour exports.
+
 ## 27 November 2026 — Atlantic Horseshoe Crab Frame artwork
 
 See the [artwork record](FRAME_ART_ATLANTIC_HORSESHOE_CRAB_2026-11-27.md) for source verification, generation prompts and both colour exports.
